@@ -1,0 +1,27 @@
+Programme: 
+	Logique: 
+		 - Calcul des propositionjs et des prédicats
+		 - Théorie des ensembles
+		 - Calcul booléen
+
+	Calcul matriciel
+
+	Arithmétique:
+		 - Système de numération
+		 - Arithmétique modulaire
+
+	Graphes et Ordonnancement
+
+	Algorithmique appliquée
+
+	// Option UF2 : 
+		 - Fonctions (Tableau de valeur/graph/Resolution graphique/dérivée/Tableau de variations/intégrales)
+		 - Statistique à 2 variables (Nuage de points, droite d'ajustement)
+		 - Proba (Probas sur les ensembles finis/Loi binomiale/normale/de Poisson/Exponentielle pour la Fiabilité)
+		 - Suite numériques
+
+
+Calculatrices :
+	- Casio Graph 35 + E
+	- Texas Instrument TI 83 CE
+	- Numworks
