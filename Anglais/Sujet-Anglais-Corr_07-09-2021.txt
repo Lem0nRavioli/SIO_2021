@@ -1,0 +1,32 @@
+Sujet : 
+Rédiger une note qui accompagnera une livraison au royaume uni (environ 120 mots)
+Contexte :
+Votre entreprise a vendu 30 postes (Ordinateur simplifiés) à une maison de retraite. Comme le contrat ne comprend pas l'installation sur place,
+vous avez l'idée de joindre une note qui accompagnera cette commande.
+Objectif :
+Expliquer au mieux le branchement & la mise en oeuvre des appareils.
+
+=============================================================================================================================================
+
+Correction: 
+
+
+Dear Customer, 
+
+Thank you for being our trusted partner and we are happy to deliver your purchase.  (<==== introduction/introductory sentence)
+
+This note will guide you through the product installation.
+
+During the unboxing you will find 3 main components. The Central Unit which is at the computer's heart, the monitor and a trackpad.
+All connections will be made on the front panel and it is very intuitive, you may help yourself using the color code.
+Do not power the device untill you have done all the required connections.
+The power chord is connected last and then press on the 'ON' button.
+Instructions on the screen will help you launching the device.
+
+If you encounter any difficulty, please do not hesitate to use my contacts.
+
+I hope that this message will help you and that you will enjoy our product.  (<==== conclusion/closure sentence)
+
+Best regards,
+
+John Doe.
