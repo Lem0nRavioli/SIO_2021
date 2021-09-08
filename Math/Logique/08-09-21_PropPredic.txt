@@ -1,0 +1,93 @@
+Logique
+
+1 Calcul des Propositions et des Prédicats
+	
+	Une Proposition est une assertion (affirmation) dont on peut sans ambiguité dire si elle est vrai ou fausse.
+	Un Prédicat est une expression incomplète qui deviendra une proposition si on la complète par un ou plusieurs "objets mathématiques".
+
+  1.1 Calcul propositionnel
+
+    1.1.1 Proposition
+	
+	exemples propositions:
+		(a) 7 est un nombre impair 
+		(b) 10 < 9 
+		(c) 2^5 = 32 
+		(d) 10 = 2
+
+	=> Une proposition est constituée de symboles appartenant à des alphabets particuliers (français, arithmétique, grec, ...)
+	=> Une proposition a une valeur de vérité/booléenne: Vrai (Ou V ou 1) / Faux (Ou F ou 0)
+	=> Une proposition a un sens dans la théorie où on se place. (Binaire/hex/decimal)
+
+    1.1.2 Négation
+
+	La négation de (a) est "7 est un nombre pair"
+	La négation de (b) est "10 >= 9"
+	La négation de (c) est "2^5 != 32"
+
+	Plus généralement, à toute proposition P, la négation va associer une nouvelle proposition, notée non P (¬P, Ou P̄) (j'utiliserais !P)
+	qui est la négation de P et dont la valeur est donnée dans la table de vérité suivante:
+	
+	P	!P
+	0	1
+	1	0
+
+	La négation agit sur une proposition: c'est un connecteur UNAIRE (Agit sur une proposition).
+	Un connecteur qui agit sur 2 propositions est un connecteur BINAIRE.
+	Nous devons en connaître 4.
+
+    1.1.3 Connecteurs binaires
+
+	# Conjonction : P∧Q (P et Q)
+
+		P	Q	Value
+		0	0	0
+		0	1	0
+		1	0	0
+		1	1	1
+
+	# Disjonction : P∨Q (P ou Q)
+
+		P	Q	Value
+		0	0	0
+		0	1	1
+		1	0	1
+		1	1	1
+
+	  Remarque, ici le "ou" est inclusif (!= ou exclusif, ou "xor", qui n'est vrai que lorsque P est vrai ou Q est vrai mais pas les deux)
+
+	# L'implication : P => Q (P implique Q, Q si P) (Explications avec examples dans le dossier Ressources Supp)
+
+		P	Q	Value
+		0	0	1
+		0	1	1
+		1	0	0
+		1	1	1
+
+	  Remarque, il n'y a pas nécessairement de relation de cause à effet dans l'implication (logique != bon sens)
+
+	# L'equivalence : P <=> Q (P equivalent Q)
+
+		P	Q	Value
+		0	0	1
+		0	1	0
+		1	0	0
+		1	1	1
+
+      1.1.4 Propriétés des connecteurs
+	
+	# Commutativité: 
+
+		P∨Q <=> Q∨P
+		P∧Q <=> Q∧P
+	
+	# Double distributivité:
+
+		P∨(Q∧R) <=> (P∨Q)∧(P∨R)
+		P∧(Q∨R) <=> (P∧Q)∨(P∧R)
+
+	  Remarque: La forme ressemble à la distributivité classique: 2 * (x + y) == 2x + 2y
+
+
+
+	
