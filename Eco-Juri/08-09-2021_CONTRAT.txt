@@ -1,0 +1,93 @@
+1 - Intégration de l'entreprise dans son environnement
+
+  1.1 - Contrat (Droit / Juridique)
+	
+	Acte d'obligation engageant 1 personne ou plus
+	Pas forcément écrit (ex achat d'un sandwich)
+	Régis par des règles pouvant l'invalider en cas de non-respect
+
+    1.1.1 - Condition de validité des contrats
+	
+	Plusieures conditions de validité qui concernent à la fois les parties au contrat & le contenu du contrat. 
+	On distingue ainsi 3 grandes conditions de validité:
+	  - La capacité juridique
+	  - Consentement libre & éclairé 
+	  - Contenu licite & certain
+	
+      A - Capacité juridique
+	
+	Aptitude à être titulaire de droits & à les exercer. 
+	2 type d'utilisation des droits : 
+	  - Jouissance (ex restriction: Peine de prison)
+	  - Exercice (ex restriction: Enfant/tutelle/curatelle)
+
+	On présume que toute les personnes physique majeures disposent de leurs pleines capacités. 
+	Cependant, les majeurs dit incapable (ex tutelle/curatelle) ne disposent pas de leurs pleine capacité d'exercice.
+	De plus, les mineurs doivent être représentés par leurs représentant légaux.
+
+	Les personnes morales vont aussi passer des contrats, et il va falloir aussi vérifier leurs capacités, et leurs capacités est limitée par leurs objet (activité)
+	(Ex: organisme de bts ne vend pas d'armes.)
+	Par ailleurs, ces sociétés (personnes morales) vont passer leurs contrat par l'intermédiaire d'une personne physique (pas forcément présente).
+	Il faudra donc vérifier que ces personnes physiques ont le pouvoir d'engager les personnes morales.
+
+      B - Consentement libre & éclairé
+	
+	Un contrat est un acte juridique qui prévois des droits & des obligations. De fait toutes les parties doivent donner leurs accord.
+	On va donc devoir vérifier que le consentement n'est pas vicié.
+	3 vices de consentements: 
+	  - Violence (Contrainte déterminante => ayant un effet certain sur la nature du contrat)
+	  - Erreur (ex: Vente d'un bien bien en deça de sa valeur réelle par ignorance)
+	  - Dol (Rétention d'information/Manoeuvre frauduleuse, ex: achat d'un tableau d'art à coût bas sans informer le propriétaire de la valeur réélle)
+
+	La Violence est une contrainte physique ou morale qui va obliger une des parties à contracter.
+
+	L'Erreur est une mauvaise représentation de la réalité, c'est à dire qu'une des parties a contracter sur autre chose que ce qu'elle croyait. 
+	Pour que cette erreur puisse annuler le contrat, il faut qu'elle soit excusable, déterminante et qu'elle porte sur un point important du contrat.
+
+	Le Dol est une manoeuvre frauduleuse qui vise à tromper un(e) cocontractant/partie. Cette manoeuvre volontaire peut prendre la forme d'une fausse
+	information ou d'une rétention d'information. Le cas de la rétention est appellée de la réticence dolosive.
+
+      C - Contenu licite & certain
+
+	Avant tout cela signifie que l'objet d'un contrat doit être dans le commerce légal (La loi en permet la vente). 
+
+	Par ailleurs, le contenu certain signifie que l'objet doit être déterminé ou déterminable (possible, ex: pas vendre la tour eiffel)
+	
+	------------------------------------------------------------------------------------------------------------------------------------
+
+
+	Ces trois conditions (A, B, C) sont cumulative pour rendre valide le contrat.
+	Mais, dans certains cas précis, une 4ième condition s'ajoute: la condition de forme. En effet, si la plupart des contrat peuvent être verbaux ou écrits,
+	certains doivent être écrit pour être valide.
+	Ex: Donation, CDD, ...
+
+
+    1.1.2 Processus de formation des contrats
+
+	Un contrat se forme par la rencontre d'une offre & d'une acceptation. Le contrat n'est cependant pas toujours immediat et peut être le produit de négotiations
+	que les parties vont entamer avant de s'engager.
+	Dans certains cas, cette négotiation sera même formalisé.
+	
+	La période de négotiations est qualifiée parfois de pourparlers. Elle doit être menée de bonne foi ce qui signifie que la rupture abusive desdits pourparlers
+	pourrait entrainer une indémnisation de la part du fautif. Mais l'obligation de bonne foi oblige aussi les parties à respecter une obligation d'information.
+	Cette obligation d'informations est particulièrement renforcée lorsque les parties sont des professionnelles. 
+	Par ailleurs, il faut noter que les futures parties ont une obligation de vigilance qui contrebalance l'obligation d'information.
+
+	Cette période de négociations peut aussi être formalisée par des avant-contrat, c'est à dire des accords qui vont préparer des contrats futurs.
+	Il existe plusieurs formes d'avant-contrats:
+	  - Pacte de préférence
+	  - Promesse
+
+	Le Pacte de préférence est une promesse faite par une personne de contracter en priorité avec une autre si elle se décidait à réaliser une opération.
+
+	La Promesse est un engagement à contracter, elle peut être unilatérale (ex: promesse d'embauche) ou synallagmatique, càd ou toutes les parties sont engagées
+	(ex: compromis immobilier).
+
+
+
+
+
+
+
+
+
