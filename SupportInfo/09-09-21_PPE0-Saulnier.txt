@@ -1,0 +1,46 @@
+Besoins:
+	Maintenance des postes (?)
+	13 + 1 (backup) postes par salles
+
+	Bureautique: 
+		- Office 2019 (Word, Excel, PP)
+		- Impression <= 50P / jours x 14
+		- Double Ecrans 22" ou 1 Ecran 27"
+		- Logiciels courants & sécuritaires
+		- Espace de stockage centralisé 1 GO x 14
+		- Fonctionnelle 3 ans mini
+		- Reaction rapide en cas de défaillance (Ordi backup)
+
+	Montage Video: 
+		- Adobe Première Pro (V14.X)
+		- Poste décent pour l'utilisation Adobe Première Pro
+		- Logiciels & sécurité courantes
+		- 500 G x 14
+		- Fonctionelle 3 ans mini
+		- Reaction rapide en cas de défaillance (Ordi backup)
+
+	CRM:
+		- Ajout de RAM (4go) https://www.materiel.net/produit/201601150135.html
+
+Pas d'impératifs temporels
+
+Solutions envisagées:
+	- NAS  (Stockage) => https://www.materiel.net/guide-achat/g11-les-nas/1/
+	- Build Dell (Délestage de la maintenance) => voir ce dessous
+	
+
+Sources:
+	Adobe requierements : https://helpx.adobe.com/lt/premiere-pro/system-requirements.html
+		- Proc: Intel 7 ou + / Amd 3000 ou +
+		- 16gb ram (HD) ou 32gb (4K)
+		- 4 gb GPU ( https://helpx.adobe.com/lt/premiere-pro/system-requirements/2021.html#gpu-acceleration recommendations)
+		- Stockage SSD (1To pour stagiaire + softwares)
+		
+
+Build envisagé : 
+	https://www.dell.com/fr-fr/shop/ordinateurs-de-bureau/alienware-aurora-ryzen-edition/spd/alienware-aurora-r10-desktop/d00awr1034?view=configurations&configurationid=30c173b5-63d9-4468-b481-3c492d8ed12b	(2 259,26 €)
+	https://www.dell.com/fr-fr/shop/ordinateurs-de-bureau/alienware-aurora/spd/alienware-aurora-r12-desktop/dawr1206	(2949,26 €)
+	https://www.dell.com/fr-fr/shop/ordinateurs-de-bureau/alienware-aurora-ryzen-edition/spd/alienware-aurora-r10-desktop/d00awr1034?view=configurations&configurationid=30c173b5-63d9-4468-b481-3c492d8ed12b	(2369,23 €)
+
+Problème : Expédition lente dû aux CPU (3ième option rapide avec Ryzen 5 au lieu de 7)
+	
