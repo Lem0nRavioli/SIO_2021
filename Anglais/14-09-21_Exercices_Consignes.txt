@@ -1,0 +1,84 @@
+Tenses:
+
+ 1. This company [] money every year. (To lose)
+ 2. my brother [] an engineer. (to be)
+ 3. The director [] him an appointment on friday morning. (to give)
+ 4. My friend [] a problem with his laptop, so he [] another one. (to have / to buy)
+ 5. The assistant [] a very good job this week. (to do)
+ 6. I [] a solution but in vain. (to try / to find)
+ 7. The Manager [] a promotion to lucy because she [] very well. (to give / to work)
+
+Tenses - Correction:
+
+ 1. This company [loses] money every year. (To lose)
+ 2. my brother [is] an engineer. (to be)
+ 3. The director [gave] him an appointment on friday morning. (to give)
+ 4. My friend [had] a problem with his laptop, so he [bought] another one. (to have / to buy)
+ 5. The assistant [did] a very good job this week. (to do)
+ 6. I [tried to find] a solution but in vain. (to try / to find)
+ 7. The Manager [gave] a promotion to lucy because she [worked] very well. (to give / to work)
+
+
+Internet:
+
+ FAI: ISP (Internet Service Providers)
+ Bande passante: Bandwidth
+ ADSL (Asymmetric digital subscriber line): Broad band
+ Fibre Optique: Optical Fiber
+ Router: Router
+ Parefeu: Firewall
+ Réseau privé: Private Network (Company/user/household)
+ Logiciel de protection: 	Anti-Malware (Malicious + Software)
+				Anti-Virus
+				Anti-spyware (Logiciel espion)
+				Anti-Ransomware (Rançongiciel)
+ Appareil: Device
+ Répéteur wifi: Wifi Extender
+ CPL (Courant Porteur de Ligne): Power line adaptor (PLA)
+ Domotique: Smart Hub (Home Automation)
+
+
+Sujet: 
+
+ Rédiger un courriel en suivant les instructions:
+	- Regie Woods, un(e) habitant(e) de votre immeuble vous sollicite pour régler un soucis lié à sa connexion internet,
+	- Après vérification:
+		* La fonction pare-feu de sa boxe n'est pas activée.
+		* Le débit est en dessous de celui préconisé.
+		* Le boîtier CPL reliant la télé semble être defectueux.
+
+ Vous décidez d'envoyer un courriel de réclamation au FAI "FancyCables ltd" pour lui faire part des problèmes & éxiger:
+	- Le remplacement du matériel défectueux,
+	- L'envois d'un technicien pour un diagnostique complet.
+ Faute de quoi Mr/Mme Woods se réserve le droit d'annuler son contrat et de demander un remboursement.
+
+===============================================================================================================================================================
+
+Object : Issue & complaint - Defective Material - Regie Woods 
+
+
+Respected Sir/Madam,
+
+I write you here in the name or Mrs Woods who's experiencing various issues with your services.
+
+I took the liberty to check Mrs Woods various devices to adress you this initial inquiry and noted that, to begin with, the internet speed is not
+conform the one advised in her subscription plan. After tests on various websites, upload and download speed is not even the tenth of what it should be.
+
+Secondly, the firewall of her router isn't active, this is a huge security issue that should be fixed as quickly as possible.
+
+To finish, it seems that the Power line adaptor connected to the TV is defective.
+
+By the present, require replacement of the defective material and that a technician is booked to come here, at Mrs Regie Woods place,
+to review and fix the various part of her setup that isn't up to the norm.
+
+if you fail to comply, Mrs Woods will reserve the right to terminate her contract and request a refund of all services purchased to FancyCables ltd.
+
+i'm looking forward to hearing from you, as soon as possible.
+
+Best regards,
+
+Guillaume Saulnier
+ 
+
+
+
