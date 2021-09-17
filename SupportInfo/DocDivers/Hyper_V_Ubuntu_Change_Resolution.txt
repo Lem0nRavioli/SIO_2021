@@ -2,7 +2,7 @@ Hyper-V Ubuntu // Changer la résolution:
 
 Terminal:
 
-~$: sudo nano etc/default/grub
+~$: sudo nano /etc/default/grub
 
 (là il va demander le mdp, c'est normal si vous voyez pas les caractères)
 
@@ -25,6 +25,7 @@ puis après les lignes d'update:
 
 Là, la machine virtuelle va reboot et la résolution sera maintenant plus lisible
 (Vous pouvez utiliser une autre résolution que 1440x900, juste remplacez les nombres)
+
 
 
 Vidéo Explicative: https://www.youtube.com/watch?v=NXwJt9Vo-W0
