@@ -2,5 +2,18 @@ Math: Ex 6, 12
 
 Anglais: Lettre de réclamation (cf dossier anglais)
 
-MisADispoInfo: Devis PPEO / Télécharger ISO linux
+MisADispoInfo: 
+  Devis PPEO
+  
+  Exercice
+  1) Créez un utilisateur « titi » avec pour mot de passe « titi »
+  2) Créez un groupe « Support »
+  3) Créez un groupe « ServInfo »
+  4) Créez un utilisateur « toto » avec pour mot de passe « toto » dans
+  le groupe « ServInfo »
+  5) mettez l’utilisateur « titi » dans le groupe « ServInfo »
+  6) changez le mot de passe de « titi » par « azerty »
+  7) Mettez l’utilisateur « toto » dans le groupe root
+  8) Créez un utilisateur « tata »
+  9) Supprimez l’utilisateur « tata »
 
