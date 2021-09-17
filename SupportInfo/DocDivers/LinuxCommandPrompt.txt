@@ -1,0 +1,18 @@
+find path -name *.txt  // find at path
+cp path path/name  // copy
+rm -d path // remove directory
+mv path path/name // move 
+cat path // read file
+nano path // edit file
+sudo // Admin (Root) mode
+mkdir path // make dir (make directory)
+ls path // liste 
+clear // clear terminal
+(sudo) passwd // set root password
+su - // root mode (switch user)
+adduser // ajoute user
+deluser // deluser
+addgroup
+delgroup
+
+
