@@ -14,7 +14,7 @@ Remplacez par:
 
 "GRUB_CMDLINE_LINUX_DEFAULT="quiet splash video=hyperv_fb:1440x900"
 
-Ensuite appuyez sur ctrl + x (save) et appuyez ensuite sur Y (yes)
+Ensuite appuyez sur ctrl + x (save) et appuyez ensuite sur Y (yes) puis ENTRER
 puis dans le terminal:
 
 ~$: sudo update-grub
@@ -25,7 +25,6 @@ puis après les lignes d'update:
 
 Là, la machine virtuelle va reboot et la résolution sera maintenant plus lisible
 (Vous pouvez utiliser une autre résolution que 1440x900, juste remplacez les nombres)
-
 
 
 Vidéo Explicative: https://www.youtube.com/watch?v=NXwJt9Vo-W0
