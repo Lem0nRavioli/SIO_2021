@@ -20,7 +20,7 @@ MisADispoInfo:
   9) Supprimez l’utilisateur « tata »
   
   
-  Français:
+ Français:
     (Noté - 28/09/21):
     Choisir & produire un exposé parmis les sujets suivants (15mn):
       - Le rap un genre polémique
