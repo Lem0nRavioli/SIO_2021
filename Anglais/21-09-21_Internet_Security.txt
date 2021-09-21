@@ -1,0 +1,52 @@
+Internet Security
+
+Why ? Users must be aware that they share data with other users on internet. Sensitive data may be given without paying attention.
+(personal data (Name and such), identity data (ID numbers, like social security), bank details, health data).
+Means of protection: 
+	1- Antivirus software
+		This software uses an updated database to scan you system and detect anomalies
+	2- Firewall
+		The user's router already integrate security protocols to avoid any breach. The device must be correctly configured.
+	3- VPN (Virtual private network)
+		This software will create a secured tunnel in which data will transit safely.
+
+Phishing (Hameçonnage)
+	It is a cyber attack that the hacker sets up to steal private information.
+	The hacker creates a phoney/counterfeit (faux/fake) website and lures (to lure) the user into it.
+	He will use generally emails and private messages to send a link to his counterfeit website.
+	Once the user communicate his credentials, the hacker intercept them and can potentially impersonate the user. (Identity theft)
+
+Pharming (Dévoiement)
+	Dns poisoning. Hackers attack the server and reroute users to phoney websites.
+	Pharming is a cyberattack intended to redirect a website's traffic to another fake site by installing a malicious program on the computer.
+	Pharming can be conducted either by changing the hosts file on a victim's computer or by exploitation of a vulnerability in DNS server software.
+
+Means of protection / Behaviors: Education of users:
+	1- Browser parameters
+		Your browser must be regularly updated. It must contain protection tools such as addons.
+	2- Knowing to recognize a phoney email. 
+		A phoney email usually contains spelling mistakes. Verify the adress and any suspicious names must be ignored.
+	3- Avoid using hotspots (wifi gratuit).
+		hotspot can be setup by hackers and very dangerous if you access them. They are called honeypots/sweet spots.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Vous: Security analyst.
+Votre entreprise: IGN banking.
+
+Suite aux attaques répétées de phishing, vous avez dans l'idée de post un message sur Facebook, afin d'avertir les clients du danger
+et de leur donner quelques conseils à ce sujet. (En anglais)
+
+/!\ PHISHING: A malicious act aimed to get your data with various bias, including phoney websites or illegitimate emails. /!\
+
+Dear customers,
+
+Following the recent recrudescence of those scams targeting IGN Banking, here are some tips that will help you protect your data from harmful intentions.
+First of all, assure yourself that your web browser is up to date, various protection system need to be frequently upgraded to be efficient. Secondly, 
+be alert when reading email to any misspelling or suspicious names. Any email link should be clicked only after several authenticity verifications.
+And for our last advice, we recommend that you avoid to use hotspots as much as you can, or at least do not use them to browse sensitive data, hackers 
+can easily use them to gather your credentials and various other dangerous personnal data.
+
+Be alert, be smart, be safe.
+
+IGN customer service.
