@@ -1,6 +1,8 @@
-Math: Ex 6, 12
+Math: 
+- (22/09/21) Ex 6, 12 
 
-Anglais: Lettre de réclamation (cf dossier anglais)
+Anglais: 
+- (21/09/21) Lettre de réclamation (cf dossier anglais)
 
 MisADispoInfo: 
   Devis PPEO
@@ -16,4 +18,27 @@ MisADispoInfo:
   7) Mettez l’utilisateur « toto » dans le groupe root
   8) Créez un utilisateur « tata »
   9) Supprimez l’utilisateur « tata »
+  
+  
+  Français:
+    (Noté - 28/09/21):
+    Choisir & produire un exposé parmis les sujets suivants (15mn):
+      - Le rap un genre polémique
+      - La musique éléctro
+      - La musique & l'IA
+      - La musique standardisée, musique formatée
+      - La musique & les dessins animés
+      - La fonction de la musique de film
+      - La musicothérapie
+      - Le sexisme dans l'univers musical
+      - Musique & censure
+      - Musique & confinement 
+      - Musique & nazisme
+      - Eduquer les enfants à la musique
+      - La musique militaire
+      - La marseillaise
+      - J.Hendrix
+      - Bob Dylan
+      - Bob Marley
+      - Serge Gainsbourg
 
