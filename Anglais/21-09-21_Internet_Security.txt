@@ -50,3 +50,21 @@ can easily use them to gather your credentials and various other dangerous perso
 Be alert, be smart, be safe.
 
 IGN customer service.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Correction:
+
+Dear customers,
+We have suffered lately from a form of scam known as phishing.
+This is an information note to give you the necessary tools to understand this scam.
+Indeed, hackers dend you phoney emails pretending to be from our behalf. This email contains a link which will send you on a counterfeited website
+where the hacker can steal your personal information.
+Be aware that you insurance will not cover for any financial prejudice. This is why you should be very careful while doing internet banking.
+Phishing emails are very easy to recognize. They usually contain spelling mistakes and suspicious links. When in doubt, rely on your browser and type 
+www.IGN.com in the adress bar.
+I hope this will help you to stay out of trouble and please do not hesitate to contact us if necessary.
+
+Best regards.
