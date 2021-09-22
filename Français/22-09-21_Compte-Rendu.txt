@@ -1,0 +1,55 @@
+Compte-rendu (~1h)
+
+1. En français
+2. Enoncé: 	- nb de mots +/- 10% : 130 mots (22/09/21)
+		- compréhension
+		- Synthèse / Elements importants
+		- Indiquez le nombre de mots.
+		- Travail sous forme d'annotations / notes interdit
+
+Tips:	- 1st reading
+	- Key words: 
+		# Note difficult words
+		# Note Names (City, company, etc)
+		# Note numbers
+
+
+===============================================================================================================
+
+BYOD
+
+Unknown words: Ubicomp => Ubicomp is an abbreviation for the term "ubiquitous computing." Ubiquitous computing is an idea related to 
+			  expanding an interface to make it seem "pervasive" in a given environment.
+			  Ubicomp is also the name of an annual conference on ubiquitous computing
+
+Compte rendu: 
+
+D'après l'article sur le BYOD de Tom's guide, 2016 sur le sujet du BYOD (Bring your own device, ou Apporte Ton Matériel Personnel, en français).
+Le concept est mentionné en 2005 par Ballagas avant d'être appliqué par Intel, en 2009. Le BYOD est maintenant mode émergente au sein des entreprises et de l'éducation. 
+Cette tendance s'applique déjà à 75% des employés des marchés à forte croissance, contre 44% dans les plus développés (D'après une étude de Logicalis). 
+Le BYOD est considéré bon pour le moral & la productivité. Le revers de médaille étant les problèmes de sécurité qui en résulte. 
+Pour commencer le matériel personnel n'est pas forcément le plus sécurisé, et cela peut résulter en brèches de sécurité au sein de l'entreprise. 
+Mais aussi dans le cas de la perte d'un téléphone connecté au réseau privé ou encore lorsqu'un employé démissionne, lesdites données se retrouvent 
+entre les mains de personnes extérieur et donc potentiellement en danger. 
+
+~140 mots
+
+
+=================================================================================================================
+
+Correction:
+
+Intro: Source + sujet principal + auteur, date, support
+
+Ce texte est issue de Tom's guide, sur le sujet du BYOD, écrit en 2016
+
+Le BYOD est un concept qui autorise les employé et les étudiants à utiliser leur matériel personnel au travail.
+Ce phénomène est très présent dans les pays émergents ou 75% des employés l'utilisenjt.
+Les employeurs apprécient le BYOD car cela augmente la producutivité. Les employés trouvent ce concept attractif
+Le BYOD a été démocratisé en 2009 par des grandes entreprises comme INTEL.
+Les risques de ce concept ont fait que beaucoup d'entreprise ne l'ont pas adopté.
+Les risques du BYOD existent quand les employés perdent leurs appareils ou ne font plus partie de l'entreprise.
+
+
+
+
