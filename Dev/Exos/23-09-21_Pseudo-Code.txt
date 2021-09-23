@@ -1,0 +1,368 @@
+ALGO ex_1
+
+VARIABLES
+entier: h <-- LIRE()
+entier: m <-- LIRE()
+
+
+DEBUT
+
+SI m < 60: 
+	m <-- m + 1
+SI NON:
+	m <-- 0
+	SI h < 24: 
+		h<--h+1
+	SI NON: 
+		h <-- 0
+AFFICHER("Dans ne minute, il sera" + CHAR(h) + "h" + CHAR(m))
+
+FIN
+
+/////////////////////////////////////////////////////////////////////
+
+ALGO ex_2
+
+VARIABLES
+entier: h <= LIRE()
+entier: m <= LIRE()
+entier: s<= LIRE()
+
+DEBUT
+
+si s < 60:
+	s <-- s + 1
+SI NON:
+	s <-- 0
+	SI m < 60: 
+		m <-- m + 1
+	SI NON:
+		m <-- 0
+		SI h < 24: 
+			h<--h+1
+		SI NON: 
+			h <-- 0
+AFFICHER("Dans ne minute, il sera" + CHAR(h) + "h" + CHAR(m))
+
+FIN
+
+/////////////////////////////////////////////////////////////////////
+
+ALGO ex_3
+
+VARIABLES
+entier: nbcop <-- LIRE()
+entier: total <-- 0
+
+DEBUT
+
+SI nbcop <= 10
+	total <-- nbcop * .1
+SI nbcop <= 30
+	total <-- nbcop * .09 + .1
+SI NON 
+	total <-- nbcop * .08 + .4
+	
+AFFICHER("Prix total: " + CHAR(total))
+
+FIN
+
+/////////////////////////////////////////////////////////////////////
+
+ALGO ex_4
+
+VARIABLES
+entier: age <-- LIRE()
+char: sexe <-- LIRE()
+
+DEBUT
+
+SI (sexe == "m" ET age > 20)
+	AFFICHER("PAYE !")
+SI (sexe == "f" ET (age >= 18 && age <= 35))
+	AFFICHER("PAYE !")
+SI NON
+	AFFICHER("CHOMEUR !")
+	
+FIN
+
+/////////////////////////////////////////////////////////////////////
+
+ALGO ex_5
+
+VARIABLES
+entier: can1 <-- LIRE(), can2 <-- LIRE(), can3 <-- LIRE(), can4 <-- LIRE()
+
+DEBUT
+SI can1 > 50
+	AFFICHER("ELU")
+SI NON SI (can2>50 OU can3>50 OU can4>50 OU can1<12.5)
+	AFFICHER("BATTU")
+SI NON SI (can1 > can2 ET can1 > can3 ET can1 > can4)
+	AFFICHER("SECOND TOUR FAVORABLE")
+SI NON	
+	AFFICHER("SECOND TOUR DEFAVORABLE")
+
+FIN
+
+
+/////////////////////////////////////////////////////////////////////
+
+ALGO ex_6
+
+VARIABLES
+entier: level <-- 4, age <-- LIRE(), fidel <-- LIRE(), accident <-- LIRE()
+bool: permis2+ <-- LIRE()
+
+DEBUT
+
+SI fidel 
+	level <-- level - 1
+SI age >= 25
+	SI permis2+
+		SI accident == 0
+			level <-- level -2
+		SI accident == 1
+			level <-- level -1
+		SI accident >= 3
+			level <-- 888888
+			
+	SI NON
+		SI accident == 0
+			level <-- level -1
+		SI accident >= 2
+			level <-- 888888
+SI NON 
+	SI permis2+
+		SI accident == 0
+			level <-- level-1
+		SI accident >= 2
+			level <-- 888888
+	SI NON SI accident != 0
+		level <-- 888888
+
+
+SI level > 4
+	AFFICHER("refusé")
+SI level = 4
+	AFFICHER("rouge")
+SI level = 3
+	AFFICHER("orange")
+SI level = 2
+	Afficher("vert")
+Si level = 1
+	Afficher("bleu")
+	
+
+FIN
+
+
+/////////////////////////////////////////////////////////////////////
+
+
+ALGO ex_7
+
+VARIABLES
+entier: number <-- 5, guess <-- LIRE()
+
+DEBUT
+
+TANT QUE guess != number
+	AFFICHER("Guess a the number (1-10)")
+	guess <-- LIRE()
+	
+AFFICHER("Bon choix.")
+
+FIN
+
+/////////////////////////////////////////////////////////////////////
+
+
+ALGO ex_8
+
+VARIABLES
+entier: prop <-- LIRE()
+
+DEBUT
+
+TANT QUE (prop < 10 OU prop > 20)
+	SI prop < 10
+		AFFICHER("Plus petit !")
+	SI NON
+		AFFICHER("Plus grand !")
+	prop <-- LIRE()
+	
+FIN
+
+/////////////////////////////////////////////////////////////////////
+
+
+ALGO ex_9
+
+VARIABLES
+entier: nb <-- LIRE()
+
+DEBUT
+
+POUR i ALLANT_DE 1 A 10 {PAR_PAS_DE 1}
+	AFFICHER(CHAR(nb + i))
+FIN POUR
+
+FIN
+
+/////////////////////////////////////////////////////////////////////
+
+
+ALGO ex_10
+
+VARIABLES
+entier: nb <-- LIRE()
+
+DEBUT
+
+POUR i ALLANT DE 1 A 10 (Par pas de 1)
+	AFFICHER(CHAR(nb) + " x " + CHAR(i) + " = " + CHAR(i*nb))
+	
+FIN POUR
+
+FIN
+
+/////////////////////////////////////////////////////////////////////
+
+
+ALGO ex_11
+
+VARIABLES
+entier: nb <-- LIRE(), total <-- 0
+
+DEBUT
+
+POUR i de 1 a nb (par pas de 1)
+	total <-- total + i
+FIN POUR
+	
+AFFICHER(CHAR(total))
+
+FIN
+
+/////////////////////////////////////////////////////////////////////
+
+
+ALGO ex_12
+
+VARIABLES
+entier: nb <-- LIRE(), total <-- 1
+
+DEBUT
+
+POUR i de 1 a nb (par pas de 1)
+	total <-- total * i
+FIN POUR
+
+AFFICHER(CHAR(total))
+
+FIN
+
+/////////////////////////////////////////////////////////////////////
+
+
+ALGO ex_12(bis)
+
+VARIABLES
+entier: top <-- -INFINI, pos=0, nb
+
+DEBUT
+
+POUR i de 1 a 20 (par pas de 1)
+	nb <-- LIRE()
+	SI nb > top
+		top <-- nb
+		pos <-- i
+
+FIN POUR
+
+AFFICHER("Le plus grand de ces nombes est: " + CHAR(top) + " à la position numéro " + CHAR(pos))
+
+FIN
+
+/////////////////////////////////////////////////////////////////////
+
+
+ALGO ex_13
+
+VARIABLES
+entier: top <-- -INFINI, pos=0, compteur <-- LIRE(), nb
+
+DEBUT
+
+POUR i de 1 a compteur (par pas de 1)
+	SI compteur == 0
+		FIN POUR
+	nb <-- LIRE()
+	SI nb > top
+		top <-- nb
+		pos <-- i
+
+FIN POUR
+
+AFFICHER("Le plus grand de ces nombes est: " + CHAR(top) + " à la position numéro " + CHAR(pos))
+
+FIN
+
+/////////////////////////////////////////////////////////////////////
+
+
+ALGO ex_14
+
+VARIABLES
+reel: prix <-- LIRE(), total <-- 0, paid
+chaine: currency <-- {500, 200, 100, 50, 20, 10, 5, 2, 1, .5, .1, .5, .02, .01}
+
+DEBUT
+
+SI prix == 0
+	AFFICHER("T'a rien acheté cousin")
+	
+TANT QUE prix >= 0
+	total <-- total + prix
+	prix <-- LIRE()
+
+paid <-- LIRE()
+total <-- total - paid
+
+TANT QUE total > 0
+	AFFICHER("C'est pas assez cousin")
+	paid <-- LIRE()
+	total <-- total - paid
+
+total <-- total * -1
+	
+POUR token DE currency
+	TANT QUE total > token
+		total <-- total - token
+		AFFICHER(CHAR(token) + "Euros")
+	FIN TANT QUE
+FIN POUR
+		
+FIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
