@@ -21,24 +21,11 @@ MisADispoInfo:
   
   
  Français:
-    (Noté - 28/09/21):
-    Choisir & produire un exposé parmis les sujets suivants (15mn):
-      - Le rap un genre polémique
-      - La musique éléctro
-      - La musique & l'IA
-      - La musique standardisée, musique formatée
-      - La musique & les dessins animés
-      - La fonction de la musique de film
-      - La musicothérapie
-      - Le sexisme dans l'univers musical
-      - Musique & censure
-      - Musique & confinement 
-      - Musique & nazisme
-      - Eduquer les enfants à la musique
-      - La musique militaire
-      - La marseillaise
-      - J.Hendrix
-      - Bob Dylan
-      - Bob Marley
-      - Serge Gainsbourg
+  05/10/21 : Présenter le texte de l'odysée (homer dans l'odysée...) et les neurones enchantés (dans la musique av tte choses)
+  26/10/21 : DST + sujet 
+  07/12/21 : Sujet donné après DST à rendre
+  11/01/22 : BTS BLANC
+  01/03/22 : Rendre devoir donné 25/01/22
+  08/03/22 : DST
+  29/03/22 : BTS BLANC
 
