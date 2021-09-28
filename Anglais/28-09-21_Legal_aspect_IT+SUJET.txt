@@ -1,0 +1,34 @@
+Legal aspect of I.T
+
+1- Copyright:
+	It is a set or rule that protects intellectual property. In a general matter, it is not allowed to duplicate or retail
+	copyrighted material.
+	Patents (Brevet)
+	Multimedia files (sound, image, videos, etc)
+	Copyright free
+
+2- Labour law (convention collective / droit du travail):
+	Each activity genrate its own set of rules and regulations.
+	Employer's obligations:
+		- Right to disconnect (appel urgent h24)
+		- High connectivity does not respect employees minimum rest time
+		- Ergonomic specifications.
+			Screen times / sitting positions / Healthy working atmosphere are to be provided by the employer
+	Employee's obligations:
+		- The employee is bounded to respect data he manipulate, no copying, no divulgation to third parties
+		- Private data. It is forbidden to share private data such as names, adresses, social security...
+
+3- Hacking:
+	Network violation.
+	It is forbidden to enter a private network without authorization
+	You will be prosecuted if you information system for harassement, cyberbullying, illegal content.
+
+
+Sujet: 
+
+Rédigez une note de service en anglais. 
+Votre société doit interrompre son activité. Selon la nouvelle legislation, le service proposé est désormais non-conforme.
+Il est interdit d'héberger des fichier protégés sans autorisations des ayant-droits.
+Prévenez tout vos annonceurs & souscripteurs que le portail "www.youdownload.com" sera définitivement cloturés le 12 mars 2021.
+Ils peuvent faire leurs réclamations par courrier si besoin.
+N.B. Aucune compensation financière n'est prévu car vous n'êtes pas responsable du changement de la legislation.

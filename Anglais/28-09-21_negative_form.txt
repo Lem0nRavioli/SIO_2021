@@ -1,0 +1,8 @@
+Negative form
+
+P- They tried all the solutions
+N- They didn't try all the solutions
+P- She does her homework
+N- She doesn't do her homework
+P- They thought of a go around
+N- They didn't think of a go around
