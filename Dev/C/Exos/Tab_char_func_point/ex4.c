@@ -10,8 +10,8 @@ int main() {
     len = strlen(maybe);
     strcpy(witness, maybe);
     for (int i=0;i<len/2;i++) {
-        witness[len - i - 1] = maybe[len - i - 1];
-        witness[i] = maybe[i];
+        witness[len - i - 1] = maybe[i];
+        witness[i] = maybe[len - i - 1];
     }
     printf("%s\n", witness);
     printf("%s\n", maybe);
