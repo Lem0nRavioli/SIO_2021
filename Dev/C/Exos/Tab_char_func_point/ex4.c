@@ -8,7 +8,7 @@ int main() {
     printf("Enter a potential palyindrom of less than 254 character long: ");
     scanf("%s", maybe);
     len = strlen(maybe);
-    strcpy(witness, maybe);
+//     strcpy(witness, maybe); 
     for (int i=0;i<len/2;i++) {
         witness[len - i - 1] = maybe[i];
         witness[i] = maybe[len - i - 1];
