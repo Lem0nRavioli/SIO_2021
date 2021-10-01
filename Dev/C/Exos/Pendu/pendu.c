@@ -25,10 +25,8 @@ void tour(int *life, char *word, char *show, char *bad, int len){
         }
     }
     if (!okmove) {
-        printf("here !");
-        printf("%d\n", okmove);
         *life -= 1;
-        strncat(bad, &prop, 1);
+        strncat(bad, &prop, 1); // append proposition to char list of bad attempt
     }
 }
 
