@@ -1,0 +1,5 @@
+Git		https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Installation-de-Git 
+NodeJS		https://practicalprogramming.fr/tuto-install-node-js-windows
+MariaDB/MySQL	https://www.youtube.com/watch?v=3KwmNNucIjA&list=PLrSOXFDHBtfGl66sXijiN8SU9YJaM_EQg
+Docker		https://www.youtube.com/watch?v=tyHG8sdBlAo
+Flutter/Dart	https://inlearn.io/formation-flutter-installation-de-flutter-sur-windows/ 
