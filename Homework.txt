@@ -28,4 +28,7 @@ Français:
   01/03/22 : Rendre devoir donné 25/01/22
   08/03/22 : DST
   29/03/22 : BTS BLANC
+  
+Eco-Juri-Mana:
+  20/10/21 : Syllogisme sur le deuxième cas donné en cours
 
