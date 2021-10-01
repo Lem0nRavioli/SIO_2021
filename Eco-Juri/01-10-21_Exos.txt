@@ -7,7 +7,7 @@ Comporte 4 parties (habituellement):
 	- Règles de droit utilisées
 	- Solution (réponse au problème)
 	
-Exemple: 
+Exemple 1: 
 
 Mr & Mme Daniels, sont les heureux parents d'un fils, Jack. Celui ci leurs pose quelques difficultés depuis plusieures semaines.
 Jack est né le 20/09/2007 et depuis son entrée au collège il adopte un comportement qui les inquiètes. La semaine dernière il leur a subtilisé 5'000€ en liquide pour aller faire
@@ -54,3 +54,13 @@ Un contrat de vente d'alcool avec un mineur est illégal.
 					Ainsi en tant que mineur non-émancipé Jack aurait dû être représenté par ses tuteurs (ici parents). dés lors, ces derniers pourront soliciter 
 					l'annulation du contrat de vente en saisissant un juge civil dans un délais de 5 ans.
 
+
+===============================================================================================================================================================================================
+
+
+Exemple 2: 
+
+Mr & Mme Corso ont passé commande de nouvelles fenêtres auprès de l'entreprise ToutouVert le 2 juin dernier. Les fenêtres devaient être livrées à la fin du mois de juillet mais 
+l'entreprise ne s'est pas executée. Ce n'est que le 25 septembre que l'entreprise informe le couple que les fenêtres ne pourront être livrées avant novembre. Ce retard a empêché 
+les époux Corso de s'installer dans leur nouvelle maison et ils ont donc dû loger, avec leur fils, chez un membre de leur famille ce qui a entraîné de nombreux frais & difficultés
+d'organisation. Ils souhaitent donc savoir comment agir, quoi faire, mais ayant profité d'un bon prix ils ne souhaitent pas rompre la relation contractuelle.
