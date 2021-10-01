@@ -1,0 +1,56 @@
+Syllogisme
+Comporte 4 parties (habituellement):
+	- Qualification des faits
+		=> Résumé Juridique
+	- Probléme Juridique
+		=> Ennoncé de manière générale (pas de noms)
+	- Règles de droit utilisées
+	- Solution (réponse au problème)
+	
+Exemple: 
+
+Mr & Mme Daniels, sont les heureux parents d'un fils, Jack. Celui ci leurs pose quelques difficultés depuis plusieures semaines.
+Jack est né le 20/09/2007 et depuis son entrée au collège il adopte un comportement qui les inquiètes. La semaine dernière il leur a subtilisé 5'000€ en liquide pour aller faire
+des achats auprès de la société Jameson. Les parents ont contacté le vendeur qui ne veut rien entendre et surtout pas rembourser Mr & Mme Daniels.
+Qu'en pensez vous ?
+
+1 - Résumé
+
+Jack, mineur non émancipé, fils de Mr & Mme Daniels, a contracté avec La société Jameson sans supervision de ses tuteurs pour une somme de 5'000€. 
+Mr & Mme Daniels ont contactés la société Jameson afin de résoudre le contrat, ce que la société Jameson refuse.
+
+// correction // 	Jack est un mineur non-émancipé agé de 14 ans qui a souscrit un contrat de vente d'un valeur de 5'000€ avec l'entreprise Jameson.
+					Les représentants légaux de Jack, les époux Daniels, souhaitent savoir de quel recours ils disposent face au refus de la société Jameson de revenir sur ce contrat.
+
+2 - Problème
+
+Un des contractant demande la rupture & résolution du contrat et le remboursement des paiement des frais engagés. La partie opposante refuse.
+L'abus de la crédulité d'un mineur résultant en un contrat de vente excessif, suite à l'erreur de supervision d'un ou des tuteur(s), est-il un motif valide de résolution du contrat?
+
+// correction //	La formation d'un contrat de vente avec un mineur non-émancipé est-elle légale?
+					La question est de savoir sur un mineur non émancipé peut souscrire seul à un contrat de vente ?
+					
+
+3- Règles
+
+Un contrat formé contenant avec une partie ne jouissant pas pleinement de son droit d'exercice et ce sans la présence de sa tutelle est illégal.
+Un contrat de vente d'alcool avec un mineur est illégal.
+
+// correction //	Afin de répondre à cette question il convient d'abord de rappeller qu'un contrat est un acte juridique prévoyant des droits et des obligations.
+					Toutefois, la validité d'un contrat est strictement encadrée dans la mesure où elle doit répondre à 3 conditions cumulative. 
+					- Le contenu du contrat doit être licite & certain;
+					- le consentement des parties doit être libre & éclairé;
+					- Les parties doivent disposer de leur capacité juridique.
+					
+					S'agissant de la capacité juridique, celle ci comprend la capacité de jouissance et la capacité d'exercice. C'est ainsi que le mineur non-émancipé
+					disposibe bien de la capacité de jouissance mais doit être représenté par leur représentant légaux dans l'exercice de leurs droits car à défaut le 
+					contrat pourrait être annulé.
+					
+4 - Solution
+					
+// correction //	En l'espèce (dans cette affaire), à l'évidence, le contrat signé entre Jack et la société Jameson n'est pas valide. En effet, au moment d'y consentir,
+					Jack était agé de 14 ans et le montant du contrat était d'importance puisqu'il portait sur une valeur de 5'000€ payé en espèce.
+					
+					Ainsi en tant que mineur non-émancipé Jack aurait dû être représenté par ses tuteurs (ici parents). dés lors, ces derniers pourront soliciter 
+					l'annulation du contrat de vente en saisissant un juge civil dans un délais de 5 ans.
+
