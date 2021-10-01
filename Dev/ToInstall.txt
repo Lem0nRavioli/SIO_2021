@@ -7,6 +7,7 @@ https://practicalprogramming.fr/tuto-install-node-js-windows
 MariaDB/MySQL:
 https://www.youtube.com/watch?v=3KwmNNucIjA&list=PLrSOXFDHBtfGl66sXijiN8SU9YJaM_EQg (linux)
 https://techexpert.tips/fr/windows-fr/installation-de-mariadb-sur-windows/ (windows)
+https://www.mariadbtutorial.com/ (MathieuS)
 
 Docker:
 https://www.youtube.com/watch?v=tyHG8sdBlAo
