@@ -1,0 +1,110 @@
+			VPN:Virtual Private Network (Réseau privé virtuel)
+
+
+	It is a tunnel via which the user will connect to the internet. This process was created for professionals to
+	secure remote server connection. The user's connection will go through a distant server before connecting to
+	the desire services.
+	This server will encrypt the data and dissimulate details from the original request.
+	
+	Advantages of using a VPN: 
+	
+		- Security.
+			Since data is encrypted, connection is secure and protected from outside. It is almost impossible to
+			snoop (épier/fouinner) upon a VPN connection.
+		
+		- Privacy
+			A VPN connection "guarantees" the use's anonymity. As the server dissimulates the user's adress  (IP)
+			
+		- Avoid geographical restrictions
+			A VPN changes the user's location and can go around restrictions in order to access services destined to a 
+			particular territory.
+		
+		- Government censorship
+		
+		
+	Drawbacks of VPN:
+	
+		- Internet speed is imposed by the distant server and will considerably decrease your transfer rate.
+		
+		- You have to accept the fact that third parties, those owners if the distant server may have access to your data.
+			(Employees, technician, sub contractors...)
+			
+			
+	VPN as a commercial success. Why ?
+	
+	
+		- Users use VPN to secure their Wifi connections to hotspots.
+		
+		- Use virtual geographical location to access denied services such as Tv shows and music clips (netflix, youtube).
+		
+		- To avoid price discrimination (Like plane tickets price rising). Big companies will give you access to preferential
+			rates according to your geographical location.
+			
+			
+			
+2-REDIGEZ UN COURRIEL EN ANGLAIS EN SUIVANT LES  POINTS CI-DESSOUS. 
+(au moins 150 mots) : ( 10 points ) 
+
+VOUS – Security tech solutions 
+CLIENT – Nomad Sales Ltd 
+
+La société Nomad Sales Ltd envoie des techniciens de vente partout en Europe. Elle s’inquiète de la recrudescence des actes d'espionnage industriel. 
+La gérante, Marcia Christie voudrait vous solliciter afin de trouver une méthode pour sécuriser les connexions à distance de ses employés et éviter ainsi 
+que des fichiers sensibles soient récupérés par des personnes mal intentionnées. 
+Expliquez votre solution , sa mise en œuvre et les garanties qu'elle donne. Proposez une offre commerciale qui serait susceptible d’intéresser la cliente 
+pour une éventuelle collaboration.
+
+Formules d'usages obligatoires. 
+
+
+
+
+Dear Mrs Christie,
+
+We received your recent email explaining your need & concern about the security of your technician network. You indeed spotted a very common security breach in
+companies, and we are very happy to be able to tell you that we can propose you a solution that is oftenly adopted by businesses all around the world to fix 
+that data privacy concern.
+
+You may have heard of VPN (Virtual Private Network). This process was created originally for professionals to secure their remote server connection.
+The user's connection will go through a distant server before connecting to	the desire services. This server will then encrypt the data and make it unreadable 
+for anyone but the intended receiver.
+
+To be a bit less technical, this process will make connection from hotspots secure, and assure that any connection from your technicians can't be snooped on.
+
+Our company uses the services of NordVpn, which is the leading business in this field. For an installation fee and  the price of the NordVpn subscription, we can
+help you make your company foolproof of most spying attempt in a matter of hours.
+
+You'll find attached to this mail our full range of services, and we will be available for any further information you may need.
+
+Best regards,
+
+Security Tech solutions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
