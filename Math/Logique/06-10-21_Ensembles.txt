@@ -1,0 +1,102 @@
+2 Langage Ensembliste
+
+	exemple d'ensembles: 	A = { 3, 7, 11, 14, 24 }
+							B = { x € lN, x pair }
+	Un esemble peut être défini en faisant la liste de ses éléments (En extension) ou en donnant une 
+	propriété caractéristique (en compréhension)
+	
+	
+  2.1 Ensemble P(E) des parties d'un ensemble E
+  
+	2.1.1 Inclusion et égalité
+	
+		Un ensemble A est dit INCLUS dans un ensemble E si tout les éléments de A appartiennent à E
+		On note A c E (inclus dans, le c est un c allongé normalement)
+		
+		ex: A c E <=> ∀ x € A, x € E
+		
+		Dans ce cas, on dit que A est un sous-ensemble ou une partie de E
+		{ ---- E { ---- A ---- } ---- }
+		
+		On note P(E) l'ensemble de toutes les parties de E
+		
+		ex: E = { 1, 2, 3 } dans ce cas P(E) = { Ø, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, E }
+		
+		Remarque: On a toujours Ø ("Ensemble Vide") c E et E c Element
+		Remarque 2 /!\: c =/= €	x € E, A c E. € est pour élément, c est pour un ensemble.
+						x =/= { x }. x est un élément, { x } est un ensemble à un élément.
+						
+		Le nombre d'éléments dans P(E) = 2^nb élément dans E
+		
+		
+		Deux ensembles E et F sont égaux s'ils contiennent les mêmes éléments.
+		ex: E = F si ∀ x € E <=> x € F
+			E = F <=> (E c F ∧ F c E)
+			
+			
+	2.1.2 Complémentaire de E
+	
+		Soit A une partie de E. Le COMPLEMENTAIRE de A par rapport à E est l'ensemble des éléments de
+		E qui n'appartienent pas à A. On le note Abarre ou CeA (Complémentaire A).
+		(J'utiliserais: Abarre => !A, n'appartient pas => !€, n'est pas inclus => !c)
+		
+		!A = { x € E, x !€ A }
+		
+		ex: E = { 1, 2, 3, 4, 5, 6 }
+			A = { 1, 3, 4 }
+			!A = { 2, 5, 6 }
+			
+		Remarque: 	CeØ = E (complémentaire de Ø)
+					CeE = Ø (complémentaire de E)
+					
+					
+	2.1.3 Union et intersection
+	
+		Soient A et B deux parties de E. L'UNION (ou la REUNION) de A et B est l'ensemble,
+		noté A u B("A Union B"), des éléments de E qui appartiennent à A ou B.
+		A u B = { x € E, (x € A) ∨ (x € B) }
+		
+		Soient A et B deux parties de E. L'INTERSECTION de A et B est l'ensemble,
+		noté A ∩ B("A intersection B"), des éléments de E qui appartiennent à A et B.
+		A n B = { x € E, (x € A) ∧ (x € B) }
+		
+		Deux parties A et B dites DISJOINTES si leur A n B = Ø
+		
+		Remarque /!\: Ne pas confondre avec le complémentaire.
+		A, B € E. 
+			si A n B = Ø, A et B disjoints
+			A et !A complémentaires, A n !A = Ø, A u !A = E
+			
+			
+	2.1.4 Propriétés
+	
+		Commutativité et n et un
+			
+			# ∀ A, B de E, on a:	A u B = B u A
+									A n B = B n A
+									
+		Double distributivité
+		
+			# ∀ A, B, C de E, on a:	A u (B n C) = (A u B) n (A u C)
+									A n (B u C) = (A n B) u (A n C)
+									
+									
+		Elément neutre
+		
+			# ∀ A c E 				A u Ø = A
+									A n E = A
+									
+									
+		Complément
+		
+			# ∀ A c E				A u !A = E
+									A n !A = Ø
+									
+									
+		Lois de Morgan
+		
+			# ∀ A, B c E			!(A n B) = !A u !B
+									!(A u B) = !A n !B
+									
+		
+							

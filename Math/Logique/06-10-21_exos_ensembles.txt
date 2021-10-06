@@ -1,0 +1,51 @@
+Soit E = { 0, 3, 6, 7, 11, 12, 21, 32, 40 }
+Soit A = { 0, 6, 11, 21, 32, 40 }
+Soit B = { 3, 6, 7, 12 }
+
+A n B = { 6 }
+A u B = E
+!A = { 3, 7, 12 }
+!A n B = { 3, 12 }
+!B = { 0, 11, 21, 32, 40 }
+!A u !B = { 0, 3, 7, 11, 12, 21, 32, 40 }
+
+Ex 1:
+
+Donne une exemple de trois ensembles A, B et C tels que A n B = A n C, mais A != B
+B = C
+
+Ex 2:
+
+Voir distributivité
+
+Ex 3:
+
+Simplifier (A n (A u B)) n (A u E)
+
+(A n B) n (A u E)
+(A n B) n E
+A n B
+
+Ex 4:
+
+Fait en cours, potato
+
+ex 5:
+
+Soit A, B € E, simplifier
+A n Ø = Ø
+A u Ø = A
+A n E = A
+A u E = E
+A n (A n B) = A n B
+A u (A u B) = A u B
+A n !A = Ø
+A u !A = E
+A n (!A n B) = Ø
+A u (!A u B) = E
+
+Ex6: 
+
+(!A n B) u (A n B) = B n (!A u A) = B n E = E
+A u !A u (A n B) = E
+To continue (3)
