@@ -1,0 +1,55 @@
+https://sqliteonline.com/
+ 
+ 
+LDD (langage de définition de données)
+
+
+CREATE TABLE Tour (
+	id_tour int NOT NULL,
+	NB_etage int,
+	adresse CHAR,
+	PRIMARY KEY (id_tour )
+);
+
+
+CREATE TABLE appart (
+	id_appart int NOT NULL,
+	etage int,
+	surface int,
+	id_tour  int,
+	PRIMARY KEY (id_appart),
+	FOREIGN KEY (id_tour ) REFERENCES tour(id_tour )
+) ;
+
+
+DROP TABLE Demo ;
+
+ALTER TABLE tour ADD ville VARCHAR(255);
+
+
+# EX : ALTER CREATE DROP RENAME
+
+==================================================================================================================
+
+LMD  (langage de manipulation de données)
+
+INSERT INTO tour VALUES (001,32,"2 rue machin PARIS");
+INSERT INTO tour VALUES (002,8,"6 avenue bidule LYON");
+INSERT INTO appart VALUES (001,2,45,001);
+INSERT INTO appart VALUES (002,4,34,002);
+INSERT INTO appart VALUES (003,4,28,001);
+INSERT INTO appart VALUES (004,4,33,002);
+INSERT INTO appart VALUES (005,2,102,001);
+
+update  tour set ville = "PARIS" where id_tour = 001; 
+update  tour set adresse = "2 rue machin" where id_tour = 001; 
+update  tour set ville = "LYON" where id_tour = 002;
+update  tour set adresse = "6 avenue bidule" where id_tour = 002;
+
+LMD  SUITE 
+
+SELECT * FROM tour ;
+SELECT * FROM appart WHERE surface = 34 ;
+
+
+#EX : INSERT SELECT UPDATE DELETE
