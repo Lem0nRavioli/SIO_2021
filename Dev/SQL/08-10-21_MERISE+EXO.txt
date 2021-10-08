@@ -1,0 +1,128 @@
+VOITURE
+
+Id_tuture		int(6)
+porte			int(1)
+couleur			varchar(30)
+puissance		int(4)
+modèle			varchar(50)
+annéeFab		int(4)
+carburant		varchar(255)
+carb_capa		int(3)
+carb_conso		float
+
+
+ex:
+
+VOITURE
+
+000001
+4
+blanc
+2
+2CV
+1948
+
+PERSONNE (pour biblio)
+
+id_client
+nom
+prénom
+date naissance
+adresse
+newsletter
+genre littéraire
+langue
+
+
+SMARTPHONE
+
+Id_phone	int(6)
+couleur		varchar(30)
+etat 		varchar(255)
+neuf		bool
+modèle		varchar(40)
+annéeOut	int(4)
+screenSize	int(5) (+ conversion backend)
+
+
+MCD => Modèle Conceptuel de donné
+MLD => Modèle Logique de donné
+MPD => Modèle physique de donnée
+
+Clé étrangère => Foreign Key
+
+Table associative clé primaire => concat des 2 clés primaires.
+
+Exo voitures UML:
+
+VOITURE
+
+Id_tuture		int(6)
+imma			varchar(20)
+couleur			varchar(30)
+porte			int(1)
+annéeFab		int(4)
+modèle			varchar(30)
+#id_personne	int(4)
+
+
+PERSONNE
+
+id_personne		int(4)
+nom				varchar(40)
+prénom			varchar(40)
+tel				int(10)
+
+
+
+EXO SQLITE:
+
+(A)
+
+CREATE TABLE IMMEUBLE (
+  ID_IMMEUBLE INT(10) NOT NULL,
+  NB_ETAGE INT(2),
+  ADRESSE varchar(255),
+  ASCENSEUR BOOL,
+  DATECREA date,
+  PRIMARY KEY (ID_IMMEUBLE)
+ );
+ 
+ 
+ CREATE TABLE APPART (
+  ID_APPART INT(10) NOT NULL,
+  ETAGE INT(2),
+  NB_PIECE int(2),
+  SUPERFICIE INT(3),
+  ID_IMMEUBLE int(10) NOT NULL,
+  PRIMARY KEY (ID_APPART),
+  FOREIGN KEY (ID_IMMEUBLE) REFERENCES IMMEUBLE
+ );
+ 
+ ALTER TABLE IMMEUBLE add HAUTEUR int(5);
+ ALTER TABLE IMMEUBLE add CODE_ENTREE int(4);
+ 
+ ===============================================
+ (B)
+ 
+ CREATE TABLE AUTEUR (
+  ID_AUTEUR int(5) NOT NULL,
+  NOM VARCHAR(40),
+  PRENOM VARCHAR(40),
+  DDN int(4),
+  NATIONAL VARCHAR(40),
+  PRIMARY KEY (ID_AUTEUR)
+) ;
+ 
+ 
+ 
+ CREATE TABLE LIVRE (
+  ID_LIVRE int(6) NOT NULL,
+  TITRE VARCHAR(255),
+  SORTIE int(4),
+  NB_PAGES int(4),
+  DESCR VARCHAR(255),
+  ID_AUTEUR int(5) NOT NULL,
+  PRIMARY KEY (ID_LIVRE),
+  FOREIGN KEY (ID_AUTEUR) REFERENCES AUTEUR
+);
