@@ -1,6 +1,6 @@
+GROUPE PPE SIO
 
-
-GR1:--GR2:--GR3:--GR4:--GR5:
+GR1   GR2   GR3   GR4   GR5:
 NK		NQ		MM		NS		XT
 OC		DQ		YW		YV		KY
 GT		JL		GS		GG		SH
