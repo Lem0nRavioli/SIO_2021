@@ -1,0 +1,38 @@
+DST - Correction
+
+
+	Résumé en Français
+	
+	
+Intro: ransomware/rancongiciel / piratage + tech journal 2018	(1)
+
+les autorités de Massachussets ont du régler une rançon suite à une attaque de rançongiciel (cryptolocker).	(1)
+Les hackers envoient ce virus via de faux courriels contenant des pièces jointes.	(1)
+le virus chiffre les données et demande une rançon payable en bitcoin. Cette cryptomonnaie est intracable et vaut $1338 environ.	(2)
+Un policier révèle que le virus était inédit et complexe, c'est pour cela qu'ils ont dû payer.	(1)
+L'officier confirme que le réseau a été nettoyé et qu'aucune donnée n'a été volé.	(1)
+Le FBI enquête sur le cryptolocker qui trouverait son origine en Russie. (1)
+Les autorités en G.B (NCA) ont émis une mise en garde aux entreprises pour surveiller leurs échanges avec leurs banques (2)
+En cas d'attaque, on conseille d'appeller un professionnel mais il est probable que le disque de stockage devra être effacé & restauré (1)
+
+
+	Ecrit en anglais
+	
+Les points: 
+	- ransomware / bitcoin
+	- Offre
+	- Méthode de résolution
+	- Solutions
+	
+Dear Mrs Musk, 
+
+I am sorry to hear about your situation and be assured that I do my best to help you.
+According to your description, it is likely that you have been victim of a ransomware. This virus encrypted your data storage and
+is asking you to pay using an untraceable virtual currency.
+I will advise you to disconnect all computers from the network. The only solution now is to recover the data from your cloud supplier
+and use this backup to restore the system. This will get rid of the malware but you will also loose any usave work prior to the incident.
+I understand that this is urgent and I can send you a technician ASAP for the full troubleshooting. This will only cost you 2500€.
+Please contat me as I wait for your approval.
+
+Regards
+X
