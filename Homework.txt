@@ -1,24 +1,8 @@
 Math: 
-- 06/10/21 DST (matin)
+- /
 
 Anglais: 
-- 05/10/21 Note de service (écrit pro)
-
-MisADispoInfo: 
-  Devis PPEO
-  
-  Exercice
-  1) Créez un utilisateur « titi » avec pour mot de passe « titi »
-  2) Créez un groupe « Support »
-  3) Créez un groupe « ServInfo »
-  4) Créez un utilisateur « toto » avec pour mot de passe « toto » dans
-  le groupe « ServInfo »
-  5) mettez l’utilisateur « titi » dans le groupe « ServInfo »
-  6) changez le mot de passe de « titi » par « azerty »
-  7) Mettez l’utilisateur « toto » dans le groupe root
-  8) Créez un utilisateur « tata »
-  9) Supprimez l’utilisateur « tata »
-  
+- 19/10/21 : Finir mail legal IT  
  
 Français:
   19/10/21 : Lire jusqu'à p78
@@ -31,4 +15,7 @@ Français:
   
 Eco-Juri-Mana:
   20/10/21 : Syllogisme sur le deuxième cas donné en cours
+
+Gestion: 
+  20/10/21 : Open Source Gantt Project
 
