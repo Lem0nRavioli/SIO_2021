@@ -22,9 +22,10 @@ Ex 3:
 
 Simplifier (A n (A u B)) n (A u E)
 
-(A n B) n (A u E)
-(A n B) n E
-A n B
+((A n A) u (A n B)) n (A u E)
+(A ) n (A u E)
+(A ) n E
+A
 
 Ex 4:
 
