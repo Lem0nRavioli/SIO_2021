@@ -53,4 +53,14 @@ A u !A u (A n B) = E
 A u B u !C n A = A u B u A = A u B
 
 Ex7:
+(1)
 
+Différence A \ B => A sans B => A et tout complémentaire de B => A n !B
+!A \ !B = !A n B
+A \ A = Ø
+A \ E = Ø
+A \ Ø = A
+
+(2)
+
+Faire schéma => (A \ C) \ C = A \ (B u C) 		(VRAI)
