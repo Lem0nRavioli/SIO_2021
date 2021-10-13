@@ -109,6 +109,9 @@
 		
 		ex: Si E = { x, y } et F = { 1, 2, 3 }
 			E x F = { (x, 1), (x, 2), (x, 3), (y, 1), (y, 2), (y, 3) }
+			F x E = { (1, x), (1, y), (2, x), (2, y), (3, x), (3, y) }
+			
+			F x E =/= E x F
 			
 		Remarque: on peut généraliser cette définition au produit cartésien de 3, 4, ..., n ensembles.
 		
@@ -119,6 +122,25 @@
 		ex: Dans les exemples ci dessus, CardE=2, CardF=3, CardExF=6
 		
 		Propriété: E et F étant 2 ensembles finis, alors le CardExF = CardE * CardF
-									
 		
+  
+  2.3 Application de E dans F
+  
+	2.2.1 Définition
+	
+		Une application f d'un ensemble E dans un ensemble F associe à tout élément de E un unique élément de F.
+		
+		Notation: f:E --> F
+				    x |--> f(x)	
+					"Qui a x associe f(x)
+
+		E est l'ensemble de DEPART de f
+		F est l'ensemble d'ARRIVEE de f
+		f(x) est l'IMAGE de x.
+		x est l'ANTECEDENT de f(x)
+		
+		ex: E = { 1, 2, 3 } //// 1=>x, 2=>y, 3=>y
+			F = { x, y }
+			
+			f(1) = x, f(2) = y, f(3) = y
 							
