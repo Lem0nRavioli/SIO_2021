@@ -46,6 +46,11 @@ A u (!A u B) = E
 
 Ex6: 
 
-(!A n B) u (A n B) = B n (!A u A) = B n E = E
+(!A n B) u (A n B) = B n (A! u A) = B n E = B
 A u !A u (A n B) = E
-To continue (3)
+(A n B) u (A n !B n !C) u (A n !B n C) = A n (B u (!B n !C) u (!B n C)) = A n E = A
+(A u B u !C) n C n !B = A n C n !B
+A u B u !C n A = A u B u A = A u B
+
+Ex7:
+
