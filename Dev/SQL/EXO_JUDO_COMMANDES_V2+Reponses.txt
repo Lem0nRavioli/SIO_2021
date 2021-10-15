@@ -1,0 +1,153 @@
+
+================================================================================
+EXOS 1
+================================================================================
+
+"Rajouter 2 tours et dans chaque tour rajouter 1 appart
+etre capable de verifier si les enregistrement sont bons
+
+et 
+
+S'amuser à modifier des données de la table appart et tour 
+
+================================================================================
+
+LES CLUBS DE JUDO
+CLUB DE JUDO IL A UN NOM
+CLUB DE JUDO A UNE VILLE
+CLUB DE JUDO PEUT AVOIR UN OU PLUSIEURS JUDOKAS
+UN JUDOKA NE PEUT FAIRE PARTI QUE D UN SEUL CLUB
+UN JUDOKA A UN NOM
+UN JUDOKA A UN PRENOM 
+++
+
+UN JUDOKA PEUT PARTICIPER A UN TOURNOIS
+UN JUDOKA PEUT PARTICIPER A PLUSIEURS TOURNOIS
+TOURNOIS PLUSIEURS JUDOKA"
+
+================================================================================
+
+#### LDD (langage de définition de données) ############
+CREATE TABLE CLUB (
+id_CLUB int NOT NULL,
+NOM TEXT,
+VILLE TEXT,
+PRIMARY KEY (id_CLUB)
+);
+
+CREATE TABLE judoka (
+id_judoka int NOT NULL,
+Nom text,
+Prenom TEXT,
+id_CLUB int,
+PRIMARY KEY (id_judoka),
+FOREIGN KEY (id_CLUB) REFERENCES CLUB(id_CLUB)
+) ;
+
+Create table tournois (
+id_tournois int not null,
+nom text,
+PRIMARY KEY (id_tournois)
+);
+
+create table Participer(
+id_tournois int not null,
+id_judoka int NOT NULL,
+PRIMARY KEY (id_judoka,id_tournois),
+FOREIGN KEY (id_tournois) REFERENCES tournois(id_tournois),
+FOREIGN KEY (id_judoka) REFERENCES judoka(id_judoka)
+);
+
+DROP TABLE Demo ;
+# EX : ALTER CREATE DROP RENAME
+#################################################
+#################################################
+#################################################
+#### LMD  (langage de manipulation de données)############
+INSERT INTO CLUB VALUES (001,"JUDOPANAM","PARIS");
+INSERT INTO CLUB VALUES (002,"JUDOLYON","LYON");
+INSERT INTO JUDOKA VALUES (001,"DUPONT","LUC",001);
+INSERT INTO JUDOKA VALUES (002,"DURANT","PIERRE",002);
+INSERT INTO JUDOKA VALUES (003,"DUPUIS","PAUL",001);
+INSERT INTO JUDOKA VALUES (004,"DUPRE","JACQUES",002);
+INSERT INTO JUDOKA VALUES (005,"DUMOULIN","MICHEL",001);
+INSERT INTO tournois VALUES (001,"Open de Paris");
+INSERT INTO tournois VALUES (002,"Tournois mondial");
+INSERT INTO Participer VALUES (001,001);
+INSERT INTO Participer VALUES (001,002);
+INSERT INTO Participer VALUES (001,003);
+INSERT INTO Participer VALUES (001,004);
+INSERT INTO Participer VALUES (002,001);
+INSERT INTO Participer VALUES (002,005);
+INSERT INTO Participer VALUES (002,002);
+
+#### LMD  SUITE ############
+SELECT * FROM CLUB ;
+SELECT * FROM JUDOKA WHERE id_CLUB = 001 ;
+
+SELECT * FROM JUDOKA,CLUB WHERE CLUB.VILLE = "PARIS" AND CLUB.id_club = judoka.id_club ;
+
+#jointure version 1
+SELECT judoka.nom from Participer,tournois,judoka WHERE tournois.nom = "Open de Paris" and tournois.id_tournois = Participer.id_tournois and participer.id_judoka = judoka.id_judoka ;
+
+#jointure Version 2
+SELECT * FROM judoka
+INNER JOIN club ON CLUB.id_club = judoka.id_club
+WHERE club.NOM = "JUDOPANAM";
+
+#EX : INSERT SELECT UPDATE DELETE
+
+
+
+========================================================================
+EXOS 2
+========================================================================
+
+
+
+- Donnez moi la ville du club dans lequel le judoka avec le prenom paul est inscrit ? 
+- Tout club dont judoka participe au tournois opendeparis 
+- modifie table judoka
+	ajoute attribut masse (kg)
+	taille (cm)
+
+	ajout donnée judoka
+
+	requête poid taille tournois
+
+
+SELECT CLUB.ville FROM judoka, CLUB WHERE 
+	judoka.prenom = "PAUL"
+    AND judoka.id_CLUB = CLUB.id_CLUB;
+    
+    
+SELECT DISTINCT CLUB.NOM FROM CLUB, judoka, Participer, tournois WHERE
+	tournois.id_tournois = Participer.id_tournois
+    and Participer.id_judoka = judoka.id_judoka
+    AND judoka.id_club = CLUB.id_club;
+	
+	
+ALTER TABLE judoka ADD masse FLOAT;
+ALTER TABLE judoka ADD taille int;
+
+UPDATE judoka SET masse = 75.5 WHERE id_judoka = 1;
+UPDATE judoka SET taille = 180 WHERE id_judoka = 1;
+UPDATE judoka SET masse = 65.5 WHERE id_judoka = 2;
+UPDATE judoka SET taille = 170 WHERE id_judoka = 2;
+UPDATE judoka SET masse = 85.5 WHERE id_judoka = 3;
+UPDATE judoka SET taille = 190 WHERE id_judoka = 3;
+UPDATE judoka SET masse = 55.5 WHERE id_judoka = 4;
+UPDATE judoka SET taille = 150 WHERE id_judoka = 4;
+UPDATE judoka SET masse = 45.5 WHERE id_judoka = 5;
+UPDATE judoka SET taille = 160 WHERE id_judoka = 5;
+
+SELECT DISTINCT judoka.nom FROM judoka, Participer, tournois WHERE
+	tournois.id_tournois = Participer.id_tournois
+    and Participer.id_judoka = judoka.id_judoka
+    AND judoka.masse = 75.5
+    AND judoka.taille = 180;
+
+
+
+
+
