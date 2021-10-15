@@ -1,0 +1,8 @@
+itil & SIO
+rgpd: cnil / droit / rétention donnée
+cybersecu: dicp/sureté/sécurité/différent type menace/assaillant
+
+
+https://github.com/Lem0nRavioli/SIO_2021/blob/main/SupportInfo/DocDivers/ITIL_support_maintenance_V1.1.pdf
+https://github.com/Lem0nRavioli/SIO_2021/blob/main/SupportInfo/CybSecu/RGPD_IntroV1.2.pdf
+https://github.com/Lem0nRavioli/SIO_2021/blob/main/SupportInfo/CybSecu/cyberedu_module_1_notions_de_base_02_2017.pdf
