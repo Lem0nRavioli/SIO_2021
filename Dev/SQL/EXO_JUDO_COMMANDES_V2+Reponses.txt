@@ -117,7 +117,7 @@ EXOS 2
 - requête "Open de Paris" + > 80kg + < 120cm
 - requête >= 80kg & <= 120kg
 
-- masse moyenen "Open de Paris"
+- masse moyenne "Open de Paris"
 
 
 SELECT CLUB.ville FROM judoka, CLUB WHERE 
@@ -149,7 +149,7 @@ UPDATE judoka SET taille = 160 WHERE id_judoka = 5;
 
 SELECT judoka.nom FROM judoka, Participer, tournois WHERE
 	tournois.id_tournois = Participer.id_tournois
-    and Participer.id_judoka = judoka.id_judoka
+    AND Participer.id_judoka = judoka.id_judoka
     AND judoka.masse = 75.5
     AND judoka.taille = 180;
 	
@@ -157,7 +157,7 @@ SELECT judoka.nom FROM judoka, Participer, tournois WHERE
 SELECT judoka.nom FROM judoka, Participer, tournois WHERE
 	tournois.nom = "Open de Paris"
     AND tournois.id_tournois = Participer.id_tournois
-    and Participer.id_judoka = judoka.id_judoka
+    AND Participer.id_judoka = judoka.id_judoka
     AND judoka.masse > 80.0
     AND judoka.taille < 180;
 	
@@ -168,7 +168,7 @@ SELECT judoka.nom FROM judoka WHERE judoka.masse BETWEEN 80.0 AND 120.0;
 SELECT AVG(judoka.masse) FROM judoka, Participer, tournois WHERE
 	tournois.nom = "Open de Paris"
     AND tournois.id_tournois = Participer.id_tournois
-    and Participer.id_judoka = judoka.id_judoka;
+    AND Participer.id_judoka = judoka.id_judoka;
 
 
 
