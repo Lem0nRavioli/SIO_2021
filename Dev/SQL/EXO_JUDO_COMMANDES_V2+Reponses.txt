@@ -115,7 +115,7 @@ EXOS 2
 
 - requête poid taille tournois
 - requête "Open de Paris" + > 80kg + < 120cm
-- requête > 80kg & < 120kg
+- requête >= 80kg & <= 120kg
 
 
 SELECT CLUB.ville FROM judoka, CLUB WHERE 
@@ -156,9 +156,7 @@ SELECT judoka.nom FROM judoka, Participer, tournois WHERE
     AND judoka.masse > 80.0
     AND judoka.taille < 180;
 	
-SELECT judoka.nom FROM judoka WHERE
-	judoka.masse > 80.0
-    AND judoka.masse < 120.0;
+SELECT judoka.nom FROM judoka WHERE judoka.masse BETWEEN 80.0 AND 120.0;
 
 
 
