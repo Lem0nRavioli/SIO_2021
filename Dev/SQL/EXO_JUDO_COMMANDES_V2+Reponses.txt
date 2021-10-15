@@ -161,13 +161,14 @@ SELECT judoka.nom FROM judoka, Participer, tournois WHERE
     AND judoka.masse > 80.0
     AND judoka.taille < 180;
 	
+	
 SELECT judoka.nom FROM judoka WHERE judoka.masse BETWEEN 80.0 AND 120.0;
 
 
 SELECT AVG(judoka.masse) FROM judoka, Participer, tournois WHERE
 	tournois.nom = "Open de Paris"
     AND tournois.id_tournois = Participer.id_tournois
-    and Participer.id_judoka = judoka.id_judoka
+    and Participer.id_judoka = judoka.id_judoka;
 
 
 
