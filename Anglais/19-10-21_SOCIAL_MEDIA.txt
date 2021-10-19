@@ -1,0 +1,31 @@
+	SOCIAL MEDIA
+	
+Social network is any platform that allow users to group from a common interest (Family, Pro) and 
+share data.
+Utilities : 
+	- Social media is used to stay in touch with communities.
+	- To follow news and information
+	- Professionals: 
+		# Advertising / Branding (= placement de produit)
+		# Data analytics*
+		
+		
+*: Users share data (personal, pictures, gps tags). Advertisers use this data to elaborate marketing profiles
+	and look for potential customers.
+	
+	
+D.M :
+- Your company would like you to select a social media management tool.
+- Elaborate on features, advantages, price, etc.
+150 mots
+
+https://buffer.com/pricing#
+
+I've browsed a bit to find some kind of social media management tool ranking website, and after a bit of research, it seems that
+the application Buffer might be a fit. This app is either free (but a bit limited) or will roughly cost our company around $10 to $15 a year.
+With this, you will be able to gather all of our social media account into one single app, manage your performances in a few clicks and
+plan your campaigns ahead of time. With the premium plan, you'll get access to various data analytics on your audience as a bonus, among various 
+other perks. This tool cover the biggies of social media: Instagram, facebook, linkedin, twitter and even the soon to be dead pinterest.
+I think this is a decent choice to get used to those kind of tools for a cheap price, and eventually invest into a more complex one later on.
+This app will allow us to reduce drastically the time invested into managing our social image and also the amount of workers dedicated to it.
+For the price of a pizza, this is a way to centralize this whole deal.

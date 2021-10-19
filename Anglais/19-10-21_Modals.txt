@@ -1,0 +1,41 @@
+		Modals
+		
+Probability
+
+- High probability: "I will go"
+- 50%: "I may go"
+- Low probability: "I might go"
+
+
+Capacity
+
+- Can: I can work
+- Could (Past/conditionnel) :
+	# He could not make it (past)
+	# I could help him if he asked me to (Cond)
+
+
+Obligation
+
+- Must: "You must do your work"
+	(Often with rules & regulations)
+- You have to (less strong than must)
+
+
+Advice
+
+- Should: "You should do your work"
+
+
+Ex:
+
+1 #	He talks about buying the company. He [must] be very rich.
+2 #	Exams are approaching, you [should] work harder.
+3 #	I am exhausted, but I [will] come to the meeting.
+4 #	I told the technician that he [should] run full check.
+5 #	The main road was under repair but luckily we [could] find another shortcut.
+6 #	Take your coat it [may] rain today.
+7 #	She [might] study abroad next semester.
+8 #	The engineer [should] not have downloaded this file.
+9 # My brother [could] ride a horse at the age of 3.
+10#	Customers [must] not use the service door.
