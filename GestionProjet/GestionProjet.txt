@@ -1,0 +1,30 @@
+	GESTION DE PROJET
+	
+1 - Le management de projet
+	
+	Un projet est un ensemble de plusieurs tâches avec une durée et des moyens (humains, financiers, matériels). Les tâches entre elles peuvent
+	êtres liées ou non. Le management de projet permet de déterminer la durée du projet mais aussi quelle sont les tâches dont le retard n'est pas 
+	autorisé. On parle souvent d'ordonnancement.
+	
+  1.1 - Méthode 1: diagramme de GANTT
+  
+	Quelque soit la méthode, il faut construire un tableau retro-planning. Chaque tâche est nommée par une lettre.
+	ex:
+	
+	Réf.		Libellé de la tâche		Durée 		Antériorité
+	
+	A			Réunion avec la DSI		1 jour		-
+	B			Selection des prest.	4 jours		A
+	C			Choix du prestataire	2 jours		B
+	
+	(Cf le tableau excel en annexe)
+	Il est possible qu'une tâche possède plusieurs antériorités.
+	
+	GANTT a comme simple avatage d'être facile à élaborer. Mais il ne permet pas de savoir quelles sont les tâches dont le retard est impossible
+	sous peine de retarder le projet. Ainsi que la durée du retard possible. C'est pourquoi on utiliser PERT ou MPM (même chose)
+	
+  1.2 - Méthode2: PERT
+  
+	Créée par la NASA pour les lancements de fusée en 1969. Program Evaluation Review Task.
+	
+	Cf DrawIO/Jpg en annexe
