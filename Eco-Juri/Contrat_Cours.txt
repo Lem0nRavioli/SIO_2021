@@ -189,6 +189,47 @@
 				- Le reste du monde: Les agents précédents extérieur au pays.
 				
 			Tout ces agents vont entretenir des relations qui peuvent être fonction des marchés concernés.
+			
+			
+			# Les ménages
+				
+				Au sens statistique du terme, un ménage désigne l'ensemble des occupants d'un même logement sans parentée obligatoire.
+				Ces ménages ont pour fonction économique principale de consommer, c'est à dire de détruire ce qui produise les entreprise.
+				Mais, en réalité, ils ont aussi d'autres fonctions. 
+				Les ménages sont aussi des producteurs pour leur propre consommation. En outre, les ménages vont aussi avoir pour fonction d'épargner (Thésaurisation), 
+				que ce soit pour des placements ou par précaution. Cette épargne va servir dans le financement de l'économie.
+				Enfin, les ménages sont des offreur sur le marché du travail, les entreprises en étant les demandeurs.
+				
+			# Les entreprises non-financières
+			
+				Leurs fonctions principales est la production de bien et de services. Cependant pour produire, elles doivent consommer des bien & des services mais
+				comme l'objectif est de produire, on appelle ça de la consommation intermédiaire. Ces entreprises vont intervenir sur différents marchés de bien & de 
+				services qui relèvent de différent secteurs.
+				En éconminie, on distingue 3 secteurs: 
+					- Secteur primaire (Extraction / agriculture)
+					- Secteur secondaire (Transformation)
+					- Secteur tertiaire (Services) ex: banques, assurances, agences...
+				Certaines entreprises vont appartenir à plusieurs branches d'activités. En management, on dit qu'elle se diversifie (ex: michelin). D'autres entreprises
+				seront spécialisées.
+				Ces entreprises non financières vont nouer des relations avec les autres acteurs. Déjà, elles nouent des relations entre elles (entre entreprises), 
+				certaines vont jouer le rôle de fournisseur auprès de producteurs qui auront eux même besoin de distributeurs. Ainsi, certaines entreprises ont principalement
+				pour client les ménages, d'autres ont pour client des adminitrations, ou d'autres entreprises et d'autres regroupent les 3 catégories.
+				En outre, les entreprises du même secteur vont avoir des relation de concurrence.
+				
+			# Les banques & marché financier
+			
+				Ces agents ont un rôle double. ils sont à l'origine de la création de la monnaie & joue un rôle intermédiaire entre les agents à capacité de financement et les 
+				agents à besoin de financement. Dans leur rôle de créateur de monnaie, il faut noter que les banques à caratère commercial (banque de second rang) sont encadré
+				par les banques centrales (banque de premier rang). La BCE(Banque centrale européene) va limiter la possibilité de créer de la monnaie scripturale (monnaie codée)
+				c'est à dire de la monnaie créée par opération comptable qui les banques vont prêter. Ce faisant, la banque centrale peut obliger les banque commerciales à utiliser
+				la monnaie qu'elle leur aurait prêté en fonction d'un taux directeur qui va conditionner le taux des crédits accordés par les banques commerciales. Plus le taux directeur
+				est élevé, moins l'accès au crédit sera facile.
+				En agissant de cette façon la banque centrale régule la masse monétaire en circulation (quantité) car cette quantité peut avoir des effets sur le niveaux des prix et sur 
+				la croissance. 
+				L'augmentation de la masse monétaire peut ainsi créer de l'inflation puisque les acteurs auront tendance à augmenter leur demandes. Mais elle peut aussi avoir des 
+				effets sur la production puisqu'en rendant le crédit plus disponible, l'augmentation de la masse monétaire peut stimuler l'investissement.
+			
+				
 
 
 
