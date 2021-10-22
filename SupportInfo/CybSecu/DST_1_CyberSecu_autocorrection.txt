@@ -1,0 +1,149 @@
+	PARTIE A
+
+1- Système d'information (SI)
+	Ensemble des ressources destinées à collecter, classifier, stocker,
+	gérer, diffuser les informations au sein d’une organisation
+
+2- Menaces
+	Stagiaire malintentionné
+	Perte de service
+	Code malveillant
+	Personnes extérieures malveillantes
+	
+3- Attaques
+
+	Phishing / Fraude interne / violation d'accès / Virus / DDos
+	
+4 - Type d'attaquants
+
+	Cyber-délinquant
+	Concurrents
+	Groupe CyberCriminels
+	Etats tiers
+	Personnel interne
+	
+5 - DICP
+
+Disponibilité 
+
+Propriété d'accessibilité au moment voulu
+des biens par les personnes autorisées (i.e. le bien
+doit être disponible durant les plages d’utilisation prévues)
+
+Intégrité
+
+Propriété d'exactitude et de complétude des biens
+et informations (i.e. une modification illégitime
+d’un bien doit pouvoir être détectée et corrigée)
+
+Confidentialité
+
+Propriété des biens de n'être accessibles
+qu'aux personnes autorisées
+
+Preuve
+
+Propriété d'un bien permettant de retrouver, avec
+une confiance suffisante, les circonstances dans
+lesquelles ce bien évolue. Cette propriété englobe
+Notamment :
+- La traçabilité des actions menées
+- L’authentification des utilisateurs
+- L’imputabilité du responsable de l’action effectuée
+
+6 - Risques en entreprise
+
+tableau impact vs occurences (?)
+
+7 - DDOS
+
+La déni de service distribué (DDoS) constituent une « attaque ciblée » qui consiste à saturer un site
+Web de requêtes pour le mettre « hors-service » à l’aide de « botnets », réseaux d’ordinateurs
+infectés et contrôlés par les attaquants.
+
+Protection: Multiple serveur/réseaux/firewalls (dégroupage du service), augmeter la bande passante des serveurs,
+			softwares/hardware anti ddos, héberger sur le cloud (qui inclue des services de protection & une meilleure
+			bande passante), sous traiter la protection contre les attaque DDOS.
+			
+Source: https://securityscorecard.com/blog/best-practices-to-prevent-ddos-attacks
+
+
+	PARTIE B
+	
+1 - CNIL & son rôle
+
+Commission Nationale de l'Informatique & des Libertés : 
+Assure la protection des données à caractère personnel
+
+2 - ANSSI & son rôle
+
+Agence nationale de la sécurité des systèmes d'information
+Dans le domaine de la défense des systèmes d'information, elle assure un service de veille, de détection, 
+d’alerte et de réaction aux attaques informatiques, notamment sur les réseaux de l'État
+
+3 - RGPD
+
+un règlement de l'Union européenne qui constitue le texte de référence en matière de protection des données à caractère personnel. 
+Il renforce et unifie la protection des données pour les individus au sein de l'Union européenne.
+
+4 - 6 bon réflexes de la CNIL
+
+- Ne collectez que les données vraiment nécessaires
+- Soyez transparent
+- Pensez aux droits des personnes
+- Gardez la maîtrise de vos données
+- Identifiez les risques
+- Sécurisez vos données
+
+
+5 - Préconisations ANSSI pour MDP
+
+Définir une politique de mot de passe qui oblige à
+– Créer un mot de passe complexe :
+• différent d’un mot sorti du dictionnaire ;
+• différent d’une date de naissance (celle de votre conjoint, enfant…) ;
+• différent d’une partie du nom d’utilisateur, du nom, ou du prénom, etc.
+– Avoir un mot de passe d’au moins 8 caractères (10 pour les
+admin) ;
+– Changer régulièrement les mots de passe (tous les 6 mois) ;
+• la fréquence des changements dépend de la sensibilité des systèmes
+accédés, par exemple le code pour accéder en ligne à son compte bancaire
+sera changé plus régulièrement.
+– Utiliser un mot de passe pour déverrouiller l’écran de veille
+
+https://www.ssi.gouv.fr/administration/guide/recommandations-relatives-a-lauthentification-multifacteur-et-aux-mots-de-passe/
+
+6 - Droits RGPD
+
+- Droit à l’information
+	Pour être loyale et licite, la collecte de données personnelles doit s’accompagner d’une information claire et précise des personnes sur :
+
+	-l’identité du responsable du fichier ;
+	-la finalité du fichier ;
+	-le caractère obligatoire ou facultatif des réponses et des conséquences d’un défaut de réponse ;
+	-les destinataires des données ;
+	-leurs droits (droit d’accès, de rectification, et d’opposition) ;
+	-les éventuels transferts de données vers des pays hors UE.
+	
+- Le droit d’opposition
+	Les personnes doivent pouvoir s’opposer à la réutilisation par le responsable du fichier de leurs coordonnées à des fins de sollicitations, 
+	notamment commerciales, lors d’une commande ou de la signature d’un contrat. Une case à cocher, non cochée par défaut, doit leur permettre d’exprimer 
+	leur choix directement sur le formulaire ou le bon de commande à remplir. La simple mention de l’existence de ce droit dans les conditions générales n’est pas suffisante.
+	Toute personne a le droit de s’opposer, pour des motifs légitimes, au traitement de ses données, sauf si celui-ci répond à une obligation légale (ex : fichiers des impôts).
+
+- Droit de rectification & contrôle & oubli
+	accéder à l’ensemble des informations la concernant ;
+	connaître l’origine des informations le concernant ;
+	accéder aux informations sur lesquelles le responsable du fichier s’est fondé pour prendre une décision le concernant 
+	(par exemple, les éléments qui auraient servi pour ne pas vous accorder une promotion ou le score attribué par une banque et qui a conduit au rejet de votre demande de crédit) :
+	en obtenir la copie (des frais n’excédant pas le coût de la reproduction peuvent être demandés) ;
+	exiger que ses données soient, selon les cas, rectifiées, complétées, mises à jour ou supprimées.
+
+- Droit à la portabilité
+	recevoir dans un format structuré, couramment utilisé et lisible par machine (ordinateur) les données personnelles la concernant déjà fournies à un responsable de traitement ;
+	faire transmettre directement ces données à un autre responsable de traitement lorsque c’est techniquement possible.
+	
+- Droit de réparation
+
+	Toute personne ayant subi un dommage matériel ou moral du fait d'une violation du présent règlement a le droit d'obtenir du 
+	responsable du traitement ou du sous-traitant réparation du préjudice subi.
