@@ -1,11 +1,10 @@
 Math: 
-- /
+- 27/10/21 : Ex6/7
 
 Anglais: 
-- 26/10/21 : Exo Social Media Management Tool 
+- 7/10/21 : Résumé français Green Grid
  
 Français:
-  26/10/21 : DST + sujet 
   07/12/21 : Sujet donné après DST à rendre
   11/01/22 : BTS BLANC
   01/03/22 : Rendre devoir donné 25/01/22
