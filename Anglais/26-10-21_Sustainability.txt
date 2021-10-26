@@ -1,0 +1,65 @@
+	Comparative
+	
+He is tall => Il est grand
+He is taller than ... => Il est plus grand que ...
+He is the tallest => Il est le plus grand
+
+Good, better, best
+bad, worse, worst
+		
+	
+	Sustainability in I.T
+	
+To be sustainable: Durable(env...)
+
+Causes: 
+	1- E-Waste => electronic waste.
+		Disposables: Computers, monitors, toners and cartridges
+	2- Electricity consumption (To consume).
+		Information technology companies are one of the greediest consumer of power supply.
+	3- Toxic substances
+		Computer and electronic devices contain toxic substances such as mercury, lead (plomb)
+	4- Extraction raw materials (mining).
+		Mines are exploited dangerously by vunerable populations.
+		
+Evolutions: 
+	1- Bigger and powerful procesors.
+		Bigger computers tend to consume less power than smaller ones.
+		(ex: 10 virtual machines that will avoid the usage of physical ones)
+	2- Refurbishing / recycling
+		Companies now specialize in repairing and resale of used devices.
+	3- Green datacenters
+		Datacenters are well known to be more efficient than singular servers.
+		If they use green energy, they can have a positive carbon footprint.
+	4- Automation
+		software programming allied with sensors allow to generate enormous energy savings.
+		
+
+Vous êtes le DSI d'une entreprise qui vient d'être verbalisée pour plusieurs infractions liées au code de l'urbanisme.
+	- La commune vous reproche de ne pas avoir de politique de recyclage
+	- Vos déchets ont été retrouvés à la centrale d'incinération.
+	- Votre facture d'électricité est en hausse de 130%
+Le directeur vous demande un plan d'action pour remédier à cette situation catastrophique.
+
+Oh grand director.
+
+I have heard your commands. The following process may, or even will if enough whipping is provided, adress the recent blames 
+our magnificent company face today.
+For starter, we need to inform our staff that printing in color or pointless is to be avoided. This will drastically decrease
+our cartridges consumption. This campaign should be completed by recycling advice, that way, if our employees do not respect it,
+we will be free to fire them for serious misconduct. 
+This state of fear that will be then in place will make the future change you might want to pass way easier to implement.
+Also, I made some research, and it seems that some peasant companies would be delighted to buy our wastes for substantial amount of money,
+leading us to be richer and adress the infamous accusations that we are facing today even more.
+To finish with the electricity consumption, I wouldn't dare to speak about your new 40 square feet fully illuminated & heated shark tank, 
+but I think that making our employees work in the dark would help them focus on their tiny computer screen better, by making all distraction
+disapear from their sight. It could be worthwhile to consider investments into automation also, since humans are still tedious to deal with and 
+often stay too long in the restroom. Cutting the light after 12.3 seconds will help them get out faster and save a substencial amount of power.
+
+I hope that your greatness will be satisfied with this fix-everything plan
+
+Always delighted to work under you,
+
+DSI
+
+Résumé français 150 mots
