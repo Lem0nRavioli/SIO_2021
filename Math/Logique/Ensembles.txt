@@ -143,4 +143,61 @@
 			F = { x, y }
 			
 			f(1) = x, f(2) = y, f(3) = y
-							
+			
+	2.2.2 Image d'une partie de E
+	
+		Soit f une application d'un ensemble E dans un ensemble F, et soit A une partie de E.
+		L'image (directe) de A par f est l'ensemble, noté f(A), des images des éléments de A.
+		
+		f(A) = { f(x) € F; x € E }
+		
+		ex: E = { 1, 2, 3, 4 } A = { 2, 3, 4 }
+			F = { a, b, c, d, e, f }  f(E) = { c, b, c, d } f(A) = { b, c, d }
+			
+		Remarques: 
+			- on a f(A) c F
+			- f(x) =/= f(A)
+			
+		Propriétés: Soit f une application d'un ensemble E dans un ensemble F, et soient A et A' deux parties de E, on a:
+		
+			f(A u A') = f(A) u f(A')
+			f(A n A') c f(A) n f(A')
+			
+		Ex: voir exercices 6 & 7
+		
+	2.2.3 Image réciproque d'une partie de F
+	
+		Soit f une application d'un ensemble E dans un ensemble F, et soit B une partie de F.
+		L'image réciproque de B par f est l'ensemble f-1(B) des images des éléments de E qui sont les antécédents des éléments de B:
+		
+			f-1(B) = { x € E; f(x) € B }
+			
+		ex: E = { 1, 2, 3, 4 } 
+			F = { a, b, c, d }  f(E) = { a, b, b, c } 
+			B = { a, b }
+			f-1(B) = { 1, 2, 3 }
+			f-1(d) = Ø
+			
+		Propriétés: Soit f une application d'un ensemble E dans un ensemble F, et soit B et B' deux parties de E. On a:
+		
+			f(B u B') = f(A) u f(A')
+			f(B n B') = f(B) n f(B')
+			
+		ex: voir exercices 6/7/9/10
+		
+	2.2.4 Injection - surjection - bijection
+	
+		Soit f une application d'un ensemble E dans un ensemble F.
+		
+		f est une injection == application injective ssi chaque élément de E a une image distincte.
+		
+			∀ x € E, ∀ x' € E, x =/= x' => f(x) =/= f(x')
+			
+		f est une surjection == application surjective ssi tout élément de F a au moins un antécédent.
+		
+			∀ y € F, ∃ x € E, y = f(x)
+			
+		f est une bijection == application bijective ssi elle est à la fois injective et surjective => tout les éléments
+		de F a un antécédent unique.
+			
+			∀ y € F, !∃ x € E, y = f(x)
