@@ -174,62 +174,118 @@
   
 	1.2.1 - Prix et décisions des agents économiques.
 	
-			Le Marché
+		I - Le Marché
 		
-			Un Marché est un lieu théorique de rencontre entre une offre et une demande qui aboutis à la formation d'un prix. Il existe plusieurs marchés. Marché de l'emplois,
-			Le marché des biens & des services ou encore le marché financier. Sur tout ces marchers des agents économique vont intervenir et remplir une fonction.
-			
-		A - Les agents économique et leurs fonctions.
-		
-			Traditionnellement, on distingue 5 grandes catégories d'agents: 
-				- Les entreprises non-financières (pas banque): Fonction principale de production
-				- Les ménages: Fonction princpale de consommation
-				- Les entreprises financières (banques): Fonction principale de financement
-				- L'Etat: Fonction principale de régulation
-				- Le reste du monde: Les agents précédents extérieur au pays.
+				Un Marché est un lieu théorique de rencontre entre une offre et une demande qui aboutis à la formation d'un prix. Il existe plusieurs marchés. Marché de l'emplois,
+				Le marché des biens & des services ou encore le marché financier. Sur tout ces marchers des agents économique vont intervenir et remplir une fonction.
 				
-			Tout ces agents vont entretenir des relations qui peuvent être fonction des marchés concernés.
+			A - Les agents économique et leurs fonctions.
 			
-			
-			# Les ménages
+				Traditionnellement, on distingue 5 grandes catégories d'agents: 
+					- Les entreprises non-financières (pas banque): Fonction principale de production
+					- Les ménages: Fonction princpale de consommation
+					- Les entreprises financières (banques): Fonction principale de financement
+					- L'Etat: Fonction principale de régulation
+					- Le reste du monde: Les agents précédents extérieur au pays.
+					
+				Tout ces agents vont entretenir des relations qui peuvent être fonction des marchés concernés.
 				
-				Au sens statistique du terme, un ménage désigne l'ensemble des occupants d'un même logement sans parentée obligatoire.
-				Ces ménages ont pour fonction économique principale de consommer, c'est à dire de détruire ce qui produise les entreprise.
-				Mais, en réalité, ils ont aussi d'autres fonctions. 
-				Les ménages sont aussi des producteurs pour leur propre consommation. En outre, les ménages vont aussi avoir pour fonction d'épargner (Thésaurisation), 
-				que ce soit pour des placements ou par précaution. Cette épargne va servir dans le financement de l'économie.
-				Enfin, les ménages sont des offreur sur le marché du travail, les entreprises en étant les demandeurs.
 				
-			# Les entreprises non-financières
-			
-				Leurs fonctions principales est la production de bien et de services. Cependant pour produire, elles doivent consommer des bien & des services mais
-				comme l'objectif est de produire, on appelle ça de la consommation intermédiaire. Ces entreprises vont intervenir sur différents marchés de bien & de 
-				services qui relèvent de différent secteurs.
-				En éconminie, on distingue 3 secteurs: 
-					- Secteur primaire (Extraction / agriculture)
-					- Secteur secondaire (Transformation)
-					- Secteur tertiaire (Services) ex: banques, assurances, agences...
-				Certaines entreprises vont appartenir à plusieurs branches d'activités. En management, on dit qu'elle se diversifie (ex: michelin). D'autres entreprises
-				seront spécialisées.
-				Ces entreprises non financières vont nouer des relations avec les autres acteurs. Déjà, elles nouent des relations entre elles (entre entreprises), 
-				certaines vont jouer le rôle de fournisseur auprès de producteurs qui auront eux même besoin de distributeurs. Ainsi, certaines entreprises ont principalement
-				pour client les ménages, d'autres ont pour client des adminitrations, ou d'autres entreprises et d'autres regroupent les 3 catégories.
-				En outre, les entreprises du même secteur vont avoir des relation de concurrence.
+				# Les ménages
+					
+					Au sens statistique du terme, un ménage désigne l'ensemble des occupants d'un même logement sans parentée obligatoire.
+					Ces ménages ont pour fonction économique principale de consommer, c'est à dire de détruire ce qui produise les entreprise.
+					Mais, en réalité, ils ont aussi d'autres fonctions. 
+					Les ménages sont aussi des producteurs pour leur propre consommation. En outre, les ménages vont aussi avoir pour fonction d'épargner (Thésaurisation), 
+					que ce soit pour des placements ou par précaution. Cette épargne va servir dans le financement de l'économie.
+					Enfin, les ménages sont des offreur sur le marché du travail, les entreprises en étant les demandeurs.
+					
+				# Les entreprises non-financières
 				
-			# Les banques & marché financier
-			
-				Ces agents ont un rôle double. ils sont à l'origine de la création de la monnaie & joue un rôle intermédiaire entre les agents à capacité de financement et les 
-				agents à besoin de financement. Dans leur rôle de créateur de monnaie, il faut noter que les banques à caratère commercial (banque de second rang) sont encadré
-				par les banques centrales (banque de premier rang). La BCE(Banque centrale européene) va limiter la possibilité de créer de la monnaie scripturale (monnaie codée)
-				c'est à dire de la monnaie créée par opération comptable qui les banques vont prêter. Ce faisant, la banque centrale peut obliger les banque commerciales à utiliser
-				la monnaie qu'elle leur aurait prêté en fonction d'un taux directeur qui va conditionner le taux des crédits accordés par les banques commerciales. Plus le taux directeur
-				est élevé, moins l'accès au crédit sera facile.
-				En agissant de cette façon la banque centrale régule la masse monétaire en circulation (quantité) car cette quantité peut avoir des effets sur le niveaux des prix et sur 
-				la croissance. 
-				L'augmentation de la masse monétaire peut ainsi créer de l'inflation puisque les acteurs auront tendance à augmenter leur demandes. Mais elle peut aussi avoir des 
-				effets sur la production puisqu'en rendant le crédit plus disponible, l'augmentation de la masse monétaire peut stimuler l'investissement.
-			
+					Leurs fonctions principales est la production de bien et de services. Cependant pour produire, elles doivent consommer des bien & des services mais
+					comme l'objectif est de produire, on appelle ça de la consommation intermédiaire. Ces entreprises vont intervenir sur différents marchés de bien & de 
+					services qui relèvent de différent secteurs.
+					En éconminie, on distingue 3 secteurs: 
+						- Secteur primaire (Extraction / agriculture)
+						- Secteur secondaire (Transformation)
+						- Secteur tertiaire (Services) ex: banques, assurances, agences...
+					Certaines entreprises vont appartenir à plusieurs branches d'activités. En management, on dit qu'elle se diversifie (ex: michelin). D'autres entreprises
+					seront spécialisées.
+					Ces entreprises non financières vont nouer des relations avec les autres acteurs. Déjà, elles nouent des relations entre elles (entre entreprises), 
+					certaines vont jouer le rôle de fournisseur auprès de producteurs qui auront eux même besoin de distributeurs. Ainsi, certaines entreprises ont principalement
+					pour client les ménages, d'autres ont pour client des adminitrations, ou d'autres entreprises et d'autres regroupent les 3 catégories.
+					En outre, les entreprises du même secteur vont avoir des relation de concurrence.
+					
+				# Les banques & marché financier
 				
+					Ces agents ont un rôle double. ils sont à l'origine de la création de la monnaie & joue un rôle intermédiaire entre les agents à capacité de financement et les 
+					agents à besoin de financement. Dans leur rôle de créateur de monnaie, il faut noter que les banques à caratère commercial (banque de second rang) sont encadré
+					par les banques centrales (banque de premier rang). La BCE(Banque centrale européene) va limiter la possibilité de créer de la monnaie scripturale (monnaie codée)
+					c'est à dire de la monnaie créée par opération comptable qui les banques vont prêter. Ce faisant, la banque centrale peut obliger les banque commerciales à utiliser
+					la monnaie qu'elle leur aurait prêté en fonction d'un taux directeur qui va conditionner le taux des crédits accordés par les banques commerciales. Plus le taux directeur
+					est élevé, moins l'accès au crédit sera facile.
+					En agissant de cette façon la banque centrale régule la masse monétaire en circulation (quantité) car cette quantité peut avoir des effets sur le niveaux des prix et sur 
+					la croissance. 
+					L'augmentation de la masse monétaire peut ainsi créer de l'inflation puisque les acteurs auront tendance à augmenter leur demandes. Mais elle peut aussi avoir des 
+					effets sur la production puisqu'en rendant le crédit plus disponible, l'augmentation de la masse monétaire peut stimuler l'investissement.
+					
+			B - Le marché de concurrence pure & parfaite
+			
+				Le marché de concurrence pure & parfaite présente 5 caractèristiques:
+					- L'Atomicité de l'offre et de la demande : Beaucoup d'offreur / Beaucoup de demandeur pour éviter le monopole.(atomicité == taille réduite//indivisible)
+					- Homogénéité des produits qui sont substituable les uns aux autres.
+					- La libre circulation des facteurs de production (Ressources humaines / capital).
+					- Transparence de l'information
+					- Libre entrée / sortie du marché
+					
+				Evidemment, le marché réel ne répond pas à cette définition et si une des caractèristiques n'est pas remplie on parle de disfonctionnement du marché.
+				# L'atomicité est remise en cause en cas de monopole, duopole ou oligopole. Porte aussi atteinte à l'atomicité les abus de position dominante ou
+					les ententes. 
+				# L'homogénéité va être remise en cause lorsqu'une entreprise propose des produits tellement différenciés qu'elle se trouve en situation de quasi-monopole
+					ou de monopole relatif sur ses propres produits (ex: apple)
+				# La libre circulation des facteurs de production peut être limitée par des contraintes géographiques ou légales. Dans l'UE, cette libre circulation est
+					assurée par plusieurs principes:
+						- Libre prestation de services
+						- Liberté d'établissement
+						- Libre circulation des travailleurs
+				# La transparence de l'information peut être remise en cause par des actes de concurence déloyale. (ex: parasitisme: marque chanal/chanel)
+				# La libre entrée et sortie du marché peut être remise en cause lorsqu'il existe des barrières. Ces barrières peuvent être techniques, 
+					financières ou légales.
+				
+		II - Le prix comme information
+			
+			Le prix est une information à disposition des acteurs qui va orienter leurs comportements. Déjà, il donne une information sur la rareté et prétendûement sur
+			sa valeur. Il sers aussi à l'allocation des ressources car seuls les acteurs qui sont prêts à payer le prix le plus élevé pourront les acquérir. Ce prix est
+			appellé le prix de RESERVE. En général la demande baisse lorsque le prix du bien augmente. A l'inverse lorsque le prix augmente les offreurs ont plutôt 
+			tendance à augmenter leurs offres (En général si prix augmente demande baisse, mais les offreurs produisent plus si ça se vend toujours).
+			
+			La variation de la demande d'un bien dépend de la nature du bien. Cette variation est appelée l'ELASTICITE de la demande.
+			
+			- Si la demande baisse alors que le prix augmente le bien est qualifié de "normal". 
+			- Si la demande augmente alors que le prix augmente le bien est qualifié de "Luxe" ou de "première nécessité".
+			- Si la demande varie peu quelque soit le prix, c'est un bien de "première nécessité"
+			
+			Ce prix va conditionner les décisions des agents qui devront faire des arbitrages. Grâce aux informations dont ils disposent. Ainsi, la décision de consommer
+			des ménages dépend de leurs revenus de leur capacité d'épargne et de l'élasticité du bien.
+			
+			La décision de produire par les entreprises va dépendre de la rentabilité du marché, de l'environnement concurenciel, de ses ressources, compétences ainsi que 
+			de sa volonté d'investir et d'anticiper l'avenir (à l'instar de la capacité à épargner des ménages).
+			
+			Toutefois afin d'échanger le prix sur les marchés tout les agents peuvent aujourd'hui utiliser une monnaie qui pour remplir ses fonctions doit avir plusieurs
+			qualités: 
+				- La monnaie doit être stable.
+				- La monnaie doit être de confiance.
+				
+			On peux donc distinguer plusieurs monnaies: La fiducières(espèces) ou scripturales(bits). Leurs fonction sont triples:
+				- Instrument de circulation des biens,
+				- Instrument de réserve de pouvoir d'achat (épargne),
+				- Instrument de mesure permettant d'évaluer les biens et donc d'en fixer les prix.
+			
+			Pour remplir ces fonctions, la monnaie doit inspirer confiance et être stable tant du point de vu interne qu'externe. Les agents économiques ont confiance dans
+			une monnaie tant qu'ils pensent qu'ils pourront acquérir ce qu'ils souhaitent en l'utilisant. 
+			Pour obtenir cette confiance il faut que la monnaie possède une valeur qui soit stable à la fois au niveau du pouvoir d'achat (stabilité interne == pas d'inflation)
+			et au niveau du taux de change (stabilité externe) puisqu'une baisse de la valeur de la monnaie doméstique par rapport à une devise étrangère signifierait une baisse
+			de la quantité de bien importés par l'usage de la monnaie domestique.
 
 
 
