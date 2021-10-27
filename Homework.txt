@@ -12,7 +12,7 @@ Français:
   29/03/22 : BTS BLANC
   
 Eco-Juri-Mana:
-  08/10/21 : Devoir Maison
+  08/10/21 : Devoir Maison / greg.bourilhon@gmail.com
 
 Gestion: 
   20/10/21 : Open Source Gantt Project
