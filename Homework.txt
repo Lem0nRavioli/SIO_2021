@@ -12,7 +12,7 @@ Français:
   29/03/22 : BTS BLANC
   
 Eco-Juri-Mana:
-  20/10/21 : Syllogisme sur le deuxième cas donné en cours
+  08/10/21 : Devoir Maison
 
 Gestion: 
   20/10/21 : Open Source Gantt Project
