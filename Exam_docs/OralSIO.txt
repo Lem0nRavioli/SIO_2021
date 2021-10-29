@@ -1,0 +1,54 @@
+Document d'accompagnement (type portfolio) pour l'épreuve:
+	- profile / parcours
+	- Résumé stage
+	- Veille techno
+	- Assurer la validation de compétences via évocation spécifique quelque part
+	- favoriser un portefolio wordpress (L'assurance du candidat serait plus valorisée que sa compétence technique)
+	
+A prendre en compte:
+	- locaux pourraves
+	- pas forcément de rétro
+	- pas forcément de PC
+	- Pas forcément de net (prévoir 4g)	
+
+Déroulement de l'entretien:
+	- 10/12 mn de speech personnel se présentant + résumant nos stages
+	- Suivis avec questions des examinateurs demandant plus de détails.
+
+
+Blocks Compétences:
+
+Activité 1.1. Gestion du patrimoine informatique
+	- Recensement et identification des ressources numériques
+	- Exploitation des référentiels, normes et standards adoptés par le prestataire informatique
+	- Mise en place et vérification des niveaux d’habilitation associés à un service
+	- Vérification des conditions de la continuité d’un service informatique
+	- Gestion des sauvegardes
+	- Vérification du respect des règles d’utilisation des ressources numériques
+	
+Activité 1.2. Réponse aux incidents et aux demandes d’assistance et d’évolution
+	- Collecte, suivi et orientation des demandes
+	- Traitement des demandes concernant les applicatifs, services réseau et système
+	- Traitement des demandes concernant les applications
+	
+Activité 1.3. Développement de la présence en ligne de l’organisation
+	- Participation à la valorisation de l’image de l’organisation sur les médias numériques en
+		tenant compte du cadre juridique et des enjeux économiques
+	- Référencement des services en ligne de l’organisation et mesure de leur visibilité
+	- Participation à l’évolution d’un site Web exploitant les données de l’organisation
+	
+Activité 1.4. Travail en mode projet
+	- Analyse des objectifs et des modalités d’organisation d’un projet
+	- Planification des activités
+	- Évaluation des indicateurs de suivi d’un projet et analyse des écarts
+	
+Activité 1.5. Mise à disposition des utilisateurs d’un service informatique
+	- Test d’intégration et d’acceptation d’un service
+	- Déploiement d’un service
+	- Accompagnement des utilisateurs dans la mise en place d’un service
+	
+Activité 1.6. Organisation de son développement professionnel
+	- Mise en place de son environnement d’apprentissage personnel
+	- Mise en œuvre d’outils et de stratégie veille informationnelle
+	- Gestion de son identité professionnelle
+	- Développement de son projet professionnel
