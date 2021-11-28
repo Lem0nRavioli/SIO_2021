@@ -1,3 +1,4 @@
+
 	Comparative
 	
 He is tall => Il est grand
@@ -63,3 +64,29 @@ Always delighted to work under you,
 DSI
 
 Résumé français 150 mots
+
+
+The green grid, non-profit consortium 1
+improve data centr energy efficiency 1
+50% of us data center use natural cooling, 25% comptent le faire 1
+chiffre au dessus d'une étude sur l'utilisation des économiseurs, solution de refroidissement utilisant le climat extérieur 1
+Les économiseurs ne sont, pour la plupart, pas utilisés tout l'anéne et ne couvrent pas complétement les besoint de refroidissement, mais réduisent les coup néamoins (-20% energy cost, -7% maintenance) 1
+Pour améliorer le rendement de ces systèmes, les company cherchent des localisation aux température plus froides, comme la suède pour facebook. 1
+Les économiseurs ne sont pas utilisés de manière optimale (seulement 80% du temsp ou ils seraient efficaces) pour des inquiétudes de fiabilités de  de transition entre cooling systems 1
+Malgré ci dessus, 80% des répondants recommandent les économiseurs 1
+Le document se penche sur le résultat discordant avec l'attente du niveau d'efficacité énergétique entre ancien/nouveau cooling system, étude qui ne montre pas de changement entre les deux, en investigation
+Malgré cette absence d'amélioration de l'efficacité énergétique, les proprio restent satisfait.
+
+
+Article de Pete Foster sur une étude de The Green Grid.
+
+The green grid est un consortium non lucratif qui travaille à améliorer l'efficacité énergétique des centre de données.
+50% des centres des US utilisent des économiseurs: une solution de refroidissement utilisant le climat extérieur pour
+fonctionner. 25% de plus comptent utiliser ces systèmes dans le futur. 60% des économiseurs ne sont pas utilisés tout l'année
+mais réduisent néamoins de 20% les coût en énergie et de 7% la maintenance. Des companies comme facebook cherchent à améliorer
+le rendement en utilisant des localisation froides comme la Suède. Pour des inquiétudes de transition et de fiabilités, l'utilisation
+des économiseurs n'est pas encore optimale (80% du potentiel). Malgré ça, 80% des utilisateurs recommandent leurs utilisation. Les 
+propriétaires sont satisfait du produit malgré l'absence de preuve d'amélioration de l'efficacité énergétique attendue. The Green Grid
+compte étudier la raison de cette absence d'amélioration d'efficacité.
+
+150 mots piles
