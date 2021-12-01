@@ -1,0 +1,90 @@
+2 Algèbre de Boole
+
+	On a remarqué qu'il existe une concordance entre les langages de la logique et de la théorie des ensembles. 
+	Il s'agit de deux cas particuliers d'une structure appelée ALGÈBRE DE BOOLE.
+	Rmq: Georges Boole: logicien, mathématicien, et philosophe britannique (1815-1864).
+	
+	Caractéristique	Algèbre Boole			Propositions			Ensembles
+	
+	Commutative		a+b = b+a				P∨Q <=> Q∨P				AuB = BuA
+					a.b = b.a				P∧Q <=> Q∧P				AnB = BnA
+					
+	DoubleDistrib	a.(b+c) = ab+ac			P∧(Q∨R)<=>(P∧Q)∨(P∧R)	An(BuC)=(AnB)u(AnC)
+					a+(b.c) = a.b + a.c		P∨(Q∧R)<=>(P∨Q)∧(P∨R)	Au(BnC)=(AuB)n(AuC)
+					
+	Element Nul		a + 0 = a				P∨F <=> P				A u Ø = A
+	
+	Element Unité	a . 1 = a				P∧V <=> P				A n E = A
+	
+	Complément		a + !a = 1				P∨!P <=> V				A u !A = E
+					a . !a = 0				P∧!P <=> F				A n !A = Ø
+					
+					
+		+ = ∨ = u
+		. = ∧ = n
+	
+
+	A) Définition
+	
+		Un ensemble B (non vide) muni de deux lois de composition interne ( + et . ), d'une	opération unaire ( négation ̄a ) et possédant 
+		deux éléments particuliers ( 0 et 1 ), a une STRUCTURE d'ALGÈBRE DE BOOLE si et seulement si les propriétés suivantes sont vérifiées:
+		
+			- ∀(a, b)∈B² 		a+b=b+a 				commutativité de +
+			- ∀(a, b)∈B² 		a.b=b.a 				commutativité de .
+			- ∀(a, b, c)∈B³ 	a.(b+c)=a.b+a.c			distributivité de . parrapport à+
+			- ∀(a ,b , c)∈B³	a+(b . c )=(a+b).(a+c) 	distributivité de+ parrapport à .
+			- ∀a∈B 				a+0=a 0					élément nul
+			- ∀a∈B 				a.1=a 1 				élément unité
+			- ∀ a∈B 			a+!a=1 					!a=complément de a
+			- ∀ a∈B 			a .!a=0 				!a=complément dea
+			
+			
+		Table de l'addition booléenne:
+			
+			X	0	1
+			0	0	1
+			1	1	1
+			
+		Table de la multiplication booléenne:
+		
+			X	0	1
+			0	0	0
+			1	0	1
+			
+	
+	B) Propriétés
+	
+		Soit un ensemble B muni d'une structure d'algèbre de Boole. Prenons a€B,b€B, c€B :
+		
+		1. Idempotence
+		
+			a+a=a
+			a.a=a
+			
+		2. Propriétés des éléments nul et unité: 0 et 1
+		
+			a+1=1
+			a.0=0
+			
+		3. Absorption
+		
+			a+ab=a
+			a(a+b)=a
+			
+		4. Associativité
+		
+			(a+b)+c=a+(b+c) on écrit a+b+c
+			(ab)c=a(bc) on écrit abc
+			
+		5. Propriétés du complément
+		
+			∀a∈B
+			̄̄a=a
+			̄0=1
+			̄1=0
+			
+		6. Lois de Morgan
+		
+			∀(a, b)∈B²
+			a+b= !a!b
+			(ab)=!a+!b

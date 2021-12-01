@@ -201,3 +201,14 @@
 		de F a un antécédent unique.
 			
 			∀ y € F, !∃ x € E, y = f(x)
+			
+	2.2.5 Composition d'applications 
+	
+		x -f-> f(x) -g-> g(f(x) = g ○ f(x) : "g rond f de x"
+		
+		/!\ L'ensemble de départ de g doit être égal à l'ensemble d'arrivée de f
+		ex :	ciment => brique => maison
+				ciment => jambon =/=> maison
+				
+		Pour définir la réciproque d'une application, il faut qu'elle soit bijective.
+		(Mirroir mirroir)
