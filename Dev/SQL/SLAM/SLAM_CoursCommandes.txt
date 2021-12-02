@@ -22,12 +22,59 @@ taper terminal: exit
 mariadb -u root -p < schema.sql 
 
 (update schema.sql, cf git)
-https://sql.sh/cours/select
 
+Order of request:
+SELECT *
+FROM table
+WHERE condition
+GROUP BY expression
+HAVING condition
+{ UNION | INTERSECT | EXCEPT }
+ORDER BY expression
+LIMIT count
+OFFSET start
+
+https://sql.sh/cours/select
 select email from user;
 select psw from user;
+
+https://sql.sh/cours/distinct
 select distinct psw from user; (même psw ne sont select qu'une fois)
+
+https://sql.sh/cours/where
 select psw from user where email = 'test';
 select psw from user where email in ('test', 'test3');
+
+https://sql.sh/cours/group-by
 select email, sum(tarif) from user group by email;
+select email, sum(tarif) as tarif from user group by email;
+select email, count(email) from user group by email;
+
+https://sql.sh/cours/having
+select email, sum(tarif) from user group by email having sum(tarif) > 80;
+select email, sum(tarif) as tarif from user group by email having tarif > 80;
+
+https://sql.sh/cours/order-by
+select tarif, email from user order by tarif desc, email asc;
+select sum(tarif), email from user group by email  order by tarif desc, email asc;
+
+https://sql.sh/cours/limit
+select sum(tarif), email from user group by email  order by tarif desc, email asc limit 3;
+select sum(tarif), email from user group by email  order by tarif desc, email asc limit 3 offset 2;
+select sum(tarif), email from user group by email  order by tarif desc, email asc limit 2, 3; (autre syntax)
+select * from user offset 3 rows;
+
+https://sql.sh/cours/update
+update user set tarif = 0 where tarif > 1000;
+update user set tarif = 200, psw = 'passwoodywoodpecker', email = 'testemail' where tarif = 0;
+update user set tarif = 300, psw = 'passwoodywoodpecker', email = 'testemail' where tarif = 200 and email = 'testemail';
+// sans where, l'update est effective sur toute la colonne
+
+https://sql.sh/cours/delete
+delete from user where tarif < 20;
+// delete toutes les données	=> delete from user; (delete sans reset auto increment)
+// delete toutes les données	=> truncate table user; (delete + reset auto increment)
+
+
+
 
