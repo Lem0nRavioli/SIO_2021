@@ -15,7 +15,7 @@ Bloc de compétences n°1 - Support et mise à disposition de services informati
 	
 		- Collecter, suivre et orienter des	demandes
 		- Traiter des demandes concernant les services réseau et système, applicatifs
-		- TTraiter des demandes concernant les applications
+		- Traiter des demandes concernant les applications
 
 	Développer la présence en ligne de l’organisation
 	
@@ -74,8 +74,8 @@ Bloc de compétences n°2 option A « Solutions d’infrastructure, systèmes et
 	Exploiter, dépanner et superviser une solution d’infrastructure réseau
 	
 		- Administrer sur site et à distance des éléments d’une infrastructure
-		- Automatiser des tâches d’administration  Gérer des indicateurs et 
-			des fichiers d’activité des éléments d’une infrastructure
+		- Automatiser des tâches d’administration
+		- Gérer des indicateurs et 	des fichiers d’activité des éléments d’une infrastructure
 		- Identifier, qualifier, évaluer et réagir face à un incident ou à un problème
 		- Évaluer, maintenir et améliorer la qualité d’un service
 		

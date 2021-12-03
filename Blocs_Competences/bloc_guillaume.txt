@@ -5,43 +5,106 @@ Bloc de compétences n°1 - Support et mise à disposition de services informati
 	Gérer le patrimoine informatique
 	
 		- Recenser et identifier les ressources numériques
+			# recensement des plateformes host des sites webs (groupeCFR)
+			# recensement des identifiants mis à dispositions (groupeCFR / Yiriah)
+			# mise à disposition de l'outil swagger (Yiriah : https://kibaro-authentication-svc-cgqlclia4q-nw.a.run.app/documentation/api/rest/swagger/#/Reports/get_v1_kibaro_reports__reportId_ )
+			
 		- Exploiter des référentiels, normes et	standards adoptés par le prestataire informatique
+			# Exploitation des documents techniques des services utilisés, hosting, micro-services, etc (groupeCFR / Yiriah)
+			
 		- Mettre en place et vérifier les niveaux d’habilitation associés à un service
-		- Vérifier les conditions de la continuité d’un service informatique
+			# creation d'utilisateur viewer pour des bases de données SQL (groupeCFR)
+			# creation de compte git pour le futur management du site web produit (groupeCFR)
+			# utilisation d'identifiants donnés pour interagir avec un backend python (Yiriah)
+			
+		- Vérifier les conditions de la continuité d’un service informatique ***
+			NON (à définir)
+			
 		- Gérer des sauvegardes
+			# creation de backup réguliers (groupeCFR)
+			# creation de backup avant chaque gros changement (groupeCFR)
+			
 		- Vérifier le respect des règles d’utilisation des ressources numériques
+			# Signalement des images non libres de droits (groupeCFR)
+			# Creation de page Mentions Légales (groupeCFR / Yiriah)
 		
 	Répondre aux incidents et aux demandes d’assistance et d’évolution
 	
 		- Collecter, suivre et orienter des	demandes
+			# Réceptions des demandes, tickets & objects (groupeCFR / Yiriah)
+			# Redirection ou traitement selon l'objet de la demande
+			
 		- Traiter des demandes concernant les services réseau et système, applicatifs
+			# Création d'une web-application simple react gérant la création d'utilisateurs (Yiriah)
+			# Création d'un site web de 0 suite à crash du précédent site web cms (groupeCFR)
+			
 		- Traiter des demandes concernant les applications
+			# Mise à jour du site web suite à la demande de l'entreprise (groupeCFR / Yiriah)
+			
 
 	Développer la présence en ligne de l’organisation
 	
 		- Participer à la valorisation de l’image de l’organisation sur les médias
 			numériques en tenant compte du cadre juridique et des enjeux économiques
+			# Création d'une page de mentions légales (groupeCFR / Yiriah)
+			# Ajout d'une version anglaise au site web (Yiriah)
+			# Creation & connections de formulaires de contacts (groupeCFR)
+			
 		- Référencer les services en ligne de l’organisation et mesurer leur visibilité.
+			# Utilisation des metatags pour accélérer le référencement SEO (groupeCFR)
+			# Optimisation du contenu via la recherche de mots clefs https://ahrefs.com/free-seo-tools (groupeCFR)
+			# Utilisation de test tel que https://search.google.com/test/mobile-friendly pour assurer le responsive (groupeCFR)			
+			
 		- Participer à l’évolution d’un site Web exploitant les données de l’organisation.
+			# Utilisation partielle de l'ancien site web pour créer le nouveau (groupeCFR)
+			# Utilisation d'une plateform swagger pour la gestion de compte (Yiriah)
+			# Creation & utilisation d'une BDD SQL pour le contenu du site web (groupeCFR)
 		
 	Travailler en mode projet
 	
 		- Analyser les objectifs et les modalités d’organisation d’un projet
+			# Définition des objectifs hebdomadaires lors de réunions avec la direction (groupeCFR / Yiriah)
+			# Organisation en méthode agile/itérative (groupeCFR / Yiriah)
+			
 		- Planifier les activités
+			# Creation d'un fichier google sheet (groupeCFR)
+			# Découpage & planification des activités avec l'objectif hebdomadaire en tête (groupeCFR)
+			# Assignation des tâches (groupeCFR)
+			
 		- Évaluer les indicateurs de suivi d’un projet et analyser les écarts
+			# Utilisation du google sheet en ligne pour suivre l'état des tâches assignées (groupeCFR)
+			# Utilisation du google sheet pour tracer les écarts et leurs résolution (groupeCFR)
 		
-	Mettre à disposition des utilisateurs un service informatique
+	Mettre à disposition des utilisateurs un service informatique***
 	
 		- Réaliser les tests d’intégration et d’acceptation d’un service
+			# Test de la version anglaise du site web par le CEO (Yiriah)
+			# Test du site web par les employés (groupeCFR)
+			# Correction de contenu & validation du site (groupeCFR)
+			
 		- Déployer un service
+			# Mise en ligne du site web depuis la plateforme d'hosting o2switch (groupeCFR)
+			
 		- Accompagner les utilisateurs dans la mise en place d’un service
+			# Présentation du fonctionnement du site à la direction (groupeCFR)
+			# Rédaction d'un document technique & d'accompagnement pour la cloture du projet (groupeCFR)
 
 	Organiser son développement professionnel
 	
 		- Mettre en place son environnement	d’apprentissage personnel
+			# Kaggle, openclassroom, cours en ligne Stanford & Harvard, diverses chaînes youtubes, codecademy ... (Orienté Intelligence Artificielle)
+			# Stage orienté machine learning Med Tour Easy (à distance en anglais)
+			
 		- Mettre en œuvre des outils et stratégies de veille informationnelle
+			# Feedly
+			
 		- Gérer son identité professionnelle
+			# Github & Linkedin
+			
 		- Développer son projet professionnel
+			# Acquisition de certifications (Google cloud plateform)
+			# Formation tensorflow en vue d'une certification
+			# Formation d'un réseau de developpeurs IA
 		
 Bloc de compétences n°2 option B « Solutions logicielles et applications métiers » - Conception et développement d’applications
 	
@@ -113,8 +176,8 @@ Bloc de compétences n°3 - Cybersécurité des services informatiques
 			ou de confidentialité
 		- Identifier les obligations légales qui s’imposent en matière d’archivage et de
 			protection des données de l’organisation
-		- Organiser la collecte et la conservation des preuves numériques
-		- Appliquer les procédures garantissant le respect des obligations légales
+		- Organiser la collecte et la conservation des preuves numériques***
+		- Appliquer les procédures garantissant le respect des obligations légales***
 		
 	Assurer la cybersécurité d’une solution applicative et de son développement (SLAM)
 	
@@ -125,4 +188,4 @@ Bloc de compétences n°3 - Cybersécurité des services informatiques
 			développement à un référentiel, une norme ou un standard de sécurité
 		- Prévenir les attaques
 		- Analyser les connexions (logs)
-		- Analyser des incidents de sécurité, proposer	et mettre en œuvre des contre-mesures
+		- Analyser des incidents de sécurité, proposer et mettre en œuvre des contre-mesures
