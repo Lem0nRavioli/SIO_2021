@@ -1,0 +1,46 @@
+Open Source
+
+	Definition:
+		Any software that the code source can be modified is assimilated as open source.
+		It can be free or paid.
+		
+	Advantages: 
+		1- Licensed software are generally designed by a small team, whereas (meanwhile) a open source
+			project benefits from thousands of contribution. Those projects are community-based projects.
+			ex: Gimp, Libre-office, github.
+		2- Any bugs or glitches (soucis graphique mineur) is fixed by regular updates.
+		3- The user has the power to personalize and make his own version according to his needs.
+		
+	Disadvantages:
+		1- In case of problems, you don't have any guarantee. Unlike the Opensource, vendors usually
+			bind themselves to fix your problems.
+		2- Open source projects lack ergonomy and are very difficult to grasp.
+		3- The open nature of the code can sometimes result in security issues.
+		
+Résumé français 150 mots
+Text : texte_open_source_.pdf
+
+Lot of organizations use open source software
+The price is not the only advantage anymore
+Les FOSS (logiciel gratuit & open source) on plusieurs avantages
+More developpers
+Lot of security
+new features
+Open source is closer to sur user need, since they have an hand at it
+technical superiority is the primary reason of choice of open source software for enterprises according to one recent study
+Business can pick a piece of open source and tweak it to suit their needs.
+When you use proprietary software like windows, you need to pay constantly and upgrade hardware
+while open source you upgrade when you want
+Open source have a lot of support and documentation, like linux
+You can get extra assurance with paid support options for less than proprietary software with a better reaction time
+
+Article du tech journal, 2013, décryptant l'open source.
+
+Beaucoup d'organisations utilisent de nos jours des logiciels open source. Il est clair que le prix n'est plus leur seul avantage.
+Ces logiciels (FOSS) en ont plusieurs. Ils sont soutenus par plus de développeurs et ont par extension un meilleur niveau de sécurité,
+plus d'améliorations et de fonctionnalités. Les logiciels open source sont plus proche de besoins des entreprises, celle ci pouvant
+les customiser à souhait. Une étude récente prouve que la suppériorité technique et la raison principale du choix de ces logiciels.
+Une entreprise peut extraire un morceau du logiciel et le modifier selon ses besoins. Utiliser des logiciels propriétaires force à
+payer les améliorations logicielles mais aussi matérielles, ou un open source ne nécessite pas de mise à jour pour fonctionner. 
+L'open source à une bonne documentation et support (comme linux) et un support technique plus réactif (payant sous forme d'assurance), 
+puisque leurs chiffre d'affaire en dépend.
