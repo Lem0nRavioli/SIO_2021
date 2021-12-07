@@ -1,0 +1,66 @@
+Anglais ORAL
+	- Dossier
+	- 20 mins prep
+	- 1 ou 2 supports écrits (texte, illustration, capture...)
+	- 1 document video (clip en anglais 2/3mn: tutos, infos, pub, etc)
+	- Questionnement :
+		2 questions auxquels il faudra répondre.
+	- Monologue de 5 mn pour présenter les supports
+	- 15 mins intéractions avec le jury 
+	
+	
+SUJET TEST:
+
+Premier document :
+As with any public crisis, the spread of the coronavirus has created a new crop of hackers targeting
+people […] who are working from home and who are just trying to stay healthy. […] You need to be
+on guard against all kind of scams and misinformation found online, in your email inbox and even in
+your text messages.
+A recent release from the FBI's Internet Crime Complain Center offers some solid advice on what
+to watch out for. "Scammers are leveraging the COVID-19 pandemic to steal your money, your
+personal information, or both. Don't let them," the FBI said. "Protect yourself and do your research
+before clicking on links purporting to provide information on the virus; donating to a charity online or
+through social media; contributing to a crowdfunding campaign; purchasing products online; or
+giving up your personal information in order to receive money or other benefits."
+[...]
+Meanwhile, researchers at Trustwave found that ransomware attacks amounted to 18% of overall
+breach incidents observed in 2019, up from 4% in 2018. Researchers also found the amount of
+malware in traditional spam email declined to 0.2% from 6% the previous year, as attackers look for
+more effective infection vehicles. The biggest rise was in social engineering attacks, like phishing.
+In 2018, Trustwave analysts found 33% of all data breach incidents were the result of phishing or
+social engineering attacks. In 2019, that number rose to half.
+Rae Hodge, www.cnet.com April 27, 2020
+
+Text from an article of cnet.com, from april 27, 2020
+Coronavirus lockdown increased the amount of scam remote worker have to face.
+Fbi advice to think before doing action, this solid advice will surely reduce drastically the success rate of most scams
+Trustwave conducted a research that observed a rise in ransomwere attack and phishing. In 2019, half of data breach incident come from phishing.
+meanchile traditionnal spam malware dropped from 6 to 0.2%
+
+
+Deuxième document:
+
+Video of 41 actions new on what it's like to be a remote workers aswell as some tips they might fight handy when it come to protect themselves from
+cyber attacks. the first speark talk about his daughter and wife pictures for some reasons, like the audience give a duck about it. This was the first time
+he had to work from home because Missouris alted all in person proceedings. (he's a lawyer)
+2 speaker frankie belluchi (tech expert) about step you need to take to keep your data safe:
+- raise awarness
+- carefull phishing
+- carefull about being scared
+Here are the advices:
+	1 - Follow your company recommendations
+	2 - Avoid public wifi
+	3 - Home wifi password protected
+	4 - Update your operatiing system
+	5 - Remove malware (cuz, just in case you wanted to keep them)
+In face of unknown, relax, think, and if there is unknown, contact a professionnal.
+
+================
+CORRECTION
+================
+
+Document 1:
+
+With the pandemic, people work from home, hackers see this as an opportunity to elaborate scams adn atacks.
+The authorities have issued strong advice to the public on how to protct their data. They recommend extreme precaution. In this 
+article, we learn that computer hacking attacks are increasing. The author pointed out the exponential increase of phishing attacks. 
