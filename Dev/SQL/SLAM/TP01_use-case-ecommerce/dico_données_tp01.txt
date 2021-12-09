@@ -1,0 +1,116 @@
+Liste de produits
+Fiche d'un produit
+Fiche d'un vendeur
+Fiche commande
+code promo
+fiche avis
+Fiche livraison
+Fiche ID banque
+Fiche stocks
+
+Table Client
+	id_client (primary)
+	nom
+	prenom
+	ddn
+	email
+	psw
+	adresse
+	telephone
+	CB
+	Paypal
+	IBAN
+	E-Wallet
+	CGU
+	CGV
+	
+Table Panier (1 row = 1 product)
+	id_panier (primary)
+	id_client 
+	id_produit
+	id_commande
+	quantite	
+	date_ajout
+	is_active (bool)
+	
+Table Produit
+	id_produit (primary)
+	id_vendeur (foreign)
+	id_avis (foreign)
+	nom
+	description
+	prix
+	stocks
+	
+Table Avis_Produit
+	id_avis_produit (primary)
+	id_client (foreign)
+	id_produit (foreign)
+	id_vendeur (foreign)
+	rating (int)
+	avis
+	
+Table Avis_Vendeur
+	id_avis_vendeur (primary)
+	id_client (foreign)
+	id_vendeur (foreign)
+	rating (int)
+	avis
+	
+Table Commande
+	id_commande (primary)	
+	id_client (foreign)
+	id_livreur (foreign)
+	id_promo (foreign)
+	BTC (bool)
+	CB (bool)
+	Paypal (bool)
+	Virement (bool)
+	E-wallet (bool)
+	code_promo (varchar)
+	date_achat
+	date_livraison_prevu
+	date_livraison_effective
+	adresse
+	
+	
+Table Vendeur
+	id_vendeur
+	entreprise
+	adresse
+	SIRET
+	telephone
+	site_web
+	
+Table Banque // à voir (?)
+	id_banque
+	nom	
+	
+Table Livreur
+	id_livreur
+	entreprise
+	adresse
+	SIRET
+	telephone
+	site_web
+	delais-API
+
+Table Promo
+	id_promo
+	code_promo (varchar) // uber423, pizzadelannee ...
+	reduction (float) // en %, genre .123 => 12.3%
+	start_validité (date)
+	end_validité (date)
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
