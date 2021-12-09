@@ -26,7 +26,7 @@ Table Client
 	
 Table Panier (1 row = 1 product)
 	id_panier (primary)
-	id_client 
+	id_client
 	id_produit
 	id_commande
 	quantite	
@@ -62,16 +62,20 @@ Table Commande
 	id_client (foreign)
 	id_livreur (foreign)
 	id_promo (foreign)
-	BTC (bool)
-	CB (bool)
-	Paypal (bool)
-	Virement (bool)
-	E-wallet (bool)
+	{//à tabler
+		BTC (bool)
+		CB (bool)
+		Paypal (bool)
+		Virement (bool)
+		E-wallet (bool)
+	}
 	code_promo (varchar)
 	date_achat
 	date_livraison_prevu
 	date_livraison_effective
-	adresse
+	adresse_facturation // à tabler => 112 missile fixe, lune, système solaire, univers observable, realité alternative 327 => id = 02
+	adresse_livraison
+	
 	
 	
 Table Vendeur
@@ -81,10 +85,6 @@ Table Vendeur
 	SIRET
 	telephone
 	site_web
-	
-Table Banque // à voir (?)
-	id_banque
-	nom	
 	
 Table Livreur
 	id_livreur
