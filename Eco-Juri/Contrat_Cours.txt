@@ -1,14 +1,14 @@
-1 - Intégration de l'entreprise dans son environnement
+1 - Intégration de l'entreprise dans son environnement (Theme)
 
 ========================================================================================================================================================================================
 
-  1.1 - Contrat (Droit / Juridique)
+  1.1 - Contrat (Droit / Juridique) (Partie)
 	
 	Acte d'obligation engageant 1 personne ou plus
 	Pas forcément écrit (ex achat d'un sandwich)
 	Régis par des règles pouvant l'invalider en cas de non-respect
 
-    1.1.1 - Condition de validité des contrats
+    1.1.1 - Condition de validité des contrats (Chapitre)
 	
 		Plusieures conditions de validité qui concernent à la fois les parties au contrat & le contenu du contrat. 
 		On distingue ainsi 3 grandes conditions de validité:
@@ -286,9 +286,114 @@
 			Pour obtenir cette confiance il faut que la monnaie possède une valeur qui soit stable à la fois au niveau du pouvoir d'achat (stabilité interne == pas d'inflation)
 			et au niveau du taux de change (stabilité externe) puisqu'une baisse de la valeur de la monnaie doméstique par rapport à une devise étrangère signifierait une baisse
 			de la quantité de bien importés par l'usage de la monnaie domestique.
+			
 
+	2.1.1 - L'Etat et le fonctionnement du marché
+	
+		Le fonctionnement des marchés nécessite l'intervention de l'état, d'abord pour que les règles de fonctionnement soient respectées mais aussi pour en corriger
+		les défaillances, càd des situation dans lesquelles offre & demandes ne se rencontrent pas.
+		
+		I - L'intervention de l'Etat pour pallier des disfonctionnement
+		
+			Les disfonctionnements du marché recouvrent des situations dans lesquelles tout les critères du marché de conccurence pur & parfait ne sont pas respectés
+			L'Etat va d'abord intervenir pour assurer la libre concurrence en la régulant et en mettant en place des authorités / institutions pour la controller 
+			(Autorité de la Concurrence, Commission Européene). (Voir theme 2)
+			L'Etat va aussi intervenir pour assurer la symétrie d'information en imposant aux professionnels une obligation d'information, par exemple sur les prix,
+			la composition ou les CGV. En france une autorité contrôle la bonne information du consommateur : La Direction générale de la concurrence, de la 
+			consommation et de la répression des fraudes (DGCCRF).
+			L'Etat intervient pour sécuriser les transactions (en ligne) et assurer la stabilité monaitaire.
+			
+		II - L'Etat palie les défaillances
+		
+			Il y a défaillances lorsque offres et demandes ne se rencontrent pas.
+			2 types de défaillances: 
+				- Les Externalités
+				- Les Biens Publique
+				
+			A - Les Externalités
+			
+				Une Externalité est un effet d'une action d'un agent éconmique sur un autre qui s'éxerce en dehors du marché. Sans intervention de l'état
+				(contrepartie financière) le marche reste insensible (ex: la pollution est une externalité)
+				2 types d'externalité:
+					- Une externalité positive (qui procure un avantage) aux agents économique (ex: aides à la création d'entreprises => boost économique local)
+					- Une externalité négative qui va engendrer des nuisances (ex: pollution)
+					
+				L'Etat va chercher à favoriser les externalité positives et sanctionner les négatives.
+				ex: 	Positives => création de subventions / avantages fiscaux / financement intégral
+						Négatives => taxes / réglementations / interdictions / marché dédié (Crédit à polluer)
+						
+				Pour l'exemple du droit à polluer: L'état distribue des quotats de pollutions et les entreprises en déficit de droits peuvent en acheter aux 
+				entreprises en excès.
+				
+			B - Les Biens Publique
+			
+				Un Bien Publique a deux caractéristiques:
+					- C'est un Bien Non-Rival => Sa consommation par un utilisateur n'en diminue pas la consommation par les autres.
+					- C'est un Bien Non-Exclusif => Impossible d'excluse quiconque de sa consommation (en en faisant payer le prix)
+					
+				Lorsqu'un bien a ces 2 caractèristiques, on le dit Bien Publique "Pur"
+				Un Bien "Impur" n'a qu'une seule des deux caractèristiques:
+					- Le Bien Commun	=> Répond seulement au critère de la Non-Exclusivité (Ex: L'eau)
+					- Le Bien de Club	=> Répond seulement au critère de la Non-Rivalité	(Ex: abonnement payant)
+				
+				Dans le cas des Biens Publique leur financement n'est possible que s'il est imposé à la collectivité par l'Etat via taxes.
+				La collectivité peut assurer soit même ses services ou contracter avec des entreprises privées.
+				
+				
+  1.3 - Comment l'Entreprise s'inscrit-elle dans son environnement (Management)
+  
+	1.3.1 - La/Les Finalités de l'entreprise
 
-
+		Une entreprise a une finalité par nature qui est celle de faire du profit. Il s'agit pour elle d'assurer leur pérennité. Mais ce
+		but ne peut pas être le seul: Une entreprise doit satisfaire les acteurs qui la compose et ceux avec qui elle est en relation (parties
+		prennantes). Peter Drucker explique qu'en réalité, la priorité n°1 est de satisfaire le client, développer une clientelle, et que le 
+		profit devient donc la conséquence du management et non la cause.
+		
+		Pour créer le client, l'entreprise utilise 2 fonctions:
+			- L'innovation
+			- Le marketing
+			
+		A - Les diverses finalités 
+			
+			Les finalités peuvent être multiples: 
+				- Economiques
+				- Sociales
+				- Sociétales
+				- Environementales
+				
+			Sur le plan économique les client attendent une valeur du produit, les salariés attendent un salaire, les fournisseurs attendent 
+			des commandes, les actionnaires attendent des dividendes, l'état attend des impots.
+			Sur le plan social L'entreprise peut améliorer la formation, l'épanouissement personnel de ses employés, 
+			Sur le plan sociétal & Environemental, l'entreprise peut participer à des actions humanitaires, refuser de faire travailler des
+			enfants ou encore de réduire drastiquement sa consommation énergétique.
+			A ce titre, certaines entreprises développent leur RSE: Responsabilité Sociétales & Environementale.
+			
+			Ces finalités sont influencées par différents facteurs internes ou externe à l'entreprise.
+				- ex interne : Aspiration des dirigeants / valeur de l'entreprise
+				- ex externe : Les contraintes légales / contraintes du marché / Environement
+				
+			C'est la raison pour laquelle toutes les parties prennantes peuvent influencer les actions de l'entreprise jusqu'à se
+			transformer en contre-pouvoir.
+		
+		B - La RSE
+	
+			La RSE est l'intégration volontaire par les entreprises de préoccupations sociales & environnementales à leurs activités commerciales
+			et leurs relations avec leurs parties prennantes. C'est l'intégration en entreprise des principes de développement durable.
+			Cela implique 3 domaines:
+				- Environemental
+				- Societal (relation avec les clients / fournisseurs)
+				- Social (Salariés / condition de travail / discriminations / etc)
+				
+			L'entreprise a plusieurs moyens pour mener une pratique de RSE jusque dans ses relations avec sous-traitants/partenaires
+			ex: certifications, ISR (Investissement Socialement Responsable)
+			La politique RSE a plusieurs intérêts pour l'entreprise dans sa capacité à générer des profits:
+				- Amélioration de l'image
+				- Améliorer ses coûts ( ex: sac plastiques au supermarché)
+				- Pousse à l'innovation
+			
+			La RSE doit-être menée avec précaution. A défaut, elle peut conduire l'entreprise a des contradictions avec d'autres aspects
+			de sa politique, ce qui peut nuire à son image.
+			ex : McDonald et une mauvaise comm sur les soucis environnementaux.
 
 
 
