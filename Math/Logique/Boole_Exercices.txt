@@ -14,5 +14,50 @@ a)
 	a/ab	00	01	10	11
 	0		0	0	0	1
 	1		1	1	1	1
+	
+	a/b		0	1
+	0		0	0
+	1		0	1
 
 b) a(a + b) = aa + ab = a+ab = a
+
+Ex 7:
+
+A = ab + !c et B = !a + bc
+
+	b	b	!b	!b
+a	X	X	X	0
+!a	0	X	X	0
+	c	!c	!c	c
+	
+	b	b	!b	!b
+a	X	0	0	0
+!a	X	X	X	X
+	c	!c	!c	c
+	
+A = ab + !c 
+!A = !(ab + !c) 
+!A = (!a + !b).c
+!A = !ac + !bc
+
+B = !a + bc
+!B = !(!a + bc)
+!B = a.(!b + !c)
+!B = a!b + a!c
+
+!A = !ac + !bc
+!B = a!b + a!c
+
+Ex 8:
+Ex 12:
+
+ex 14
+d)
+E = abc + !ac + b!c
+E = abc + !abc + !a!bc + ab!c + !ab!c
+E = b(ac + !ac + a!c + !a!c) + !ac
+E = b(c(!a + a) + !c(a + !a)) + !ac
+E = b(c(1) + !c(1)) + !ac
+E = b(c + !c) + !ac
+E = b(1) + !ac
+E = b + !ac
