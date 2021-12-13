@@ -1,3 +1,11 @@
 terminal:
     executer un fichier:
         node <nom_du_js>
+    install package npm:
+        npm install <pkg name>
+    install all package:
+        npm install
+
+type de contente type:
+    "text/html"
+    "application/json"

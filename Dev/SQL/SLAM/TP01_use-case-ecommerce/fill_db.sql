@@ -822,6 +822,42 @@ INSERT INTO `avis_produit` (`id`, `id_client`, `id_produit`, `id_vendeur`, `rati
 INSERT INTO `avis_produit` (`id`, `id_client`, `id_produit`, `id_vendeur`, `rating_produit`, `avis_produit`) VALUES (199, 3, 9, 9, 7, 'Quia excepturi accusamus laborum atque ratione expedita provident natus. Illum magni numquam vel velit soluta commodi nam. Voluptatem nam voluptas nesciunt aliquam.');
 INSERT INTO `avis_produit` (`id`, `id_client`, `id_produit`, `id_vendeur`, `rating_produit`, `avis_produit`) VALUES (200, 5, 3, 3, 9, 'Aut voluptatum earum rerum voluptatibus asperiores. Qui iusto qui eos porro reiciendis. Quisquam nobis quo vel dolorem voluptas ut ab.');
 
+
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (101, '11.6782', '430.988', '10390500', '269838', '14135');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (102, '12.6893', '1.45503', '3721830', '331485', '49976.7');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (104, '31025.6', '54062600', '0', '35667.1', '24231.3');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (106, '5.09499', '9472010', '19311.6', '0.18435', '0');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (107, '30805500', '1157320', '0', '440.741', '5563.66');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (109, '60416600', '35081.8', '9674.18', '11052000', '70311800');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (110, '588.589', '11183200', '64709.3', '3.68109', '8427.23');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (112, '20052.2', '902473', '72.8638', '33', '47586600');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (113, '11704400', '686283', '193826', '45.4619', '10.3229');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (114, '498682000', '2689150', '23055500', '2523060', '394');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (115, '27370700', '1716.47', '5914.64', '2042', '45.1639');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (116, '89592400', '6939390', '419.459', '201.881', '1');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (118, '59224', '129833', '2.94544', '1', '0.436036');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (119, '1892990', '52201.7', '0.3071', '1.04', '6.88939');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (120, '15536500', '2428540', '5.413', '116890', '0.76');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (123, '94985900', '71361.6', '194469000', '51963.9', '187.204');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (124, '37404200', '23609100', '0', '22.42', '503');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (125, '427.617', '83277500', '70788800', '65430.2', '0');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (126, '262375', '444.265', '6677130', '30406500', '5.06016');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (127, '4767.9', '876.4', '224.297', '235.1', '135266');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (137, '61.0833', '1.508', '25.1649', '2325930', '24');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (138, '0', '53764900', '18.4636', '1', '0');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (139, '355.84', '0.182611', '358.21', '56498.8', '77');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (140, '0.12', '23146.8', '0', '11499000', '430558');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (150, '318807000', '391440', '0', '286290', '628.754');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (151, '1', '252930', '0.606968', '31482200', '0');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (152, '5175.84', '1827.63', '5157070', '289919', '336704000');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (153, '3233290', '14520.2', '0', '7346.84', '22916.6');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (155, '1735.38', '95920100', '555368', '32345.7', '448496000');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (157, '1452420', '0', '3015930', '23738.2', '2369880');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (159, '1307670', '7.1301', '6.64112', '460878', '354.528');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (166, '56605', '140187', '456', '2611.07', '280966000');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (167, '1.40936', '241371', '164.9', '0', '82134.3');
+INSERT INTO `moyen_paiement` (`id_commande`, `amount_btc`, `amount_cb`, `amount_paypal`, `amount_virement`, `amount_ewallet`) VALUES (168, '335657000', '0', '74559700', '188', '297.126');
+
 INSERT INTO 
     PRODUIT_PANIER (id_client, id_produit, id_commande, quantite_produit, date_ajout, is_active) 
 VALUES 
