@@ -9,3 +9,4 @@ terminal:
 type de contente type:
     "text/html"
     "application/json"
+    "text/plain"
