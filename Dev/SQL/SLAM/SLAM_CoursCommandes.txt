@@ -34,6 +34,14 @@ ORDER BY expression
 LIMIT count
 OFFSET start
 
+Syntaxe pour les foreign keys (mariadb):
+
+CONSTRAINT nom_de_la_contrainte 
+        FOREIGN KEY (ma_foreign_key)
+        REFERENCES MaTable (ma_primary_key)
+        ON DELETE  SET NULL
+        ON UPDATE CASCADE
+
 https://sql.sh/cours/select
 select email from user;
 select psw from user;
