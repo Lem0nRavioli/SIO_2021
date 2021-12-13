@@ -822,3 +822,32 @@ INSERT INTO `avis_produit` (`id`, `id_client`, `id_produit`, `id_vendeur`, `rati
 INSERT INTO `avis_produit` (`id`, `id_client`, `id_produit`, `id_vendeur`, `rating_produit`, `avis_produit`) VALUES (199, 3, 9, 9, 7, 'Quia excepturi accusamus laborum atque ratione expedita provident natus. Illum magni numquam vel velit soluta commodi nam. Voluptatem nam voluptas nesciunt aliquam.');
 INSERT INTO `avis_produit` (`id`, `id_client`, `id_produit`, `id_vendeur`, `rating_produit`, `avis_produit`) VALUES (200, 5, 3, 3, 9, 'Aut voluptatum earum rerum voluptatibus asperiores. Qui iusto qui eos porro reiciendis. Quisquam nobis quo vel dolorem voluptas ut ab.');
 
+INSERT INTO 
+    PRODUIT_PANIER (id_client, id_produit, id_commande, quantite_produit, date_ajout, is_active) 
+VALUES 
+    (1, 2, 123, 12, '20200101', 1),
+    (2, 4, 112, 12, '20200101', 1),
+    (3, 13, 123, 12, '20200102', 1),
+    (3, 1, 113, 12, '20200102', 1),
+    (4, 25, 112, 12, '20200201', 1),
+    (5, 26, 142, 12, '20200201', 1),
+    (5, 27, 113, 12, '20200301', 1),
+    (5, 29, 121, 12, '20200301', 1),
+    (21, 34, 142, 12, '20210101', 1),
+    (12, 34, 135, 12, '20210101', 1),
+    (23, 34, 135, 12, '20220104', 1),
+    (23, 44, 153, 12, '20200122', 1),
+    (4, 23, 153, 12, '20200111', 1),    
+    (5, 14, 163, 12, '20200101', 0),
+    (6, 4, 163, 12, '20200101', 0),
+    (6, 1, 193, 12, '20200102', 0),
+    (6, 20, 102, 12, '20200102', 0),
+    (13, 29, 102, 12, '20200201', 0),
+    (2, 24, 131, 12, '20200201', 0),
+    (2, 24, 112, 12, '20200301', 0),
+    (4, 24, 112, 12, '20200301', 0),
+    (44, 24, 123, 12, '20210101', 0),
+    (91, 24, 123, 12, '20210101', 0),
+    (91, 24, 123, 12, '20220104', 0),
+    (28, 24, 152, 12, '20200122', 0),
+    (29, 24, 152, 12, '20200111', 0);
