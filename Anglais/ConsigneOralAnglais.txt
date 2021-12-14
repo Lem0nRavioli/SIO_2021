@@ -64,3 +64,9 @@ Document 1:
 With the pandemic, people work from home, hackers see this as an opportunity to elaborate scams adn atacks.
 The authorities have issued strong advice to the public on how to protct their data. They recommend extreme precaution. In this 
 article, we learn that computer hacking attacks are increasing. The author pointed out the exponential increase of phishing attacks. 
+
+SUJET BTS BLANC
+
+Cybersecuirty
+Phishing Phraming
+Cryptolocker

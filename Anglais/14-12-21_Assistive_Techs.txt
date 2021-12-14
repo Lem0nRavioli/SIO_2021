@@ -1,0 +1,40 @@
+		What is Assistive Technology (AT) ?
+
+Assistive technology (AT): products, equipment and systems that enhance learning, working and daily living for persons with disabilities.
+(Disabled people)
+Hardware : Equipement
+Software : Application
+(Domotique : Home automation)
+
+What is assistive technology?
+Assistive technology (AT) is any item, piece of equipment, software program or 
+product system that is used t o increase, maintain or improve the functional
+capabilities(movements and actions of persons with disabilities.
+
+Assistive technology helps people who have difficulty speaking, typing, writing,
+remembering, pointing, seeing, hearing, learning, walking and many other things.
+Different disabilities require different assistive technologies.
+
+Some applications of assistve technology:
+	- autism spectrum disorders (voice recogniton - voice synthesis)
+	- Blindness and low vision (connected speakers) I.O.Technology
+	- Deafness and hard of hearing
+	- Computer access problemms
+	- Communication disorders
+	- Mobility impairment (wheelchairs)
+	- mounting systems
+	- learning disabilities
+	- cognitive disabilities
+	- web accessibility (simplified process)
+	
+	
+describe a piece of technology that is considered as an assistive technology. How does it work ? How does it improve the life of the disabled? 
+
+Glasses is the most used piece of Assistive Technology today. Vision correction is, according to some numbers found after 3 seconds of google search,
+used by over 75% of adults, out of those 75%, 64% is using glasses. Some might say that sight is vastly overrated, but we could argue that, considering the 
+current price of automatic driving cars, we still need to be able to see grandma walking on the crosswalk. The technology is sure ain't new, but it's like a 
+good bike, easy to use and years of experience to master the art of bending the light in the correct way for cheap (or not, depending if you're living in some
+third world country without any healthcare). 
+
+
+Video : https://www.youtube.com/watch?v=BPo1H1eMU9k

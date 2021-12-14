@@ -1,4 +1,6 @@
+=============================================================================================================================================	
 	GESTION DE PROJET
+=============================================================================================================================================
 	
 1 - Le management de projet
 	
@@ -28,3 +30,290 @@
 	Créée par la NASA pour les lancements de fusée en 1969. Program Evaluation Review Task.
 	
 	Cf DrawIO/Jpg en annexe
+	
+2 - Avancement de projet
+	
+	Il est possible d'avoir les taches qui ne sont pas réalisées à 100%  et que ces taches ont ai des contraintes budgetaires
+	
+	Ex: Une SS2I a un projet d'implantation d'un réseau informatique pour un client. Les prévisions relatives au projet sont:
+	
+	
+	Tâches		Tâches Antérieures	Nbre semaines prévues	Nbre d'heures prévues
+	
+		A							3						750		
+		B		A					2						490
+		C		B					2.5						560
+		D		B					1.5						190
+		E		C,D					2.5						560
+		F		C,D					2						450
+		G		E,F					3.5						750
+		
+	
+	Les réalisations sont: 
+	
+	Tâches		Nb sem. reel	Nb H reel		% reel avanc.	Cout reel constaté
+	
+		A		4				950				100%			19000€	
+		B		3				725				100%			14500€
+		C		1				250				1/3				5500€
+		D		1				125				50%				2750€
+		E										0%
+		F										0%
+		G										0%
+		
+		
+	
+	1- Etablir le diagramme de Gantt selon le prévisionel -- en déduire la date prévisionnelle de fin du projet
+		Le projet doit normalement durer 13.5 semaines.
+	
+	2- Analyser l'état d'avancement du projet et analyser les écart en terme de cout entre les réalisations et les prévisions.
+		Le coût horaires est de 20€.
+		Les techniciens qui sont intervenus sur les tâches C et D pour 50 heures.
+			Leur taux horaire est de 30€.
+		
+		
+	Analyse des écrats entre réel et le budget (prévisionnel)
+	
+	
+	Tâches		Coût réel		Budget(prévisio)	Ecart €		Ecart en %
+	
+		A		950*20=19k€		750*20=15k€			+4k€		+26.67
+		B		725*20=14k5€	490*20=9k8€			+4k7€		+47.96
+		C		(200/50)=5K5€	560*20/3=3k7€		+1k8€		+50.	
+		D		125*20=2k5€		190*20/2=1k9€		+600€		+30.
+		E
+		F
+		G
+		
+=============================================================================================================================================	
+	COUT D'ACQUISITION DU PARC INFORMATIQUE
+=============================================================================================================================================
+		
+		
+Le parc informatique est un investissement à long terme. Il fait parti du patrimoine de l'entreprise. On parle d'actif.
+	
+	
+1- Les caractéristiques du parc informatique
+
+	C'est un investissement qui entre dans le patrimoine et qui est acquis. Pour qu'un investissement soit éligibile à l'actif,
+	il doit répondre à plusieurs conditions.
+		
+		A- Etre porteur d'avantages économiques		
+
+			L'avatage économique futur repose sur le fait que le bien contribuera directement ou indirectement à des flux de
+			trésorerie au bénéfice de l'entreprise.
+	
+		B- Etre identifiable
+		
+			Le bien peut être évalué séparément dans des conditions lui permettant d'être suivis (ex: code barrre) et il est 
+			possible de connaître sa valeur au fur et à mesure de son utilisation.
+			
+		C- Etre contrôlé par l'entreprise
+		
+			L'entreprise doît être propriétaire (preuve: facture). Les biens en location ne rentrent pas dans le patrimoine 
+			de l'entreprise.
+	
+		D- Etre évalué avec suffisament de fiabilité
+		
+			Seule la facture d'achat permet de vérifier la valeur fiable du bien.
+	
+2- Cas particulier
+
+	A- Les frais de conception d'un site internet
+	
+		Les frais liés à la conception d'un site internet peuvent être inscrit dans le parc informatique (investissement) s'ils
+		répondent aux 4 critères ci-dessus.
+		
+	B- Les Logiciels
+	
+		# Les logiciels dossociés
+			
+			Ce sont les logiciels acquis seul: ils entrent dans le parc informatique pour leur valeur
+	
+		# Les logiciels indossociés
+		
+			Ce sont les logiciels inclus dans l'ordinateur et leur valeur ne peut être évalué car la 
+			facture donne uniquement le montant total. Ils n'entrent pas dans le parc informatique et seul
+			la valeur de l'ordinateur entre dans la parc.
+	
+	
+3- Evaluation du cout d'entrée du parc informatique dans le patrimoine de l'entreprise.
+	
+	Feuille de calcul:
+	
+		+ Prix achat HT
+		- Remise rabaise/ristourne
+		- Escomptes
+		+ frais de douane
+		+ frais de transports
+		+ frais d'installation
+		+ honoraires des intervenants dans l'acquisition du parc informatique
+		+ frais d'acte liés à l'acquisition
+	
+	Sont exclus:
+		- Frais de test
+		- Frais de maintenance
+		
+	
+	Ex: 
+		- Walid achète au maroc un serveur d'un montant de 5000 dirhams le 14/12 (1d:0.1€).
+		- les frais de oduane sont de 200 dirhams (1 dirham = 0.15€) le 16/12. 
+		- Il loue une 404 pour rapatrier le serveur la france pour 300 dirhams(1 dirhams = .08€) le 17/02
+		- Les frais d'installations sont de 300€
+		- les frais de test sont de 150€
+		- La maintenance informatique est de 1500€
+		
+		
+		cout d'entrée :
+			+ 500€
+			-  10€(2% remise)
+			+  30€
+			+  24€
+			+ 300€
+			= 844€
+			
+		A- Cas particulier: le TCO
+		
+			Le TCO (total cost of ownership) ou coût total de possession inclut, dans le cout d'acquisition du parc
+			informatique tous les coûts liés à la durée de vie du bien. Il inclut les frais de formation, les frais 
+			de tests, les frais de maintenance ainsi que les frais de destruction de l'outil informatique
+	
+			Dans le cas de walid: 844 + 150(test) + 1500(maintenance) = 2494€
+			
+		B- La méthode des composants
+		
+			Il est possible de décomposer un outil informatique en plusieurs composants.
+			
+			Ex: Un ordinateur:
+					- Ecran
+					- Tour
+				Un serveur:
+					- Structure
+					- Mémoire
+					
+			Un composant peut être changé sans changer l'outil.
+			
+			L'intérêt est que chaque composant a eu une durée de vie différente et peut être changer ou modifier sans avoir
+			impact sur la valeur de l'autre.
+	
+	
+	
+4- La dépréciation du parc informatique
+
+	Le parc informatique est un investissement. Il entre dans le patrimoine de l'entreprise et c'est donc un actif.
+	Le patrimoine de l'entreprise est le bilan.
+	
+	Le bilan est constitué de biens (actif) et de dettes (passif). Par conséquent, en gestion, un investissement est appelé 
+	immobilisation.
+	
+	Il existe des immobilisations incorporelles (immateriels): Logiciels
+	
+	Mais aussi des immobilisations corporelles (matériels): ordi, serveurs, disque dur, ...
+	
+	Une immobilisation perd de sa valeur du fait de son obsolescence ou du progrés technique. Cette dépréciation de la valeur
+	s'appelle un amortissement.
+	
+	
+	4.1 Les méthodes d'amortissements
+	
+		A- Le mode d'amortissement selon l'avantage économique obtenu
+		
+			La dépréciation (amortissement) doit se faire de la façon la plus pertinente possible en fonciton de son utilisation.
+			L'entreprise détermine au préalable le mode d'utilisation.
+			
+			Par exemple, Walid a acquis un serveur pour 844€ décide d'amortir ce bien selon l'avantage économique obtenu, soit le 
+			nombre d'utilisaiton. La durée de vie du serveur est de 3 ans. A l'issu des 3 ans, Walid revend le serveur à Guillaume
+			pour 300€
+			
+			
+			Années		Nb h utilisations
+			2021		90h
+			2022		150h
+			2023		180h
+			Total		420h
+	
+			Il construit un plan d'amortissement:
+			
+			Base amortissable = coût d'acquisition - valeur de revente (valeur résiduelle) = 544
+			
+			Amortissement 2021: (90h/420h)*544 = 116.57€
+			
+			Amortissement 2022: (150h/420h)*544 = 194.29€
+			
+			Amortissement 2023: (180h/420h)*544 = 233.14€
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
