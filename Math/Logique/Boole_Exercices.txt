@@ -61,3 +61,14 @@ E = b(c(1) + !c(1)) + !ac
 E = b(c + !c) + !ac
 E = b(1) + !ac
 E = b + !ac
+
+
+ex 15:
+
+E = !a!c + b!c + a!b + !a!bc
+E = !ab!c + !a!b!c + ab!c + !ab!c + a!bc + a!b!c + !a!bc
+E = !b(!a!c + ac + a!c + !ac) + !c(!ab + !a!b + ab + !ab)
+E = !b(!a(c + !c) + a(!c + c)) + !c(!a(b + !b) + !a(b + !b))
+E = !b(!a(1) + a(1) + !c(!a(1) + a(1))
+E = !b(1) + !c(1)
+E = !b + !c
