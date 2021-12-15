@@ -1,5 +1,7 @@
 Math: 
-- 8/12/21 : ex 9, 12
+- td2 algo
+- ex 20 booléens
+- DM
 
 Anglais: 
 - 7/10/21 : Résumé français Green Grid
