@@ -1,0 +1,121 @@
+MATH DM 2
+Guillaume Saulnier
+SIO - SLAM
+
+-- Pour des raisons de convenance !A sera utilisé pour dénoter A barre --
+-- A barre B => !AB // AB barre => !(AB) // A+B barre => !(A+B) --
+
+Exercice 1: 
+
+	1) voir png
+	
+	2) A = { a, b, d }, f(A) = { 2, 3 }
+	
+	3) B = { 1, 2, 5 }, f-1(B) = { a, c }
+	
+	4) 	f n'est pas injective car 'b' et 'd' ont la même image dans F
+		f n'est pas surjective car 1 et 4 n'ont pas d'antécédents dans E
+		f n'est pas bijective car non injective (ou non surjective)
+		
+	5) voir png
+	
+	6)	g n'est pas injective car 3 et 4 ont la même image dans E
+		g est surjective car tout les éléments de E ont un antécédents dans F
+		g n'est pas injective donc l'application g de F dans E n'est pas bijective
+		
+	7) 	gof(a) = d
+		gof(b) = b
+		gof(c) = a
+		gof(d) = b
+		
+	8)	gof n'est pas injective car b et d ont la même image
+		gof n'est pas surjectif car c n'a pas d'antécédents
+		gof n'est pas bijective car non injective (ou non surjective)
+		
+	9)	fog(1) = 5
+		fog(2) = 3
+		fog(3) = 3
+		fog(4) = 3
+		fog(5) = 2
+		
+	10)
+		fog n'est pas injective car 2,3 et 4 ont la même image
+		fog n'est pas surjectif car 1 et 4 n'ont pas d'antécédents
+		fog n'est pas bijective car non injective (ou non surjective)
+		
+
+
+Exercice 2:
+	
+	1) 	- Vidéo note = 5 et vues >= 200 --> a et b --> ab
+		- Vidéo récente et note = 5 --> a et c --> ac
+		- Vidéo récente et vues < 200 --> !b et c --> !bc
+		- Vidéo note < 5 et vues >= 200 --> !a et b --> !ab
+		
+		total : ab + ac + !bc + !ab
+		
+	2)
+	
+		a) voir png
+		
+		b) E = b + !bc
+		
+		c) E simplifié : Si vues >= 200 ou vidéo récente et vues < 200 quelque soit sa note.
+		
+		
+	3)	!a!b!c ne sera pas mise sur la page d'accueil
+	
+	4)	!E = !b!c
+		!E => si vidéo < 200 vues et non récente n'est pas sur la page d'accueil
+	
+		
+		
+Exercice 3:
+
+	1)	E = a!c + !a!b (E représentant exclusion d'une config)
+
+	2) voir png
+	
+	3) 	a!bc est une configuration avec graveur, scanner et sans imprimante
+		Cette configuration est acceptable
+		
+	4)	F expression d'acceptation d'une configuration:
+		F = ac + !ab
+		F => config avec graveur et scanner ou imprimante sans graveur
+		
+	5)	La phrase traduit effectivement l'expression F d'une manière plus française que 
+		ma version de la question 4
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

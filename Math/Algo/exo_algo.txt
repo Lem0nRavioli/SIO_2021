@@ -1,0 +1,36 @@
+ALGO MATH EXOS
+
+Ex1:
+
+	nom <- ('saisir nom')
+	age <- ('saisir age')
+	afficher("Bonjour ",nom," tu as ", age, " ans."
+	Si (age >= 18):
+		afficher("Tu est majeur")
+	fin Si
+	
+	
+Ex2:
+
+	math <- ()
+	ecodroit <- ()
+	info <- ()
+	math <- math * 3
+	ecodroit <- ecodroit * 5
+	info <- info * 7
+	total <- math + ecodroit + info
+	total <- total / 15
+	Si (total < 10):
+		afficher("Echoué, moyenne: ", total)
+		Sinon si (total < 12):
+			afficher("Passable, moyenne: ", total)
+			Sinon si (total < 14):
+				afficher("AB, moyenne: ", total)
+				Sinon si (total < 16):
+					afficher("B, moyenne: ", total)
+				Sinon:
+					affichier("TB, moyenne: ", total)
+				Fin Si
+			Fin Si
+		Fin Si
+	Fin Si
