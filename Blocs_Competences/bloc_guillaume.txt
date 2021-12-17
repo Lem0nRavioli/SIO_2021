@@ -111,36 +111,92 @@ Bloc de compétences n°2 option B « Solutions logicielles et applications mét
 	Concevoir et développer une solution applicative
 	
 		- Analyser un besoin exprimé et son	contexte juridique
+			# Rédaction de mentions légals (GroupeCFR/Yiriah)
+			# Selection d'images libre de droits (GroupeCFR/Yiriah)
+			
 		- Participer à la conception de	l’architecture d’une solution applicative
+			# Creation d'un site web de 0 (GroupeCFR)
+			# Creation MLD database SQL (GroupeCFR)
+			# Reformatage du site web cms pour le rendre comforme au multilangue (Yiriah)
+			
 		- Modéliser une solution applicative
-		- Exploiter les ressources du cadre	applicatif (framework)
+			# Création d'une base de donnée utilitaire (GroupeCFR)
+			# Creation d'un site web de 0 (GroupeCFR)
+			
+		- Exploiter les ressources du cadre	applicatif (framework) ***
 		- Identifier, développer, utiliser ou adapter des composants logiciels
+			# Utilisation d'API pour gérer la redirection de formulaires (GroupeCFR)
+			# Refonte du projet web html vers php pour l'utilisation d'une base de donnée (GroupeCFR)
+			# Utilisation de la plateforme "swagger" pour tester la webapp d'inscription (Yiriah)
+			
 		- Exploiter les technologies Web pour mettre en œuvre les échanges entre
 			applications, y compris de mobilité
+			# Utilisation du backend déjà crée pour gérer la création d'utilisateurs (Yiriah)
+			# Test d'application mobile (Yiriah)
+			# Utilisation du Cpanel pour gerer le versionning du site via git (GroupeCFR)
+			
 		- Utiliser des composants d’accès aux données
+			# Utilisation de PHPmyAdmin pour l'accès aux bases de données sur le serveur  (GroupeCFR)
+			
 		- Intégrer en continu les versions d’une solution applicative
+			# Utilisation de github pour le versionning et la mise à jour du site web (GroupeCFR)
+			
 		- Réaliser les tests nécessaires à la validation ou à la mise en production
 			d’éléments adaptés ou développés
+			# Tests responsive (GroupeCFR)
+			# Merge des productions de multiples personnes en mode modules dans le site web global (GroupeCFR)
+			# Test de l'applicaiton mobile kibaro (Yiriah)
+			# Test de résitance face aux utilisations déviantes (GroupeCFR / Yiriah)
+			
 		- Rédiger des documentations technique et d’utilisation d’une solution applicative
+			# Rédaction d'un document technique de référence décrivant l'architecture du site (GroupeCFR)
+			
 		- Exploiter les fonctionnalités d’un environnement de développement et de tests
+			# Utilisation de liveserver pour le developpement en local avant le push en production (GroupeCFR / Yiriah)
+			# Utilisation de Postman pour tester les requêtes node express (PPE)
+			# Utilisation de Swagger pour tester le bon fonctionnement de la webapp de création de compte (Yiriah)
 		
 	Assurer la maintenance corrective ou évolutive d’une solution applicative
 	
 		- Recueillir, analyser et mettre à jour les	informations sur une version d’une
 			solution applicative
+			# Analyse des push git des divers collaborateurs pour merge avec le siteweb en production (GroupeCFR)
+			# Utilisation de Feedly pour la veille technologique
+			
 		- Évaluer la qualité d’une solution	applicative
+			# Analyse de la pauvre qualité du site web wordpress (GroupeCFR)
+			# Test application mobile Kibaro (Yiriah)
+			
 		- Analyser et corriger un dysfonctionnement
+			# Refonte total du site web pour s'extraire du format cms (GroupeCFR)
+			# Rédaction d'un fichier Excel recenssant les dysfonctionnement de l'applicaiton (Yiriah)
+			
 		- Mettre à jour des documentations technique et d’utilisation d’une solution
 			applicative
+			# Refonte du document technique rédigé suite à la refonte du site de html vers php (GroupeCFR)
+			
 		- Élaborer et réaliser les tests des éléments mis à jour
+			# Test de chaque éléments de developpement avant mise en production sur le site web (GroupeCFR)
+			# Second test de l'application Kibaro suite à la mise à jour de l'applicaiton (Yiriah)
 		
 	Gérer les données
 	
 		- Exploiter des données à l’aide d’un langage de requêtes
+			# Utilisation d'une base de donnée SQL via phpMyAdmin (GroupeCFR)
+			# Utilisation du backend via des requêtes JS fetch (Yiriah)
+			
 		- Développer des fonctionnalités applicatives au sein d’un système de
 			gestion de base de données (relationnel	ou non)
+			# Generation de contenu automatisée à partir des bases de données (GroupeCFR)
+			# Création d'utilisateurs via une webapp react et un backend préfait (Yiriah)
+			
 		- Concevoir ou adapter une base de données
+			# Création de bases de données & tables (GroupeCFR)
+			# Update des tables suite aux requêtes de la direction en terme de contenu (GroupeCFR)
+			
 		- Administrer et déployer une base de données
+			# Déploiement de la base de donnée test en environnement de production (GroupeCFR)
+			# Gestion des utilisateurs autorisés pour la lecture de la BDD (GroupeCFR)
 		
 Bloc de compétences n°3 - Cybersécurité des services informatiques
 
@@ -148,44 +204,108 @@ Bloc de compétences n°3 - Cybersécurité des services informatiques
 	
 		- Recenser les traitements sur les données	à caractère personnel au 
 			sein de l’organisation
+			# Rédaction des mentions légales (GroupeCFR / Yiriah)
+			# Creation d'une BDD incluant des informations collectées (GroupeCFR)
+			
 		- Identifier les risques liés à la collecte, au	traitement, au stockage et à
 			la diffusion des données à caractère personnel
+			# Utilisation des variable d'environnement pour loggin Database (GroupeCFR)
+			# Vérification que les données collectées sont pertinenetes dans le contexte pro (GroupeCFR)
+			# Création de procédures SQL pour limiter les droits d'accès aux données (PPE)
+			
 		- Appliquer la réglementation en matière de collecte, de traitement et de
 			conservation des données à caractère personnel
+			# Vérification que les données collectées sont pertinenetes dans le contexte pro (GroupeCFR / PPE)
+			# Mots de passes & données personnelles transitant de manière sécurisées via tokens (Yiriah)
+			
 		- Sensibiliser les utilisateurs à la protection des données à caractère
 			personnel
+			# Recommandations sur l'utilisation de mots de passe sécurisé (GroupeCFR)
+			# Explicitation du réglement RGPD en manière de stockage des données à caractère personnel (PPE)
+			
 
 	Préserver l'identité numérique de l’organisation
 	
 		- Protéger l’identité numérique d’une organisation
+			# Rédactions de mentions légales (GroupeCFR / Yiriah)
+			# Site web ne contenant aucune information sensible codée (GroupeCFR)
+			
 		- Déployer les moyens appropriés de preuve électronique
+			# Certificat https déployé au moyen du cpanel, redirection automatique depuis http (GroupeCFR)
 		
 	Sécuriser les équipements et les usages des utilisateurs
 	
 		- Informer les utilisateurs sur les risques	associés à l’utilisation 
-			d’une ressource	numérique et promouvoir les bons usages à adopter
+			d’une ressource	numérique et promouvoir les bons usages à adopter ***
+			# Rédaction de mentions légales (GroupeCFR / Yiriah) 
+			
 		- Identifier les menaces et mettre en œuvre les défenses appropriées
+			# Communication encryptée via tokens aws lors de la création de compte (Yiriah)
+			# Recommandation de changements de mots de passe à la CEO (GroupeCFR)
+			
 		- Gérer les accès et les privilèges	appropriés
+			# Création d'un utilisateur lecture seule pour l'utilisation de la BDD (GroupeCFR)
+			# Utilisation de variable env pour la génération de token sécurisés (Yiriah)
+			# Utilisation de viriable stockées hors projet git pour l'accès à la BDD (GroupeCFR)
+			
 		- Vérifier l’efficacité de la protection
+			# Sans les accès décris ci dessus, aucun accès n'est possible (GroupeCFR / Yiriah)
 		
 	Garantir la disponibilité, l’intégrité et la confidentialité des services informatiques
 		et des données de l’organisation face à des cyberattaques
 		
 		- Caractériser les risques liés à l’utilisation	malveillante d’un service informatique
+			# Reflexion sur l'encryptage des mots de passes (PPE)
+			# Mots de passe à sécurité faible detectés (GroupeCFR) 
+			
 		- Recenser les conséquences d’une perte de disponibilité, d’intégrité
 			ou de confidentialité
+			# Difficultés face aux appels d'offres (GroupeCFR)
+			# Atteinte à l'image de l'organisation (GroupeCFR / Yiriah)
+			# Perte financières en cas d'attaque concurencielle (GroupeCFR)
+			
 		- Identifier les obligations légales qui s’imposent en matière d’archivage et de
 			protection des données de l’organisation
-		- Organiser la collecte et la conservation des preuves numériques***
-		- Appliquer les procédures garantissant le respect des obligations légales***
+			# Rédaction d'un document informatif sur les nécessités imposées par le RGPD sur la collecte des données (PPE)
+			
+		- Organiser la collecte et la conservation des preuves numériques
+			# Utilisation du versionning de git pour le suivis des modification site web (GroupeCFR) 
+			
+		- Appliquer les procédures garantissant le respect des obligations légales
+			# Création d'utilisateurs non-root pour l'accès à la base de données (GroupeCFR)
+			# Notificaiton à la CEO de l'utilisation d'une API pour la gestion des formulaires (GroupeCFR)
 		
 	Assurer la cybersécurité d’une solution applicative et de son développement (SLAM)
 	
 		- Participer à la vérification des éléments contribuant à la qualité 
 			d’un développement informatique
+			# Validation de la production en meeting avec la direction de manière fréquente, agile (GroupeCFR / Yiriah)
+			# Respect du cahier des charges (Yiriah)
+			# Respect des notions UX - Minimum de click possible (GroupeCFR)
+			# Rédaction d'un document technique pour les developpeurs ulterieurs (GroupeCFR)
+			
 		- Prendre en compte la sécurité dans un projet de développement d’une solution applicative
+			# Utilisation d'un projet git privé pour le developpement (GroupeCFR)
+			# Exteriorisation des identifiants & mots de passe nécessaires au fonctionnement du projet (GroupeCFR / Yiriah)
+			
 		- Mettre en œuvre et vérifier la conformité	d’une solution applicative et de son
 			développement à un référentiel, une norme ou un standard de sécurité
+			# Utilisateurs de la BDD avec mot de passe fort (GroupeCFR)
+			# Vérification de l'incapacité d'accès aux données avec des identifiants erronés (GroupeCFR / Yiriah)
+			
 		- Prévenir les attaques
+			# Création d'un git backup du site web mis en ligne (GroupeCFR)
+			
 		- Analyser les connexions (logs)
+			# Analyse de l'historique des push sur le git du projet pour le merge global (GroupeCFR)
+			
 		- Analyser des incidents de sécurité, proposer et mettre en œuvre des contre-mesures
+			# Reaction au crash du site web cms (GroupeCFR)
+			# Proposition d'un site web externe au cms (GroupeCFR)
+			# Recommandation de changement de mots de passe (GroupeCFR)
+		
+		
+		
+		
+		
+		
