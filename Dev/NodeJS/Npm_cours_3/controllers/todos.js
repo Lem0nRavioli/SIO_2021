@@ -37,7 +37,7 @@ const routes = {
         return noTaskFound(res);
     },
 
-    // edit todo at index :numtask -1
+    // edit todo with id :numtask
     editTask: (req, res) => {
         const { numtask } = req.params;
         const { texte } = req.body;
@@ -52,7 +52,7 @@ const routes = {
         return noTaskFound(res);        
     },
 
-    // delete todo at index :numtask -1
+    // delete todo with id :numtask
     deleteTask: (req, res) => {
         const { numtask } = req.params;
         for (let i = 0; i < todos.length; i++) {
