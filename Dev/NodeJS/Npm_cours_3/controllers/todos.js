@@ -26,7 +26,7 @@ const routes = {
         return res.status(200).json({ success: `${todos[todos.length - 1].texte} has been added` });
     },
 
-    // get todo at index :numtask - 1
+    // get todo with id :numtask
     getTask: (req, res) => {
         const { numtask } = req.params;
         for (let i = 0; i < todos.length; i++) {
@@ -42,26 +42,27 @@ const routes = {
         const { numtask } = req.params;
         const { texte } = req.body;
 
-        if (numtask > todos.length) {
-            return noTaskFound(res);
+        for (let i = 0; i < todos.length; i++) {
+            if (todos[i].id == numtask) {
+                const temp_text = todos[i].texte;
+                todos[i].texte = texte;
+                return res.status(200).json({ success: `Tâche <<${temp_text}>> modifiée en la tâche: <<${todos[i].texte}>>` });
+            }
         }
-
-        const temp_text = todos[numtask - 1].texte;
-        todos[numtask - 1].texte = texte;
-        return res.status(200).json({ success: `Tâche <<${temp_text}>> modifiée en la tâche: <<${todos[numtask - 1].texte}>>` });
+        return noTaskFound(res);        
     },
 
     // delete todo at index :numtask -1
     deleteTask: (req, res) => {
         const { numtask } = req.params;
-
-        if (numtask > todos.length) {
-            return noTaskFound(res);
+        for (let i = 0; i < todos.length; i++) {
+            if (todos[i].id == numtask) {
+                const temp_task = todos[i];
+                todos.splice(i, 1);
+                return res.status(200).json({ success: `Tâche numéro ${temp_task.id} contenant la description <<${temp_task.texte}>> a bien été supprimée`, todos: todos });
+            }
         }
-
-        const temp_task = todos[numtask - 1];
-        todos.splice(numtask - 1, 1);
-        return res.status(200).json({ success: `Tâche numéro ${temp_task.id} contenant la description <<${temp_task.texte}>> a bien été supprimée`, todos: todos });
+        return noTaskFound(res);        
     }
 
 };
