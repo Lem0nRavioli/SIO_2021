@@ -5,22 +5,14 @@ const { getAllTasks, addTask, getTask, editTask, deleteTask } = require('../cont
 // show all todos
 router
     .route ('/tasks')
-    .get(getAllTasks);
-// add task
-router
-    .route('/addTask')
-    .post(addTask);
-// display task :numtask
+    .get(getAllTasks)   // return all task
+    .post(addTask);     // adding a task
+
 router
     .route('/task/:numtask')
-    .get(getTask);
-// edit task :numtask
-router
-    .route('/task/edit/:numtask')
-    .put(editTask);
-// delete task :numtask
-router
-    .route('/task/delete/:numtask')
-    .delete(deleteTask);
+    .get(getTask)       // get task with :numtask id
+    .put(editTask)      // edit task with :numtask id
+    .delete(deleteTask);// delete task with :numtask id
+
 
 module.exports = router;

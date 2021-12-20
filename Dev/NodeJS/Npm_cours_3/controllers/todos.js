@@ -13,7 +13,7 @@ const noTaskFound = (res) => {
     res.status(400).json({ error: `Aucune tâche trouvée avec ce numéro` });
 }
 
-const routes = {
+const controllers = {
     // display all todos
     getAllTasks: (req, res) => {
         return res.status(200).json({ success: "Voici la liste des tâches", todos: todos });
@@ -68,5 +68,5 @@ const routes = {
 };
 
 
-module.exports = routes;
+module.exports = controllers;
 
