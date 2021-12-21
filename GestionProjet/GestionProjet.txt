@@ -227,6 +227,7 @@ Le parc informatique est un investissement à long terme. Il fait parti du patri
 			
 			
 			Années		Nb h utilisations
+			
 			2021		90h
 			2022		150h
 			2023		180h
@@ -238,73 +239,217 @@ Le parc informatique est un investissement à long terme. Il fait parti du patri
 			
 			Amortissement 2021: (90h/420h)*544 = 116.57€
 			
-			Amortissement 2022: (150h/420h)*544 = 194.29€
+			Amortissement 2022: (150h/420h)*544 = 194.28€
 			
 			Amortissement 2023: (180h/420h)*544 = 233.14€
 	
 	
+			Le plan d'amortissement sera: 
+			
+			
+			Années		Base Amortissable		Annuité d'amortissement		Annuités cumulé		Valeur nette comptable
+			
+			2021		544						116.57						116.57				844 - 116.57 = 727.43
+			2022		544						194.28						310.85				727.43 - 194.28 = 533.15
+			2023		544						233.14						543.99				533.15 - 233.14 = 300.01
+	
+	
+	
+			Comme le serveur est un investissement, il entre dans le patrimoine de Wallid donc dans son bilan.
+	
+	
+			Bilan en 2021
+			
+			Actif(Biens)		Montant Brut		Amort cumulés		Net		Passif(dettes)
+			
+			Actifs immobi:
+			
+			Immobi corporels	844					116.54				727.43
+	
+	
+			Bilan en 2022
+			
+			Actif(Biens)		Montant Brut		Amort cumulés		Net		Passif(dettes)
+			
+			Actifs immobi:
+			
+			Immobi corporels	844					310.85				533.15
+	
+	
+			L'amortissement est une charge calculée (donc une charge non décaissée) qui n'a pas pour conséquence une sortie 
+			de trésorerie. Il s'agit d'eune dépense qui nécessite pas de sortie d'argent. Plus on investit, plus on amortis, plus le 
+			bénéfice diminue donc on paie moins d'impôts (mesure fiscale)
+			
+			Ex2: Matthieu achète à Younes un ordinateur pour 1300€. La valeur de revente (valeur résiduelle) est de 0€.
+					Il choisit d'amortir selon le rythme des heures consommées
+					
+				
+				Années		Nb h utilisation
+				
+				2021		50h
+				2022		100h
+				2023		150h
+				Total		300h
+				
+				Base amortissable = coût d'acquisition - valeur de revente (valeur résiduelle) = 1500 - 0 = 1300
+	
+				Amortissement 2021: 50h/300h*1300 = 216.67€
+				
+				Amortissement 2022: 100h/300h*1300 = 433.33€
+				
+				Amortissement 2023: 150h/300h*1300 = 650€
+	
+		
+				Années		Base Amortissable		Annuité d'amortissement		Annuités cumulé		Valeur nette comptable
+			
+				2021		1300					216.67						216.67				1300 - 216.67 = 1083.33
+				2022		1300					433.33						650					1083.33 - 433.33 = 650
+				2023		1300					650							1300				650 - 650 = 0
+	
+	
+	
+				Bilan en 2021
+			
+				Actif(Biens)		Montant Brut		Amort cumulés		Net		Passif(dettes)
+				
+				Actifs immobi:
+				
+				Immobi corporels	1300				216.67				1083.33
+		
+		
+				Bilan en 2022
+				
+				Actif(Biens)		Montant Brut		Amort cumulés		Net		Passif(dettes)
+				
+				Actifs immobi:
+				
+				Immobi corporels	1300				433.33				650
+	
+	
+				Bilan en 2022
+				
+				Actif(Biens)		Montant Brut		Amort cumulés		Net		Passif(dettes)
+				
+				Actifs immobi:
+				
+				Immobi corporels	1300				650					0
 	
 	
 	
 	
 	
+		B- L'Amortissement Linéaire
+	
+			C'est l'amortissement le plus courant.
+			
+			Base amortissable = coût d'acquisition - valeur de revente
+	
+			Taux d'amortissement = base amortissable / durée d'amortissement
+			
+			annuité d'amortissement = base amortissable * taux d'amortissement
+	
+			Même exemple de Ouahid: acquisition d'un serveur pour 844€, il décide d'amortir ce bien selon le mode linéaire.
+			La durée de vie du serveur est de 3 ans. A l'issu des 3 ans, Ouahid revend le serveur à guillaume pour 300€
+			
+			base amortissable = 844 - 300 = 544
+			Taux d'amortissement = 3 ans = 33.33% / an
+			annuité d'amortissement = 	544 * 1/3 = 181.33
 	
 	
 	
 	
+			Années		Base Amortissable		Annuité d'amortissement		Annuités cumulé		Valeur nette comptable
+			
+			2021		544						181.33						181.33				844 - 181.33 = 662,67
+			2022		544						181.33						362.66				662,67 - 181.33 = 481.33
+			2023		544						181.33						544					481.33 - 181.33  = 300
+	
+5- La rentabilité du parc informatique
+
+	L'objectif est de savoir si le parc informatique génère de la rentabilité avant de prendre la décision d'investir.
+	
+	Younes veut invesir dans un projet informatique pour proposer des intervetions ches ses clients. 
+	Pour cela, il a le choix entre 2 projets:
+		- Projet Nordine
+		- Projet Guillaume
+		
+										Projet Nordine				Projet Guillaume
+										
+	Cout d'acquisition matériel			22'800€						36'000€
+	Durée de vie matériel				4 ans						4 ans
+	CA généré grâce au projet			77€/interv					77€/interv
+	Salaires							28'800€/an					28'800€/an
+	Loyers								6'000€/an					6'000€/an
+	Autres charges						24'200€/an					19'900/an
+	Maintenance							800€/an						700€/an
+	Frais divers						1'000€/an					1'000€/an
+	Amortissement Matériel				5'700€/an					9'000€/an
+	Estimation de vente					1'000 interv/an				1'000 interv/an
+		
+	
+	Etape 1: Calculer le résultat net
+	
+											Projet Nordine				Projet Guillaume
+		
+		CA généré grâce au projet			77'000€						77'000€
+		- salaires							28'800€						28'800€
+		- loyers							6'000€						6'000€
+		- autres charges					24'200€						19'800€
+		- maintenance						800€						700€
+		- frais divers						1'000€						1'000€
+		- amortissement						5'700€						9'000€
+		= résultat avant impot				10'500€						11'700€
+		- impots(1/3)						3'500€						3'900€
+		= résultat net						7'000€						7'800€
+		
+		
+		Le projet Nordine va dégager un bénéfice de 7'000€/an pendant 4 ans alors que celui de guillaume sera de 7'733€/an pendant 4 ans
+		
+	
+	Etape 2: Calculer des flux net de trésorerie (FNT) (cash flow)
+	
+		C'est la partie du résultat net qui correspond à de la trésorerie réélle
+		
+		FNT = résultat net + amortissement
+		
+		FNT Nordine = 7'000€ + 5'700€ = 12'700€ Si younes opte pour le projet Nordine, il va déclarer un bénéfice de 7'000€ mais en réalité il aura
+			12'700€ de trésorerie/an
+			
+		FNT Guillaume = 7'800€ + 9'000€ = 16'800€ Si younes opte pour le projet Guillaume, il va déclarer un bénéfice de 7'800€ mais en réalité il
+			aura 16'800€ de trésorerie/an 
 	
 	
+	Etape 3: les 3 méthodes permettant de mesurer la rentabilité d'un investissement
 	
 	
+		1€ en 2021 ne vaut pas 1€ dans 4 ans du fait de l'augmentation du coût de la vie et l'indice de prix. Younes doit tenir compte de cette hausse
+		des prix. Comme il prend la décision d'investir en 2021, il faut ramener la valeur de l'argent pour 2021.
+		Pour cela, on doit utiliser un taux d'actualisation pour tenir compte de la hausse de prix.
+		Younes choisit un taux d'actualisation de 10% (il estime que les prix augmentent de 10% tout les ans)
+		
+		A- 1er méthode: la valeur actuelle nette(VAN)
+		
+			Les flux nets de trésorerie doivent être actualisés pour tenir compte du coût de la vie ou de la hausse des prix. On va utiliser les suite
+			arithmétiques.
+			
+										Projet Nordine							Projet Guillaume
+										
+			Année 2021 (init)			- 22'800€								- 36'000€
+			Année 2022					+ 12'700€*1.1^-1 = 11'545.45€			+ 16'800€*1.1^-1 = 15'272.72€
+			Année 2023					+ 12'700€*1.1^-2 = 10'495.67€			+ 16'800€*1.1^-2 = 13'884.29€
+			Année 2024					+ 12'700€*1.1^-3 = 9'541.70€			+ 16'800€*1.1^-3 = 12'622.09€
+			Année 2025					+ 12'700€*1.1^-4 = 8'674.27€			+ 16'800€*1.1^-4 = 11'474.63€	
+			
+			Valeur actu Net(VAN)		- 22'800€ + 11'545.45€ + 10'465.67€		- 36'000€ + 15'272.72€ + 13'884.29€
+			= - investissement			+ 9'541.70€ + 8'674.27€					+ 12'622.09€ + 11'474.63€
+			  + FNT actuels				= + 17546.87€							= + 17'253.73€
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+			Si la VAN est positive, le projet est rentable.
+			
+			En comparant les 2 VAN, le projet Nordine est plus rentable car sa VAN est légèrement supérieure au projet Guillaume.
+			
+			De plus, le coût d'acquisition du projet Nordine est inférieur à celui de Guillaume (22'800€ contre 36'000€)
 	
 	
 	

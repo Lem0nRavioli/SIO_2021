@@ -1,0 +1,47 @@
+TCO SUJET REPONSE
+
+a) Expliquer les éléments pris en compte dans le calcul du coût total de possession(TCO) et comment ce dernier va évoluer dans le temps.
+
+	Le TCO est le coût global de l'investissement qui comprend tout les frais depuis l'acquisition jusqu'à la destruction. Certains coûts 
+	ne sont connus qu'au moment de l'achat mais peuvent être anticipés (maintenance, réparation, formation, mise à jour, coût de sortie et 
+	de destruction)
+	
+	Le TCO est supérieur au coût de l'acquisition et risque d'augmenter
+	
+b) Justifier l’intérêt qu’a Savéol d’opter pour le renouvellement sur deux ans de la garantie au-delà des trois ans initialement prévus dans le contrat.
+
+	Comme dans l'entreprise, la durée d'amortissement est de 5 ans pour les serveurs que la garantie de 500€ est pour 3 ans, le fait de renouveler la
+	garantie pour 2 ans supplémentaire correspond à la durée de vie du serveur. Les 1200€ de garantie permettent de couvrir le remplacement de pièces 
+	par anticipation et permettent de faire des économies.
+	
+c) Valider le montant de la valeur nette comptable du serveur au 31/12/2014 en détaillant les calculs pour l’obtenir.
+
+	Base amortissable = coût d'acquisition - valeur de revente = 4200 - 0 = 4200
+	
+	Taux d'amortissement = base amortissable / durée d'amortissement = 20% (20/100 => 5 ans)
+	
+	annuité d'amortissement = base amortissable * taux d'amortissement = 4200 * .2 = 840€
+	
+	Années		Base Amortissable		Annuité d'amortissement		Annuités cumulé		Valeur nette comptable
+			
+	2012-11		4200					2*840 = 140					140					4200 - 140 = 4060
+	2013		4200					840							980					4060 - 840 = 3220
+	2014		4200					840							1820				3220 - 840 = 2380
+	
+	
+d) Indiquer si cette valeur nette comptable correspond à la réalité de la valeur du serveur.
+
+
+	La valeur nette comptable est une valeur théorique à une date donnée. Pendant l'utilisation au cours des années, l'entreprise peut améliorer 
+	le serveur (en ajoutant plus de mémoire). Donc la valeur réèlle du serveur ne correspondra pas à la valeur nette comtpable.
+	
+	
+e)Indiquer l’intérêt ou les risques à continuer à utiliser le serveur au-delà de son cycle de vie estimé.
+
+	L'intérêt d'utiliser le serveur au delà de sa durée de vie estimée est d'un point de vue économique: Le serveur peut être utilisé pour d'autres
+	projets d'ampleurs moindre.
+	
+	Les risques: la garantie expirée, en cas de panne, les frais de réparation & main d'oeuvre restent à la charge de l'entreprise et les risques de 
+	pannes, de baisse de performance ou d'interruption risque d'être plus fréquents.
+
+	

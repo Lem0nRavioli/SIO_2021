@@ -89,8 +89,19 @@
 			a+b= !a!b
 			(ab)=!a+!b
 			
+			
 	C) Tableaux de KARNAUGH
-	
+		
+		Préambule:exemples de fonctions ou expressions booléennes.
+		Les tableaux de Karnaugh permettent de représenter graphiquement des expressions booléennes
+		comportant plusieurs variables booléennes.
+		Nous nous limiterons au cas de 2 ou 3 variables booléennes.
+		
+		1. Cas de deux variables booléennes
+		
+			Dans ce cas un tableau de Karnaugh est un carré comportant 4 cases correspondant aux 4 produits
+			ab,āb,̄ab,̄āb:
+
 	
 	
 	
