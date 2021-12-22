@@ -60,3 +60,48 @@ a = lambda
 if a < 8 : print("ajourné")
 elif a < 10 : print("oral")
 else: print("admis")
+
+
+===================================================
+Feuille 3
+===================================================
+
+Ex2:
+
+n = lambda
+start = lambda
+end = lembda
+
+print(n*(start+end)/2)
+
+Ex3:
+
+n = lambda
+total = 1
+
+for x in range(n):
+	total *= x
+	
+print(total)
+
+
+Ex4 :
+import random
+
+to_guess = random.randint(1, 1000)
+vies = 10
+
+while vies > 0:
+	print("tu a " + str(vies) + " vies")
+	guess = input("Devine !")
+	if guess != to_guess :
+		vies -= 1
+	else:
+		vies = 0
+		print("Bravo !")
+
+
+
+
+
+
