@@ -12,18 +12,16 @@ const noTaskFound = (res) => {
     res.status(400).json({ error: `Aucune tâche trouvée avec ce numéro` });
 }
 
+// send request to db specified in the call and return what the db feedback
 const fetchDB = async (call) => {
     let connexion;
     try {
         connexion = await pool.getConnection();
         const result = await connexion.query(call);
         // const result = await connexion.query(`CALL createTask(?, ?)`, [id, texte]);
-        // console.log(result);
-        // return res.status(200).json({ success: result });
         return result;
     } catch (error) {
         return error.message;
-        // return error.message;
     } finally {
         if (connexion) connexion.end();
     }
