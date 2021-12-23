@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env NODE_ENV=dev nodemon app.js",
     "prod": "cross-env NODE_ENV=prod node app.js",
-    "integrateDB": "cross-env mariadb -u root -p < ./database/schemas.sql"
+    "integrateDB": "cross-env mariadb -u root -p < ./database/schemas.sql",
+    "integrateProcedures": "cross-env mariadb -u root -p < ./database/procedures.sql"
   },
   "author": "",
   "license": "ISC",

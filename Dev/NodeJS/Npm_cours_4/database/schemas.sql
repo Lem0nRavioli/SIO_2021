@@ -7,4 +7,10 @@ CREATE OR REPLACE TABLE todo (
 );
 
 INSERT INTO todo (texte)
-VALUES ('loremipsium');
+VALUES 
+    ('Tache n 1'),
+    ('Tache n 2'),
+    ('Tache n 3'),
+    ('Tache n 4'),
+    ('Tache n 5'),
+    ('Tache n 6');

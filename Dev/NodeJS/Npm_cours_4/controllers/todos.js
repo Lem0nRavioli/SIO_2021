@@ -1,82 +1,99 @@
 const pool = require('../config/database'); // import mariadb pool
 
 // FAKE DATABASE //
-const todos = [
-    { id: 1, texte: "tache 1" },
-    { id: 2, texte: "tache 2" },
-    { id: 3, texte: "tache 3" }
-]
+// const todos = [
+//     { id: 1, texte: "tache 1" },
+//     { id: 2, texte: "tache 2" },
+//     { id: 3, texte: "tache 3" }
+// ]
 
 // no task found at index
 const noTaskFound = (res) => {
     res.status(400).json({ error: `Aucune tâche trouvée avec ce numéro` });
 }
 
+const fetchDB = async (call) => {
+    let connexion;
+    try {
+        connexion = await pool.getConnection();
+        const result = await connexion.query(call);
+        // const result = await connexion.query(`CALL createTask(?, ?)`, [id, texte]);
+        // console.log(result);
+        // return res.status(200).json({ success: result });
+        return result;
+    } catch (error) {
+        return error.message;
+        // return error.message;
+    } finally {
+        if (connexion) connexion.end();
+    }
+}
+
 const controllers = {
     // display all todos
-    getAllTasks: (req, res) => {
-        return res.status(200).json({ success: "Voici la liste des tâches", todos: todos });
+    getAllTasks: async (req, res) => {
+        const result = await fetchDB('CALL getAllTasks()');
+        return res.status(200).json({ success: "Voici la liste des tâches", tasks: result[0] });
     },
 
     // add todo
-    addTask: (req, res) => {
+    addTask: async (req, res) => {
         const { id, texte } = req.body;
-        todos.push({ id: id, texte: texte });
-        return res.status(200).json({ success: `${todos[todos.length - 1].texte} has been added` });
+        const idValid = await fetchDB(`CALL getTask(${id})`);
+        console.log(idValid);
+        if (idValid[0].length == 0) {
+            await fetchDB(`CALL addTask(${id}, ${JSON.stringify(texte)})`);
+            const result = await fetchDB(`CALL getTask(${id})`);
+            return res.status(200).json({ success: `${result[0][0].texte} has been added` });
+        }
+        return res.status(400).json({ error: `La tâche ${id} contient déjà ${idValid[0][0].texte}`});        
     },
 
     // get todo with id :numtask
-    getTask: (req, res) => {
+    getTask: async (req, res) => {
         const { numtask } = req.params;
-        for (let i = 0; i < todos.length; i++) {
-            if (todos[i].id == numtask) {
-                return res.status(200).json({ success: `La tache numéro ${numtask} contient la tâche ${todos[i].texte}` });
-            }
+        const result = await fetchDB(`CALL getTask(${numtask})`);
+        if (result[0].length > 0) {
+            return res.status(200).json({ success: result[0] });
         }
         return noTaskFound(res);
     },
 
     // edit todo with id :numtask
-    editTask: (req, res) => {
+    editTask: async (req, res) => {
         const { numtask } = req.params;
         const { texte } = req.body;
-
-        for (let i = 0; i < todos.length; i++) {
-            if (todos[i].id == numtask) {
-                const temp_text = todos[i].texte;
-                todos[i].texte = texte;
-                return res.status(200).json({ success: `Tâche <<${temp_text}>> modifiée en la tâche: <<${todos[i].texte}>>` });
-            }
+        
+        const oldTask = await fetchDB(`CALL getTask(${numtask})`);
+        if (oldTask[0].length > 0) {
+            await fetchDB(`CALL editTask(${numtask}, ${JSON.stringify(texte)})`);
+            const result = await fetchDB(`CALL getTask(${numtask})`);
+            return res.status(200).json({ success: `Tâche <<${oldTask[0][0].texte}>> modifiée en la tâche: <<${result[0][0].texte}>>` });
         }
         return noTaskFound(res);        
     },
 
     // delete todo with id :numtask
-    deleteTask: (req, res) => {
+    deleteTask: async (req, res) => {
         const { numtask } = req.params;
-        for (let i = 0; i < todos.length; i++) {
-            if (todos[i].id == numtask) {
-                const temp_task = todos[i];
-                todos.splice(i, 1);
-                return res.status(200).json({ success: `Tâche numéro ${temp_task.id} contenant la description <<${temp_task.texte}>> a bien été supprimée`, todos: todos });
-            }
+        const result = await fetchDB(`CALL getTask(${numtask})`);
+        if (result[0].length > 0) {
+            await fetchDB(`CALL deleteTask(${numtask})`);
+            return res.status(200).json({ success: `Tâche numéro ${result[0][0].id} contenant la description <<${result[0][0].texte}>> a bien été supprimée`});
         }
         return noTaskFound(res);        
     },
-    test: async (req, res) => {
-        let connexion;
-        try {
-            connexion = await pool.getConnection();
-            const result = await connexion.query('SELECT * FROM todo;');
-            console.log(result);
-            return res.status(200).json({ success: result });
-        } catch (error) {
-            return res.status(400).json({ error: error.message });
-        } finally {
-            if (connexion) connexion.end();
+    
+    // delete all tasks
+    deleteAll: async (req, res) => {
+        await fetchDB(`CALL deleteAllTask()`);
+        const result = await fetchDB('CALL getAllTasks()');
+        if (result[0] != 0) {
+            return res.status(400).json({ error: `The dev did a shit job with procedure and your table isn't cleared`});
         }
-    }
+        return res.status(200).json({ success: `Table bien nettoyée !`});
 
+    }
 };
 
 
