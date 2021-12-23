@@ -1,7 +1,5 @@
-// const controllers = require('./controllers/todos');
-// console.log(controllers.getAllTodos);
-// const { getAllTodos } = require('./controllers/todos');
-// console.log(getAllTodos);
+require('dotenv').config({ path: `./config/${process.env.NODE_ENV}.env`});
+// console.log(process.env);
 
 const express = require("express");
 const app = express();
@@ -17,7 +15,7 @@ const todosRoute = require('./routes/todos');
 app.use('/api', todosRoute);
 
 // --------------- LAUNCH SERVER --------------- //
-const PORT = 3000; // definis le port d ecoute
+const PORT = process.env.PORT; // definis le port d ecoute
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
 });

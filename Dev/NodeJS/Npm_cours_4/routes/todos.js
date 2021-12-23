@@ -1,6 +1,6 @@
 const router = require('express-promise-router')();
 
-const { getAllTasks, addTask, getTask, editTask, deleteTask } = require('../controllers/todos');
+const { getAllTasks, addTask, getTask, editTask, deleteTask, test } = require('../controllers/todos');
 
 // show all todos
 router
@@ -13,6 +13,10 @@ router
     .get(getTask)       // get task with :numtask id
     .put(editTask)      // edit task with :numtask id
     .delete(deleteTask);// delete task with :numtask id
+
+router
+    .route('/test')
+    .get(test);
 
 
 module.exports = router;

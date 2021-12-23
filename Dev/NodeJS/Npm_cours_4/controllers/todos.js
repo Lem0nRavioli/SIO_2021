@@ -1,5 +1,4 @@
-// const tab = [1,2,3,4,5];
-// module.exports = tab;
+const pool = require('../config/database'); // import mariadb pool
 
 // FAKE DATABASE //
 const todos = [
@@ -63,6 +62,19 @@ const controllers = {
             }
         }
         return noTaskFound(res);        
+    },
+    test: async (req, res) => {
+        let connexion;
+        try {
+            connexion = await pool.getConnection();
+            const result = await connexion.query('SELECT * FROM todo;');
+            console.log(result);
+            return res.status(200).json({ success: result });
+        } catch (error) {
+            return res.status(400).json({ error: error.message });
+        } finally {
+            if (connexion) connexion.end();
+        }
     }
 
 };
