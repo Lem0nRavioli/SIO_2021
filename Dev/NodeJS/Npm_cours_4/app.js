@@ -5,7 +5,7 @@
 
 const express = require("express");
 const app = express();
-app.use(express.json()); // middleware
+app.use(express.json());
 
 // route d'accueil
 app.get('/api', (req, res) => {
