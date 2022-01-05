@@ -172,11 +172,27 @@ Ex9:
 Matrice "mirroir" & Matrice qui s'annule (?)
 
 
+
+Ex10:
+// PARTIE A //
+
+1)
+	A = Y x X.T
 	
+2)
+	A =	(6, 8,		(200,
+		 1, 1.5) *	 800)
+		 
+	A = (7600,
+		 1400)
 
 
-
-
+// PARTIE B //
+1)
+	BA = 	(1, 0,
+			 0, 1)
+		 
+2)	A suivre
 
 
 
