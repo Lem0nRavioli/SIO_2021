@@ -1,0 +1,26 @@
+{
+  "name": "entrainement-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev nodemon app.js",
+    "prod": "cross-env NODE_ENV=prod node app.js",
+    "integrateDB": "cross-env mariadb -u root -p < ./database/schemas.sql",
+    "integrateProcedures": "cross-env mariadb -u root -p < ./database/procedures.sql"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.1.1",
+    "mariadb": "^2.5.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

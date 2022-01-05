@@ -1,0 +1,6 @@
+use todo_dev2;
+
+CREATE OR REPLACE TABLE todo (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    texte VARCHAR(255) NOT NULL
+);
