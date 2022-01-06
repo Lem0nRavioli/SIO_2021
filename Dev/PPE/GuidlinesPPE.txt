@@ -1,0 +1,22 @@
+##WEB## 
+
+*
+Ajouter verbose
+
+ADMIN
+Facture gérées par l'admin (paiement en physique)
+	(valider paiement checkbox + generation facture)
+
+USER
+Découper CRUD réservation
+Developper Assistance (Requêtes / Problèmes / Accomodations ...)
+
+VISITEUR
+Voir une salle == Caractéristique salle
+
+##MOBILE## 
+
+Version web minus ADMIN/VISITEUR
+Idées mobiles:
+- Code accés salle
+- Tracabilité des invités (covid ++)

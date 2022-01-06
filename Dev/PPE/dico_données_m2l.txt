@@ -1,0 +1,63 @@
+// Chaque participant a nécessairement un compte user
+
+Table Users
+Table Salles
+Table Produit
+Table Tickets liée user
+Table Réservation liée user liée salles
+Table Participants liée réservation liée user
+Table Paiement liée user liée réservation liée produit
+
+
+TABLE USERS
+id primarykey
+nom
+prenom
+email
+tel
+password
+ddn
+adresse
+
+TABLE SALLES
+id primarykey
+nom
+description
+capacité
+prix
+
+TABLE PRODUITS
+id primarykey
+nom_produit
+description
+qte_dispo
+prix
+
+TABLE TICKETS
+id primarykey
+date_ticket
+description
+id_user foreign key USERS not null
+id_salle foreign key SALLES
+id_produit foreign key PRODUITS
+
+TABLE RESERVATION
+id primarykey
+date_resa
+is_paid bool
+id_user foreign key USERS not null (organisateur)
+id_salle foreign key SALLES not null
+
+TABLE PARTICIPANTS
+id primarykey
+covid_positive bool (default false)
+id_user foreign key USERS not null
+id_reservation foreign key RESERVATION not null
+
+TABLE PAIEMENT
+id primarykey
+quantité
+total
+id_user foreign key USERS not null
+id_reservation foreign key RESERVATION not null
+id_produit foreign key PRODUITS not null
