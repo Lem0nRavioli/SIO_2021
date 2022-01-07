@@ -1,0 +1,71 @@
+		SELECT * FROM VEHICULE
+		WHERE veh_agence = 1
+		AND veh_id in ( 
+			SELECT uti_vehicule FROM PARTICIPER 
+			WHERE uti_dossier = DOSSIER_DEMENAGEMENT.dos_numero
+				AND ( 
+					DOSSIER_DEMENAGEMENT.dos_dateDebutDem > '12/06/2016'
+					OR DOSSIER_DEMENAGEMENT.dos_dateFinDem < '12/06/2016'
+					)
+				)
+				
+				
+DICO DONNES
+
+TABLE SALARIE
+TABLE TYPE_VEH
+TABLE VEHICULE lié TYPE_VEH
+TABLE PERMIS liée salarie
+TABLE IMMOBILISATION liée vehicule
+TABLE CONTROLE lié immobilisation
+TABLE REPARATION lié immobilisation
+
+SALARIE (sal_id, sal_nom, sal_prenom, sal_dateNaissance, sal_dateEmbauche, sal_adresse,
+sal_agence, sal_type, sal_chef, sal_experience)
+Clé primaire : sal_id
+Clé étrangère : sal_agence en référence à age_id de AGENCE
+/*
+ Suppression du champ sal_permis. Les permis du salarie sont maintenant stockés dans la table PERMIS
+*/
+
+TYPE_VEH(type_id, type_marque, type_ptac, type_freqEntr, type_permis)
+Clé primaire : type_id
+/*
+ Le champ "type_permis" contient la désignation du permis minimum pour conduire le vehicule
+*/
+
+VEHICULE(veh_id, veh_agence, veh_immat, veh_miseCircu, veh_volume, veh_hayon, 
+	veh_couchette, veh_placeCabine, veh_type)
+Clé primaire : veh_id
+Clé étrangère : veh_type en référence à type_id de TYPE_VEH
+/*
+ Le champ "veh_hayon", "veh_couchette sont de type booléen. "1" si oui, "0" si non. 
+ Le champ "veh_id" définira le N° de véhicule
+*/
+
+PERMIS(permis_id, permis_dateObtention, permis_type, permis_salarie)
+Clé primaire : permis_id
+Clé étrangère : permis_salarie en référence à sal_id de SALARIE
+
+IMMOBILISATION(immo_id, immo_type, immo_km, immo_dateDebut, immo_dateFin, immo_veh)
+Clé primaire : immo_id
+Clé étrangère : immo_veh en référence à veh_id de VEHICULE
+/*
+ Le champ "immo_type" permet de faire la différence entre Entretien, Réparation & Contrôle
+*/
+
+CONTROLE(ctrl_id, ctrl_resultat, ctrl_immo)
+Clé primaire : ctrl_id
+Clé étrangère : ctrl_immo en référence à immo_id de IMMOBILISATION
+
+REPARATION(rep_id, rep_garNom, rep_garAdresse, rep_garPhone; rep_immo)
+Clé primaire : rep_id
+Clé étrangère : rep_immo en référence à immo_id de IMMOBILISATION
+
+
+
+CONGE (con_id, con_dateDebut, con_dateFin, con_dateDemande, con_etatDemande,
+con_dateReponse, con_salarie, con_motif)
+Clé primaire : con_id
+Clé étrangère : con_salarie en référence à sal_id de SALARIE
+Clé étrangère : con_motif en référence à mot_id de MOTIF_CONG
