@@ -1,0 +1,217 @@
+=============================
+		MISSION 1
+=============================
+
+1. Réaliser les modifications nécessaires à la correction de l’anomalie Ano_chef1
+
+"Ano_chef1: Le module PLAN_DEM autorise l'attribution du rôle «Chef d'équipe» à un déménageur qui
+ne possède pas la qualification nécessaire."
+
+	La fonction DemenageurPresents génère une base de donnée contenant tout déménageur sans
+	vérifier la qualification éventuelle de chef d'équipe. Cette donnée est contenue dans
+	la colonne "sal_chef" (booleen) de la table SALARIE.
+
+	Un ajout de la condition "where sal_chef = 1" pour la complétion du champ "Chef d'équipe
+	responsable" résout l'anomalie.
+
+	solution 1:
+
+		CREATE FUNCTION demenageursPresents(@idAgence int, @dateDebut date, @dateFin date) RETURNS TABLE
+		AS
+		RETURN (SELECT * FROM salarie
+		 WHERE sal_agence = @idAgence and sal_type = ’D’ and sal_chef = 1
+		 and sal_id not in ( 
+			select con_salarie from conge
+			where con_dateFin >= @ dateDebut and con_dateDebut <= @dateFin
+			)
+		 and sal_id not in ( 
+			select par_demenageur from participer, dossier_demenagement
+			where par_dossier = dos_numero
+			and dos_dateFinDem >= @ dateDebut and dos_dateDebutDem <= @dateFin
+			)
+		)
+
+	solution 2:
+
+		select * from demenageursPresents(2, '25/05/2016', '30/05/2016') WHERE sal_chef = 1
+
+
+2. Rédiger une courte note indiquant le principe d’une solution permettant de corriger
+l’anomalie Ano_chef2.
+
+"Ano_chef2: Toujours concernant le chef d’équipe, il est possible de désigner un déménageur ne
+participant pas au déménagement, ce qui n’a pas de sens"
+
+	Exemple de solution:
+		- commencer par créer la ligne de la table "DOSSIER_DEMENAGEMENT" en premier avec le champ 
+			dos_chefEquipe" Vide
+		- Ajouter ensuite les participants via la table "PARTICIPER" et les connection au dossier en cours
+		- Utiliser ensuite une fonction stockée tirant ses données non pas de la table "SALARIE" mais de 
+			la table "PARTICIPER" où par_dossier = dos_numéro (celui en cours de complétion)
+		- Vérifier ensuite via la clé par_demenageur (référence sal_id) si un des salarié remplis les condition
+			sal_chef = 1
+		- Proposer la liste des chef éligibles ainsi récupérée dans le champ "Chef d'équipe responsable"
+
+
+
+3. Réaliser les modifications à apporter à la base de données pour satisfaire la demande
+d’évolution Évo_arrêts.
+
+"Évo_arrêts: Les arrêts de travail ne sont pas gérés par PSDEM. Ils le sont au niveau de la gestion des
+ressources humaines qui nous transmet une liste des personnes en arrêt de maladie. Il
+faudrait intégrer cette notion dans la base de données utilisée par PLAN_DEM. Un arrêt
+de travail est différent d’un congé en ce sens qu’il n’est pas prévu. Il n’y a donc pas de
+demande de la part du salarié. Les seules données sont : les dates de début et de fin de
+l’absence, la date de prescription et la date de réception de l’arrêt de travail."
+
+	(mode Schéma relationnel)
+	 // Ajout de la table ARR_TRAVAIL. //
+	
+	ARR_TRAVAIL(arr_id, arr_dateDebut, arr_dateFin, arr_datePrescri, arr_dateReception, arr_salarie)
+	Clé primaire : arr_id
+	Clé étrangère : arr_salarie en référence à sal_id de SALARIE
+	
+
+4. Réaliser les modifications à apporter à la base de données pour satisfaire la demande
+d’évolution Évo_conduire.
+
+"Évo_conduire: Il serait souhaitable de savoir quel(s) déménageur(s) conduiront quel(s) véhicule(s) lors
+d’un déménagement. Tous les déménageurs ne conduisent pas et il peut y avoir plusieurs
+conducteurs pour un véhicule. Un déménageur peut conduire plusieurs véhicules."
+
+
+	(mode Schéma relationnel)
+	 // Ajout de la table associative CONDUIRE. //
+	CONDUIRE(cond_dossier, cond_demenageur, cond_vehicule)
+	Clé primaire : cond_dossier, cond_demenageur, cond_vehicule
+	Clé étrangère : cond_dossier en référence à dos_numero de DOSSIER_DEMENAGEMENT
+	Clé étrangère : cond_demenageur en référence à sal_id de SALARIE
+	Clé étrangère : cond_vehicule en référence à veh_id de VEHICULE
+
+
+=============================
+		MISSION 2
+=============================
+
+
+5. Indiquer pour chacun des besoins exprimés restant à traiter (REQ_003 à REQ_005), si la
+base de données actuelle permet de le satisfaire. Si oui, présenter la requête SQL nécessaire
+en se référant à la note concernant les besoins en information. Si non, indiquer brièvement
+la raison de cette impossibilité.
+
+
+	REQ_003 Planification des entretiens pour un atelier
+	Immatriculation des véhicules de l’agence n°1 occupés le 12 mai 2016.
+		
+		
+		La BDD permet de trouver cette information
+		requête:
+		
+			SELECT veh_id FROM occupationVehicules('12/06/2016') 
+			WHERE veh_agence = 1
+
+
+	REQ_004 Contrôle de la fréquence des entretiens
+	Combien de kilomètres le véhicule immatriculé BC-095-LA a-t-il parcouru depuis son dernier entretien ?
+
+
+		La BDD ne permet pas de trouver cette information: La date du dernier entretie n'est pas 
+		disponible.
+		Le nombre de km post date X peut être calculée via les colonnes DOSSIER_DEMENAGEMENT.dos_nombreKm, 
+		UTILISER.uti_dossier et UTILISER.uti_vehicule si la date du dernier entretien était disponible.  
+
+
+	REQ_005 Contrôle de la fréquence des entretiens
+	Sachant que la donnée « dos_nombreKm » indique la distance aller/retour pour un déménagement, 
+	combien de kilomètres le véhicule immatriculé BC-095-LA a-t-il parcouru lors des déménagements 
+	commencés après le 12 février 2016 ?
+
+
+		La BDD permet de trouver cette information
+		requête: 
+			
+			SELECT SUM(dos_nombreKm) FROM DOSSIER_DEMENAGEMENT
+			WHERE dos_dateDebutDem > '12/06/2016'
+				AND dos_numero in (
+					SELECT uti_dossier FROM UTILISER, VEHICULE
+					WHERE UTILISER.uti_vehicule = VEHICULE.veh_id
+						AND VEHICULE.veh_immat = 'BC-095-LA'
+						)
+
+
+6. Proposer une modélisation de la nouvelle base de données à mettre en place en intégrant la
+base existante, la gestion des permis, des véhicules et la fiche de suivi. Seuls les éléments
+du schéma existant qui sont concernés par l’évolution seront repris dans le schéma
+proposé.
+
+	Proposition de schéma relationnel: 
+	
+		TABLE SALARIE
+		TABLE TYPE_VEH
+		TABLE VEHICULE lié TYPE_VEH
+		TABLE PERMIS liée salarie
+		TABLE IMMOBILISATION liée vehicule
+		TABLE CONTROLE lié immobilisation
+		TABLE REPARATION lié immobilisation
+
+		SALARIE (sal_id, sal_nom, sal_prenom, sal_dateNaissance, sal_dateEmbauche, sal_adresse,
+		sal_agence, sal_type, sal_chef, sal_experience)
+		Clé primaire : sal_id
+		Clé étrangère : sal_agence en référence à age_id de AGENCE
+		/*
+		 Suppression du champ sal_permis. Les permis du salarie sont maintenant stockés dans la table PERMIS
+		*/
+
+		TYPE_VEH(type_id, type_marque, type_ptac, type_freqEntr, type_permis)
+		Clé primaire : type_id
+		/*
+		 Le champ "type_permis" contient la désignation du permis minimum pour conduire le vehicule
+		*/
+
+		VEHICULE(veh_id, veh_agence, veh_immat, veh_miseCircu, veh_volume, veh_hayon, 
+			veh_couchette, veh_placeCabine, veh_type)
+		Clé primaire : veh_id
+		Clé étrangère : veh_type en référence à type_id de TYPE_VEH
+		/*
+		 Le champ "veh_hayon", "veh_couchette sont de type booléen. "1" si oui, "0" si non. 
+		 Le champ "veh_id" définira le N° de véhicule
+		*/
+
+		PERMIS(permis_id, permis_dateObtention, permis_type, permis_salarie)
+		Clé primaire : permis_id
+		Clé étrangère : permis_salarie en référence à sal_id de SALARIE
+
+		IMMOBILISATION(immo_id, immo_type, immo_km, immo_dateDebut, immo_dateFin, immo_veh)
+		Clé primaire : immo_id
+		Clé étrangère : immo_veh en référence à veh_id de VEHICULE
+		/*
+		 Le champ "immo_type" permet de faire la différence entre Entretien, Réparation & Contrôle
+		*/
+
+		CONTROLE(ctrl_id, ctrl_resultat, ctrl_immo)
+		Clé primaire : ctrl_id
+		Clé étrangère : ctrl_immo en référence à immo_id de IMMOBILISATION
+
+		REPARATION(rep_id, rep_garNom, rep_garAdresse, rep_garPhone; rep_immo)
+		Clé primaire : rep_id
+		Clé étrangère : rep_immo en référence à immo_id de IMMOBILISATION
+
+		
+		
+		/* Remarque: Pour le permis, l'utilisation de nombre incrémentant avec la capacité du permis
+			faciliterais les futures requêtes SQL. (ex: Permis B = 0, Permis C1 = 1, C = 2, CE = 3,
+			puis par la suite, une comparaison du niveau max du vehicule en opposition au niveau max 
+			du salarie permet de définir si l'employé est elligible à la conduite du vehicule */
+
+
+
+
+
+
+
+
+
+
+
+
+
