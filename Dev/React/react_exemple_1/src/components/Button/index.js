@@ -1,13 +1,11 @@
 import './index.css';
 
-const Button = ({ text }) => {
-    return ( 
-        <div className="button">
-            <button>
-                { text }
-            </button>
-        </div>
-     );
+const Button = ({ text, ...rest }) => {
+    return (
+        <button {...rest} className="button">
+            {text}
+        </button>
+    );
 }
- 
+
 export default Button;
