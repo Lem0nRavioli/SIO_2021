@@ -1,0 +1,75 @@
+	CONSIGNES ORAL
+
+10 mins de prépa : video 
+Jerry LEONIDE dit:10 mins : compte rendu video en anglais 
+Jerry LEONIDE dit:commentaires sur le support en anglais.
+	
+	
+	VIRTUALIZATION
+	
+This terms refers to the creation of resources such as desktop, O/S, storage devices, etc by
+using the core power of a single computer.
+
+The resources from the HOST (main computer) is therefore divided into parts to accomodate the
+virtual machines.
+
+virtualization technology involves separating the physical hardware and software by emulating
+hardware through software.
+
+When a different OS is operating on top of the primary OS, by means of virtualization, it is 
+referred as a virtual machine.
+
+The most common program used for virtual machines is VirtualBox.
+
+Key words :
+
+	Hypervisor: The program in charge to subdivide and allocate the ressources to the virtual
+		machines.
+	Guest OS: The OS installed onto any virtual machine created within the hypervisor.
+	Partition: One storage device can be split to simulate several storage devices within the 
+		main one. It allows the user to protect / organize / test processes without risking the
+		integrity of other partitions.
+		
+USES:
+
+	1- Reduced operations costs:
+		Investing in one powerful server and then subdivide it's ressources is more economic in all
+		terms (hardware costs and maintenance / energy / software licenses, etc)
+		
+	2- Backup management:
+		You can create full backups of your virtual machines within minutes. These backups can be 
+		moved from one server to another and redeployed easier and faster. (Security is enhanced and 
+		organization is easier).
+		
+	3- Testing procedures.
+		Virtual machines provide a safe and reliable space to test all sorts of procedures (code /
+		software / malware / etc).
+		It allows also to develop on multiple supports
+		
+
+DISADVANTAGES:
+
+	1- Scalability issues - (scale)	
+		An organization sometimes does not know its real needs at the beginning. Expansion can be 
+		often an issue. Virtualization cannot adapt to change in activities.
+		
+	2- Internet dependent process
+		Virtualization used via the cloud is totally dependent on the quality of connection.
+		
+	3- Higher complexity in the network management.
+		It demands a higher comprehension and technicality from the IT support as virtual environments 
+		can be very complex.
+		
+		
+Exercice: 
+
+Choose one hypervisor that you would use for your company and explain your choice.
+Company needs. (ressources / users / computing power / etc)
+
+Considering our company ridiculous policies about new hires, the complete lack of common sense of our 
+CEO, the latest trend with pandemic that aim to destroy every small business in sight, we are now a broke
+company without any workers. Our ressources are scarce, our users, snapped (thanos joke) and at this point 
+we would need to predict the future to save our business. So with all of that in mind, I recommend the usage 
+of the hypervisor Oracle, which, beside the good omen contained in its name, bring a total bill of 0$. I've 
+read thoroughly the shortest summary title I could find to pretend I know what i'm talking about, and with
+that extensive knowledge, I can assure you that Oracle can, indeed, be a VM server for x86. 

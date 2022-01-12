@@ -4,6 +4,29 @@ import Button from '../../components/Button'
 
 // const { call } = require('../../utils/fetch');
 
+const mariadb = require('mariadb');
+const pool = mariadb.createPool({
+    host: 'localhost:3000',
+    user: 'root',
+    password: 'root',
+    connectionLimit: 10,
+    database: 'todo_dev2'
+})
+
+// async function asyncFunction() {
+//     let conn;
+//     try {
+//       conn = await pool.getConnection();
+//       const result = await conn.query("SELECT * FROM todo;");
+//       console.log(result);
+  
+//     } catch (err) {
+//       throw err;
+//     } finally {
+//       if (conn) return conn.end();
+//     }
+//   }
+
 const Todo = () => {
     const [todos, setTodos] = useState([
         { id: 1, text: "Todo 1"},

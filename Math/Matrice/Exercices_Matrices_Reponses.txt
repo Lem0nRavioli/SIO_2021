@@ -177,13 +177,13 @@ Ex10:
 // PARTIE A //
 
 1)
-	A = Y x X.T
+	Y = A * X
 	
 2)
-	A =	(6, 8,		(200,
+	Y =	(6, 8,		(200,
 		 1, 1.5) *	 800)
 		 
-	A = (7600,
+	Y = (7600,
 		 1400)
 
 
@@ -192,7 +192,79 @@ Ex10:
 	BA = 	(1, 0,
 			 0, 1)
 		 
-2)	A suivre
+2)	B x Y = 	(1.5, -8,	(7600,
+				 -1, 6	) x	 1400)
+				 
+	B x Y = 	(200,
+				 800)
+				 
+	B est l'inverse de A
+	
+3)  soit C la matrice représentant le nombre de cal C1 et C2
+	Z = (8400,
+		 1450)
+		 
+	C = B x Z =	(1.5,-8	 (8400, = 	(1000,
+				 -1, 6)	* 1450)		 300)
+
+
+
+Ex11:
+
+	1) BC[1,4][1] =	(a-b,
+					 a-2,
+					 b,
+					 1-a)
+					 
+	2) 	B taille 4x4
+		C taille 4x4
+		BC taille 4x4
+		A taille 3x4
+		
+		BC ne peut pas être égale à A
+		
+		
+	3) A² = Pas possible (a voir A² = A x A ou A x A.T avec Isabelle (?))
+
+
+Ex12:
+1)
+	Y représente le total nécessaire d'acier, de peinture et d'heures de travail
+	M représente l'archétype pour la production d'un item (chaque colonne représente 1 archétype)
+	X représente les quantités à produire de chaque archétype
+	
+	MX = Y
+	
+2)	
+	a) M'M = I
+
+	b) X = M' x Y
+
+3) 	X = M' x Y =	(200,
+					 300,
+					 100)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
