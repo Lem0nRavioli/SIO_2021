@@ -25,11 +25,6 @@ async function fetchAllTodos () {
 
 async function addTodo (event) {
     event.preventDefault(); // prevent refresh page
-    console.log(event);
-    console.log(event.target);
-    console.log(event.target[0]);
-    console.log(event[0]);
-    console.log('bobo');
     const data = { texte: event.target[0].value }
     const result = await fetch('http://localhost:3000/api/todos', {
         method: "POST",
