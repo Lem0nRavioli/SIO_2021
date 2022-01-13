@@ -1,3 +1,7 @@
 .button {
     background-color: orange;
+    min-width: 200px;
+    min-height: 50px;
+    margin: 10px;
+    /* border-radius: 60% 40% 58% 42% / 12% 69% 31% 88%; */
 }

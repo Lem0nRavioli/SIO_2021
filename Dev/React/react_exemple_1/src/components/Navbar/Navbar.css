@@ -1,0 +1,23 @@
+.navbar {
+    background-color: burlywood;
+    margin: 0px;
+    border-radius: 60% 40% 58% 42% / 12% 69% 31% 88% ;
+}
+.nav-element {
+    border-radius: 60% 40% 58% 42% / 12% 69% 31% 88% ;
+    margin: 0px 5px;
+    padding: 0 20px;
+    font-size: 40px;
+    /* background-color: blue; */
+    text-decoration: none;
+}
+
+.nav-element:hover {
+    background-color: blue;
+}
+
+.active {
+    border-bottom: 3px solid #29b6f6;
+    transition: border-bottom .5s ease-in-out;
+    background-color: cadetblue;
+  }

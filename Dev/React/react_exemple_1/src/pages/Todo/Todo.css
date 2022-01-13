@@ -1,0 +1,11 @@
+/* .todo input{
+    border-radius: 60% 40% 58% 42% / 12% 69% 31% 88% ;
+} */
+
+#input-todo {
+    min-height: 30px;
+}
+
+.todo li {
+    list-style: none;
+}
