@@ -1,0 +1,24 @@
+IN QMEGA
+https://www.youtube.com/watch?v=kJ-65YEjoOU
+
+smart wifi cloud camera (amazon cloud)
+left to right (355) (panoramic)
+up/down (135) (tilt)
+autotracking motion
+
+Night vision
+audio : microphone + speaker (2 way)
+micro sd card OK
+
+Pos
+Work with a phone
+Can send notification in case a monitored area become active
+	(record ou live)
+Can use it to communicate (2 ways audio described)
+small size (length 6.8cm, height 10.5 cm)
+
+
+Neg
+they try to hide that it doesn't work on battery (blurry cable)
+they don't tell why it can use an sd card
+Broken english (0:50)
