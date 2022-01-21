@@ -1,0 +1,25 @@
+Cloud Computing
+
+Definition: 
+	The expression “cloud computing” comes from English IT professionals.
+	Cloud computing is the use of a network with remote servers hosted on the Internet to store, manage and process data. 
+	It’s a new way to provide computer technology solutions as a form of a service. In fact, all the resources are available 
+	as a public service on Internet. 
+	So, we talk about « Infrastructure as a Service » (IaaS).
+	We have mainly 2 levels of analyzing the cloud technology. 
+	1st one is the access of distant servers mainly as a storage device in order to prevent loss of data and for backup purposes. 
+	Example of services delivered by companies such as Dropbox/ onedrive etc ... 
+	2nd application is that consequent internet speed has brought a new way of using cloud computing. Users can access resources 
+	remotely and use computing power of distant servers. This means that the user only needs to connect to the service via an interface which 
+	can be a tablet/ laptop/smartphone etc. It does not matter how powerful is the interface as all the processing is done by the distant server. 
+	A simple example would be online applications such as " google docs ". 
+
+Advantages:
+    • Lower production costs (electricity, maintenance, security, investment in hardware…)
+    • Optimize hardware utilization (to use available resource when only needed) Scalability. scalable / " sur mesure "  -   
+    • Security. Cloud providers have experience in monitoring networks and data access. They invest hugely to respect the specifications of 
+		their customers. 
+      
+Disadvantage:
+    • Your infrastructure is totally dependent of the network reliability and your internet service provider. 
+    • You also allow a third party to access to your data. The cloud service provider, by default will have access to the data they host. 
