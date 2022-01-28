@@ -83,10 +83,65 @@ le salarié.
 MISSION 3
 
 
+3.1. Nora, dirigeante d’une entreprise de transport, se fait aider par Vincent qui effectue quelques tournées
+pour le compte de sa société. Ce dernier se fait rembourser les frais de carburant, et perçoit une somme
+forfaitaire pour chaque livraison effectuée dans le délai imparti. Aussi, Vincent doit passer à l’entrepôt deux
+fois par semaine, déposer les bons de livraison et récupérer la prochaine tournée.
+
+Vincent est-il salarié de l’entreprise de Nora ?
+
+	D'après l'énnoncé, Vincent n'est pas salarié mais travail pour le compte de la société de Nora. Considérant
+	que Vincent a des obligations & Missions à remplir, on pourrais imaginer que Vincent fait soit partis d'une 
+	entreprise sous-traitante, soit un auto-entreprenneur ayant signé un contrat de mission avec Nora.
+	
+
+3.2 NORA a pris une grande décision le jour où elle a décidé de faire construire sa maison. Après des années
+d’économies, elle s’est décidée et a engagé l’entreprise DELTA, dirigée par Madame Isis pour la construction
+de sa maison. Les premiers mois, tout se déroulait à merveille mais depuis quelques temps, alors que la
+maison était presque terminée, les travaux se sont interrompus. 
+Madame Isis doit admettre qu’en raison de deux accidents graves survenus à ses deux enfants, elle n’a pas
+été particulièrement attentive sur l’avancée de ses différents chantiers au cours du mois dernier.
+Le concubin de NORA s’en moque et considère qu’il pourra finir les travaux avec ses amis. Il conseille à
+NORA de rompre purement et simplement le contrat, les travaux déjà effectués ayant déjà été payés. NORA
+suit ce conseil et écrit à l’entreprise DELTA pour lui signifier la fin de leur relation contractuelle.
+
+NORA pouvait-elle agir ainsi ? Si oui, pourquoi, sinon, que devait-elle faire ? 
 
 
+	Nora & concubin contracte auprès de l'entreprise DELTA, dirigée par Mme Isis pour la construction d'une maison.
+	Pour des motifs personnels, Mme Isis n'a pas put remplir sa mission et les travaux se sont interrompus.
+	Nora décide de rompre le contrat pour terminer la maison à sa charge, le prix des travaux déjà effectués ayant déjà
+	été payés. 	
+	Le client, "SUJET DST CEJM JANVIER 2022" de son plein nom, souhaite savoir si la rupture du contrat est licite dans 
+	cette situation.
+	
+	Un contrat a été formé pour la réalisation d'une maison auprès d'une entreprise. Pour des raisons familiales d'un employé,
+	l'entreprise a dû cessé momentannément la réalisation des travaux. Le client décide de rompre le contrat pour terminer les 
+	travaux sans la participation de l'entreprise contractée, en ayant payé les travaux déjà effectués.
+	
+	La loi permet-elle la rupture d'un contrat pour motif d'arrêt momentanné d'avancement (sans retard sur la livraison du bien) ?
+	
+	Dans la présente situation, aucune la compagnie DELTA n'a pas faillis à l'execution de son contrat, considérant que l'arrêt
+	momentanné des travaux n'implique pas nécessairement un retard sur la livraison du bien.
+	Deux cas permetterais de rompre le contrat de manière légales. Si le contrat contient une clause de dédit, ou si le contrat 
+	contient une clause résolutoire.
+	En l'absence de ces clause, la rupture du contrat est donc illégale.
+	
+	
+MISSION 4
 
 
+Le contrat fournis est un extrait d'un contrat de vente, impliquant la société Easy Info (vendeur) et "Donneur d'ordre", 
+l'acheteur. Son contenu se rapport à la branche du droit commercial. Celui ci inclue 3 clauses. La première est une clause
+Pénale impliquant Easy Info en cas de retard de livraison du produit et incluant une pénalité définis en annexe du contrat.
+Cette clause étant au bénéfice du "Donneur d'ordre" et définie par Easy Info, il est probable qu'elle ne soit pas d'un montant
+abusif et donc licite.
+La deuxième clause "Réception du programme" est une clause résolutoire, qui prévois le cas ou le "Donneur d'ordre" faillis
+à son devoir de vérification de conformité et qui met fin au contrat et permet à Easy Info de toucher la recette du contrat en 
+le dégageant de toute responsabilité ultérieure formulée par le client.
+La 3ième clause est une clause Exonératoire de Responsabilité. Elle sera nulle si le contrat est passée avec un particulier.
+De plus, celle ci doit nécessairement inclure un dédomagement en cas d'application. En l'état actuel, cette clause n'est 
+pas applicable.
 
 
 
