@@ -1,0 +1,109 @@
+BTS SIO GEFOR 2021/22
+DST(DM) CEJM JAN 2022
+GUILLAUME SAULNIER
+
+MISSION 1
+
+
+1-1 Repérer le(s) métier(s) et les finalités de la société LOG-NUMERIK.
+	
+	Les finalités de LOG-NUMERIK sont de proposer à des TPE aux grandes entreprises des conseils, audits et services
+	d'optimisation des infrastructures informatiques & propose aussi une gamme de services d'hébergement Cloud.
+	D'un point de vue économique, l'entreprise cherche à assurer sa survie, d'un point de vue sociale, l'entreprise
+	investis énormément dans la formation de ses salariés, d'un point de vue sociétal, log-numerik a une politique de 
+	non discrimination ainsi qu'une préoccupation lambda de développement durable définie en annexe 1 par diverses banalités
+	telle papier recyclé ou renouvellement de vehicules etc.
+	
+	Les métiers la composant rassemble des acteurs permettant d'accomplir ces objectifs. Ce qui est, j'en convient,
+	franchement peu spécifique, mais je vois pas trop l'intérêt de définir tout les métiers allant de technicien de sol à
+	ceo en passant par nos amis les détenteurs de bts sisr.
+	
+1-2 Montrer que les finalités de LOG-NUMERIK prennent en compte les attentes des salariés.
+	
+	Annexe 1: 
+	
+		LOG-NUMERIK n’a pas attendu que les termes d’éthique et de développement durable fassent la une des
+		magazines pour s’investir sur ces sujets. Cela se traduit d’abord par une gestion volontariste des
+		carrières des hommes et des femmes qui constituent les forces vives de LOG-NUMERIK et par un
+		investissement massif sur la formation. Concrètement, LOG-NUMERIK a consacré à la formation en
+		moyenne 7% de la masse salariale, ce qui va très au-delà des minima légaux requis.
+		[...]
+		Cette manière de gérer les forces vives de LOG-NUMERIK nous permet aussi de fidéliser nos collaborateurs
+		puisque notre taux de turn-over se situe autour de 5%, soit de trois à quatre fois moins élevé que dans la
+		moyenne des SSII. Ensuite, nous garantissons à nos collaborateurs l’égalité des chances. Nous
+		respectons les droits individuels et la vie privée de chacun et nous nous engageons à préserver la
+		confidentialité des informations en notre possession les concernant.
+		
+	C'est tellement bien dit, je m'en voudrais de paraphraser au lieu de citer.
+	
+	
+1-3 Caractériser le marché français de l’infogérance. Montrer qu’il permet d’assurer la pérennité de LOGNUMERIK. 
+
+	Le marché français de l'infogérance est a priori pérenne puisque le chiffre d'affaire augmente chaque années
+	(en accord avec l'annexe 2 dont nous prétendrons ignorer le fait que la dernière données date d'il y a plus de 9 ans)
+	L'effectif augmente, la masse salariale encore plus, impliquant probablement une valeur du service augmentant de pair
+	avec la demande de celui ci. De plus, les service de Cloud computing étant de plus en plus en vogue à l'heure actuelle
+	le marché de l'infogérance est tout à fait porteur d'avenir.
+	
+	
+MISSION 2
+
+2-1 Identifier, dans le contrat de travail, les parties en présence et préciser leurs obligations.
+
+	Les parties en présence du contrat de travail sont la société LOG-NUMERIK ainsi que moi même, anonymement nommé "Bob" 
+	pour le contexte de bts blanc ou je prétendrais ne pas avoir marqué mon nom en haut de la copie.
+	Les obligations de LOG-NUMERIK auras l'obligation de verser un salaire à Bob dans la mesure ou Bon remplis tout les autres
+	critères définis au contrat fournis en annexe 6 (incluant, entre autre, formation, mission, visite médical...)
+	
+2-2 Vérifier si les conditions d’application de la convention collective du SYNTEC à votre contrat de travail
+sont réunies. Justifier votre réponse.
+
+	LOG-NUMERIK est basé à Versaille (validité de la condition géographique de SYNTEC). La deuxième condition de validité
+	est sous reserve des résultats de la visite médicale d'embauche.
+	
+2-3 Qualifier la clause (article 11) et justifier son intérêt pour l’employeur. Préciser les conséquences pour
+le salarié. 
+
+	L'intérêt de la clause 11 est de protéger son patrimoine de compétences. LOG-NUMERIK investis en effet beaucoup
+	de son chiffre d'affaire dans la formation de ses salariés, cette clause permet à l'entreprise d'éviter qu'un 
+	employé se forme aux frais de l'entreprise pour aller ensuite lui faire concurrence immédiatement. Pour le salarié
+	cela équivaut à une sorte de laisse qui l'incitera encore plus à rester travailler pour LOG-NUMERIK, sous peine de 
+	devoir changer de secteur (de métier et/ou géographique).
+
+
+2-4 Justifier l’intérêt pour l’employeur d’insérer dans l’avenant la clause 13 et apprécier sa validité. 
+
+	Les conditions de la clause 13 n'est pas applicable car le montant du remboursement forfaitaire en cas de 
+	dédit-formation n'est pas proportionnée aux frais de formation engagé par l'employeur (Plus du double du prix initial).
+	
+	De plus, les date ne sont pas indiquées, rendant la clause invalide.
+
+
+
+MISSION 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
