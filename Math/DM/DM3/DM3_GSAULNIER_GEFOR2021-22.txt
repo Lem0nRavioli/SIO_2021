@@ -35,10 +35,12 @@ n	i	f
 5	5	15
 5	6	15(algorithme stop à i < 5 + 1)
 
+à la fin de l'algorithme, f = 15.
+
 Ex 3:
 
 DEBUT
-	n <- saisir("entrer le nombre de titre voulu")
+	n <- saisir("entrer le nombre de titre voulu par mois")
 	a <- n * .85
 	b <- n * .1 + 10
 	
