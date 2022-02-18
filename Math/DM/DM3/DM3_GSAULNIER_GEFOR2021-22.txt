@@ -136,8 +136,49 @@ Ex 1:
 			L : 35
 			M : 23
 	
-
 Ex 2:
+
+1)
+	a)	M x A =	[[2090],
+				 [2780],
+				 [382]]
+	
+	b)				 
+		Un projet complet comptera 2090h d'infographie, 2780h de Programmation et 382h de Réalisation musicale
+
+2) 
+	
+	a) 
+		M x X = B
+		
+	b) 
+		T x M = I 
+		
+	c) 
+		Utilisation de : 
+				I => Matrice Identité
+				M-1 => Matrice inv de M
+				M x I = M
+				M x M-1 = I
+				
+		M x X = B
+		T x M x X = T x B
+		I x X = T x B
+		X = T x B
+
+	d)
+	
+		X =	[[9],
+			 [15],
+			 [3]]
+			 
+		Pour le projet retenu:
+		- Etapes de constructions: 9,
+		- Cycles de déplacement: 15,
+		- Scènes cinématiques: 3
+
+====================================================================
+OLD_Ex 2: (AVANT ERRATUM)
 
 1)
 	Manque de données
