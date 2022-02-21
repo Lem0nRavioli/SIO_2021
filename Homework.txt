@@ -1,7 +1,5 @@
 Math: 
-- td2 algo
-- ex 20 booléens
-- DM
+- DM 3
 
 Anglais: 
 - 7/10/21 : Résumé français Green Grid
@@ -18,4 +16,5 @@ Eco-Juri-Mana:
 
 Gestion: 
   20/10/21 : Open Source Gantt Project
+
 
