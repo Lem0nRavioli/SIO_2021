@@ -1,0 +1,245 @@
+	DM MATH 3 (Algo/Matrice) SIO: due 02/03/2022
+	SAULNIER Guillaume (Gefor)
+	
+	PARTIE I - Algorithmique appliquée
+	
+Ex 1:
+
+1) 
+
+n	i	calc
+5	-	- # etat initial
+5	0	0
+5	1	1
+5	2	3
+5	3	6
+5	4	10
+5	5	15 # i = 5, boucle pour terminée
+
+2)
+
+Cet algorithme fait la somme des nombres de 0 à n.
+
+Ex 2:
+
+n	i	f
+5	1	0 # etat initial
+5	1	1
+5	2	1
+5	2	3
+5	3	3
+5	3	6
+5	4	6
+5	4	10
+5	5	10
+5	5	15
+5	6	15(algorithme stop à i < 5 + 1)
+
+à la fin de l'algorithme, f = 15.
+
+Ex 3:
+
+DEBUT
+	n <- saisir("entrer le nombre de titre voulu par mois")
+	a <- n * .85
+	b <- n * .1 + 10
+	
+	SI a < b:
+		Afficher("Prenez la formule A, prix total: ", a)
+	SINON:
+		Afficher("Prenez la formule B, prix total: ", b)
+FIN
+
+Ex 4:
+
+DEBUT
+	n <- saisir("Nombre de jours loué")
+	x <- saisir("Nombre de km parcourus") - 50 # les 50 premiers sont gratuit
+	total <- 0 # On définis total en dehors du scope du SI
+	
+	SI x > 450:
+		total = n * 50 + 450 * 1.25 + (x - 450) * 1.25 * 1.1		
+	SINON:
+		total = n * 50 + 450 * 1.25
+	
+	Afficher("Prix total: ", total)
+FIN
+
+Ex 5:
+
+DEBUT
+	n <- saisir("Table de quel nombre?")
+	Afficher("Table de ", n, " :")
+
+	Pour i allant de 1 à 10:
+		Afficher(n, " x ", i, " = ", n * i)
+	FinPour
+FIN
+
+
+	PARTIE II – Mathématiques
+
+Note à l'intention de toi, Isabelle:
+	Je compte écrire les matrice avec une syntaxe pythoniène. 
+	Ex: une matrice 3x2 M
+	M = [[1,2],
+		 [3,4],
+		 [5,6]]
+	Ce qui est aussi égal à : [[1,2],[3,4],[5,6]] (mais pas mis en forme)
+	Je fait tout ça sur un txt, pardon si la mise en page saute :x
+
+Ex 1:
+
+1) 
+	a)	A * X = Y
+	
+	b) 	X =	[[25],
+			 [40],
+			 [15]]
+			 
+		Y =	[[12250],
+			 [11500],
+			 [ 4000]]
+			 
+		e = 12250, m = 11500, l = 4000
+		
+2)
+	a) 	B x A =	[[1, 0, 0],
+				 [0, 1, 0],
+				 [0, 0, 1]]
+		
+		B est l'inverse de A. B x A = I
+		
+	b) 	Utilisation de : 
+			I => Matrice Identité
+			M-1 => Matrice inv de M
+			M x I = M
+			M x M-1 = I
+	
+		A x X = Y
+		B x A x X = B x Y
+		I x X = B x Y
+		X = B x Y
+		
+	c) 	Y =	[[13500],
+			 [12350],
+			 [ 4150]]
+			 
+		X = B x Y
+		
+		X =	[[25],
+			 [35],
+			 [23]]
+			 
+		Ordinateur vendus:
+			K : 25
+			L : 35
+			M : 23
+	
+Ex 2:
+
+1)
+	a)	M x A =	[[2090],
+				 [2780],
+				 [382]]
+	
+	b)				 
+		Un projet complet comptera 2090h d'infographie, 2780h de Programmation et 382h de Réalisation musicale
+
+2) 
+	
+	a) 
+		M x X = B
+		
+	b) 
+		T x M = I 
+		
+	c) 
+		Utilisation de : 
+				I => Matrice Identité
+				M-1 => Matrice inv de M
+				M x I = M
+				M x M-1 = I
+				
+		M x X = B
+		T x M x X = T x B
+		I x X = T x B
+		X = T x B
+
+	d)
+	
+		X =	[[9],
+			 [15],
+			 [3]]
+			 
+		Pour le projet retenu:
+		- Etapes de constructions: 9,
+		- Cycles de déplacement: 15,
+		- Scènes cinématiques: 3
+
+====================================================================
+OLD_Ex 2: (AVANT ERRATUM)
+
+1)
+	Manque de données
+2)
+	a)
+		A x X = Y
+		
+		A =	[[0.5, 1, 0],
+			 [1, 0, -0.5],
+			 [0.5 -1 -0.5]]
+			 
+		X =	[[b],
+			 [c],
+			 [d]]
+		
+		Y =	[[1],
+			 [0],
+			 [-0.5]]
+			 
+	b)
+	
+		B x A = I  
+		B est l'inverse de A
+		
+	c) 
+		Utilisation de : 
+				I => Matrice Identité
+				M-1 => Matrice inv de M
+				M x I = M
+				M x M-1 = I
+				
+		A x X = Y
+		B x A x X = B x Y
+		I x X = B x Y
+		X = B x Y
+		
+		X =	[[0.25],
+			 [0.875],
+			 [0.5]]
+			 
+		a = 1, b = 0.25, c = 0.875, d = 0.5
+
+3)
+	Manque de données 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
