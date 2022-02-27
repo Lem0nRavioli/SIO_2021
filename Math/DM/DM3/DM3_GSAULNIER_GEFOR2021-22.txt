@@ -60,7 +60,7 @@ DEBUT
 	SI x > 450:
 		total = n * 50 + 450 * 1.25 + (x - 450) * 1.25 * 1.1		
 	SINON:
-		total = n * 50 + 450 * 1.25
+		total = n * 50 + x * 1.25
 	
 	Afficher("Prix total: ", total)
 FIN

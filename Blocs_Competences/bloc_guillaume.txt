@@ -123,7 +123,9 @@ Bloc de compétences n°2 option B « Solutions logicielles et applications mét
 			# Création d'une base de donnée utilitaire (GroupeCFR)
 			# Creation d'un site web de 0 (GroupeCFR)
 			
-		- Exploiter les ressources du cadre	applicatif (framework) ***
+		- Exploiter les ressources du cadre	applicatif (framework)
+			# Développement d'une webApp React (Yiriah / Hair-Prestige)
+			
 		- Identifier, développer, utiliser ou adapter des composants logiciels
 			# Utilisation d'API pour gérer la redirection de formulaires (GroupeCFR)
 			# Refonte du projet web html vers php pour l'utilisation d'une base de donnée (GroupeCFR)
