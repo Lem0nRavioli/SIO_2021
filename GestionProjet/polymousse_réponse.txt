@@ -1,0 +1,36 @@
+POLYMOUSSE
+
+Question 1:
+
+
+								1			2			3			4
+
+	Chiffre d'affaires			65000		65000		60000		60000
+
+	Charges exploitation		-40000		-40000		-50000		-50000
+
+	Amortissement 				-10000		-10000		-10000		-10000
+
+	résultat av. import			15000		15000		0			0
+
+	-impot						1500*1/3	5000		0			0
+								=5000
+	= resultat net				10000		10000		0			0
+
+
+
+	Amortissement = valeur projet / durée de vie -> 40000/4 = 10000
+
+	FNT = résultat net + amortissement
+
+	FNT 1 = 10'000 + 10'000 = 20'000
+	FNT 2 = 10'000 + 10'000 = 20'000
+	FNT 3 = 0 + 10'000 = 10'000
+	FNT 4 = 0 + 10'000 = 10'000
+
+Question 2
+
+
+	VAN = - investissement + FNT actualisée
+	VAN = - 40'000 + (20'000 * .9524) + (20'000 * .907) + (10'000 * .8638) + (10'000 * .8227) = 14'053
+	La VAN est positive donc le projet est rentable
