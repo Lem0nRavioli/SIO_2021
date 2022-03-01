@@ -452,13 +452,80 @@ Le parc informatique est un investissement à long terme. Il fait parti du patri
 			De plus, le coût d'acquisition du projet Nordine est inférieur à celui de Guillaume (22'800€ contre 36'000€)
 	
 	
-	
-	
-	
-	
-	
-	
+		B- 2ieme méthode: le délai de récupération du capital investi (DRCI)
+		
+			on va comparer le montant du projet initial et le flux nets de trésorerie et voir au bout de combien d'année l'investissement est 
+			rentabilisé. On choisir le projet qui sera rentabilisé le plus vite possible.
+			
+			
+			Projet Nordine
+			
+			Années 		Investissement		Flux nets trésorerie		Flux nets trésorerie cumulés
+			
+			2021		-22800
+			2022							11545.45					11545.45 - 22800 = -11254.55
+			2023							10495.67					10495.67 - 11254.55 = -758.88
+			2024							 9541.70					9541.70 - 758.88 = 8782.82
+			2025							 8674.27					8782.82 + 8674.27 = 17457.09
+			
+			
+			Le projet de Nordine est rentabilisé à la fin de 2024 soit l'année 3
+			
+			
+			Projet Guillaume
+			
+			Années		Investissement		Flux nets trésorerie		Flux nets trésorerie cumulés
+			
+			2021		-36000
+			2022							15272.72					-20727.28
+			2023							13884.29					-6842.99
+			2024							12622.09					5779.1
+			2025							11474.63					17253.73
 	
 		
+			Le projet de Guillaume est rentabilisé à la fin de 2024 soit l'année 3
+			
+			Projet Nordine = 758.68/9541.7 * 12 = 0.95
+			Soit 0 mois + 0.95 mois
+			0.95*30 jours = 28.5 sur 29ième jour de janvie (rentable à partir du 29 janvier 2024)
+			
+			Projet Guillaume = 6842.97 / 12622.09 * 12 = 6.5
+			6 mois + .5 mois
+			0.5*30 jours = 15 soit 15ième jours de juillet (rentable à partir du 15 juillet 2024)
+			
+			Nordine est rentabilisé plus rapidement et sera donc retenu en faveur du projet Guillaume car la VAN (valeur actuelle nette) 
+			est positive, le montant de l'investissement inital est plus faible (22800) et il est rentabilisé plus tôt que guillaume (29
+			janvier au lieu du 15 juillet).
+	
+	
+6- La rentabilité du parc informatique
+
+	I- Les financements internes
+	
+		A- Le financement propre: l'autofinancement
+		
+			
+			Il s'agit de la ressource interne de l'entreprise. Toute entreprise a l'obligation de doter à la réserve légale avant toute
+			distribution de dividende. La réserve légal sert à l'autofinancement de projet.
+			La réserve légal correspond à 5% du bénéfice comptable et est réalisée chaque année. La réserve légale s'arrête d'être doter 
+			lorsqu'elle atteint 10% du capital.
+			L'entreprise a la possibilité de doter à des réserves facultatives qui sont totalement libre.
+	
+		
+		B- L'augmentation de capital
+		
+			
+			L'entreprise va solliciter les associés en place pour réaliser des apports en numéraire en contrepartie de parts de l'entreprise.
+			Un capital élevé permet d'investir davantage et est synonyme de stabilité financière (capital est le gage des créanciers)
+			Un associé est prioritaire pour acheter de nouvelles part. il a un droit préférentiel de souscription proportionnellement au nombre 
+			d'actions qu'il détient. Il a possibilité de le v endre aux autres associés mais aussi à des investisseurs externe.
+			
+	
+	II- Le financement externe.
+	
+		
+		A- L'emprunt
+		
+			
 		
 		
