@@ -177,6 +177,56 @@ Ex 2:
 		- Cycles de déplacement: 15,
 		- Scènes cinématiques: 3
 
+====================================================================
+OLD_Ex 2: (AVANT ERRATUM)
+
+1)
+	Manque de données
+2)
+	a)
+		A x X = Y
+		
+		A =	[[0.5, 1, 0],
+			 [1, 0, -0.5],
+			 [0.5 -1 -0.5]]
+			 
+		X =	[[b],
+			 [c],
+			 [d]]
+		
+		Y =	[[1],
+			 [0],
+			 [-0.5]]
+			 
+	b)
+	
+		B x A = I  
+		B est l'inverse de A
+		
+	c) 
+		Utilisation de : 
+				I => Matrice Identité
+				M-1 => Matrice inv de M
+				M x I = M
+				M x M-1 = I
+				
+		A x X = Y
+		B x A x X = B x Y
+		I x X = B x Y
+		X = B x Y
+		
+		X =	[[0.25],
+			 [0.875],
+			 [0.5]]
+			 
+		a = 1, b = 0.25, c = 0.875, d = 0.5
+
+3)
+	Manque de données 
+
+
+
+
 
 
 
