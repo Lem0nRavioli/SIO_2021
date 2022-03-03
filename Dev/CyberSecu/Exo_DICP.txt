@@ -1,0 +1,63 @@
+Consulter la liste des produits
+	# D: Fort, I: Fort, C: Faible, P: Faible. Vitrine sans authentification, pas besoin de C/P	
+	Consulter la fiche d'un produit
+		# D: Fort, I: Fort, C: Faible, P: Faible. Vitrine sans authentification, pas besoin de C/P
+	
+Créer un compte
+	# D: Fort, I: Fort, C: Fort, P: Fort. Gestion des identifiants, tout doit être fiable & fort, si pas dispo pas d'achat
+Lire CGU/CGV
+	# D: Moyen, I: Fort, C: Faible, P: Faible. Pas de perte si pas dispo, mais sanctions légales si incorrect
+
+Acheter des produits
+	# D: Fort, I: Fort, C: Fort, P: Fort. Gestion des identifiants, tout doit être fiable & fort, si pas dispo pas d'achat
+	Payer
+		# D: Fort, I: Fort, C: Fort, P: Fort. Gestion des identifiants, tout doit être fiable & fort, si pas dispo pas d'achat
+		Effectuer le paiement
+			# D: Fort, I: Fort, C: Fort, P: Fort. Gestion des identifiants, tout doit être fiable & fort, si pas dispo pas d'achat
+			
+Consulter la fiche d'un vendeur
+	# D: Fort, I: Fort, C: Faible, P: Faible. Vitrine sans authentification, pas besoin de C/P
+	Contacter le vendeur
+		# D: Fort, I: Fort, C: Fort, P: Fort. Contact privé avec éventuellement infos confidentielles
+		
+Consulter la fiche "suivi de commande"
+	# D: Moyen, I: Fort, C: Fort, P: Fort. Au pire si pas dispo il attend, client a déjà payé
+	
+Consulter son panier
+	# D: Fort, I: Fort, C: Faible, P: Fort. Si erreur du panier, le client corrige
+	Ajouter un code promo
+		# D: Moyen, I: Forte, C: Faible, P: Faible. Code promo doit être non falsifiable mais ok transmission
+	Modifier la quantité d'article / modifier le panier
+		# D: Fort, I: Fort, C: Faible, P: Fort. Si correction d'erreur, pas d'erreur après coup acceptable
+	Supprimer un article
+		# D: Fort, I: Fort, C: Faible, P: Fort. même chose que ci dessus
+
+Vendre ses produits
+	# D: Fort, I: Fort, C: Faible, P: Fort. Pas besoin de confidentiallité mais être sur que le vendeur est bien le vendeur
+Gérer ses ventes
+	# D: Fort, I: Fort, C: Fort, P: Fort. Gestion d'identifiants
+	Rembourser un client
+		# D: Faible, I: Fort, C: Fort, P: Fort. Remboursement est pas urgent
+		Via le systeme initial
+		Via un avoir
+	Réclamer un avis
+		# D: Faible, I: Fort, C: Faible, P: Moyen. Activité de soutient, ni urgent ni crucial.
+	
+Suivi du transport / tracer un colis
+	# D: Moyen, I: Moyen, C: Fort, P: Fort. Pas tracker un colis non perso, mais à coté client a déjà payer, il peut attendre
+	Notifier le client
+		# D: Fort, I: Fort, C: Fort, P: Fort. Si service pas dispo ou faillible, la livraison peut échouer & frais engagés
+Mettre à jour la fiche "suivi de la commande"
+	# D: Faible, I: Fort, C: Fort, P: Faible. Comme d'hab, le client a déjà payé, c'est pour l'image de l'entreprise, bonus
+	
+Préparer une commande
+	# D: Fort, I: Fort, C: Faible, P: Faible. Pas besoin d'identifiants pour préparer la commande
+	Informer le système de processus de livraison
+		# D: Faible, I: Fort, C: Fort, P: Faible. Pas le plus urgent, confidentiel pour éviter les vols
+Informer le système de gestion des stocks
+	# D: Fort, I: Fort, C: Fort, P: Fort. Pas n'importe qui peut modifier l'état des stock (si pas automatique)
+
+Réceptionner des produits
+	# D: Fort, I: Moyen, C: Faible, P: Moyen. Pas d'embauche de n'importe qui
+Approvisionner les stocks / Trier les stocks
+	# D: Fort, I: Moyen, C: Faible, P: Moyeb. Pas d'embauche de n'importe qui
