@@ -1,0 +1,33 @@
+	COMPANY VOCABULARY
+	
+SARL: PLC => Private Limited Company (ltd)
+PDG : CEO: Chief Executive Officer
+C/A : Board of directors (Conseil d'administration)
+Actionnaires: Shareholders
+Siege: H/Q (Head Quarters)
+
+	DEPARTMENTS
+	
+- H/R : Human Ressources
+- Marketing
+- Financial
+- Accounting
+
+Director (Regional / area)
+Manager
+Warehouse : Entrepôt
+Turnover : Chiffre d'affaire
+margin: marge (selling price - buying price)
+Employees: co-workers, staff, workforce, ...
+Trade unions (syndicats): (unioner: délégué)
+welfare: Commité d'entreprise
+Salary / wages / emoluments
+Charges / costs
+Long term contract
+Short term contract
+Freelance / Self-employed : auto-entrepreneur
+seasonal / part-time worker (intérimaire)
+Trial period: période d'essais
+Dismissal: Licenciement. (To dismiss)
+Te resign (démissionner) (to hand his notice)
+Leaving paycheck: solde de tout compte // lump sum

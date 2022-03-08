@@ -1,0 +1,60 @@
+		ERP: Enterprise Resource Planning
+				(Progiciel)
+				
+It is a modular software to integrate the main functions of a company. It's a unified system which will be
+shared within an activity sector. Why ? Data collection
+
+ERP now solve the problem of data Scattered along the supply chain. The system works hard to collect and 
+bring data to one place
+Advantages:
+
+	1: Forecast & decision-making.
+		Since data is collected as a daily-basis, managers and directors can adjust company policies.
+		
+	2: Efficiency
+		Workload is diminished, less time-consuming processes and internet integration.
+		
+	3: One unified system means less training time for employees
+
+Disadvantage:
+
+	1: ERP investment is massive and is sometimes reserved to big companies (aws)
+	
+	2: hyper dependency of companis to their systems
+	
+	3: Real consequences on staff and labour (redundancy elimination, hyper-control, work pressure etc...)
+	
+
+Explain and detail a full ERP solution for a SE (Small Medium Enterprise)
+
+- Describe activity sectors ( define needs )
+- Fit in the ERP solution with explaination
+
+Activity sector: Food delivery carrots. All over the world for carrots lover.
+
+SYSPRO provides an end-to-end, fully integrated business solution that includes:
+
+	Accounting and financial management
+	Inventory management
+	Order management
+	Planning and scheduling
+	Supply chain management
+	Warehouse management
+	Production management
+	Customer relationship management (CRM)
+	Business intelligence
+	Manufacturing operations management/Manufacturing Execution System (MES)
+
+SYSPRO gives single or multi-location distributors, wholesalers, importers or over-the-counter 
+retail operations the tools to optimize inventory management in order to maximize profitability. 
+Inventory is the heart of distribution. SYSPRO offers 24/7 inventory and 360 degree order visibility, 
+serial number and lot tracking, inventory optimization, total order fulfillment and customer service throughout your supply chain.
+The main distribution industries SYSPRO serves are:
+
+	Automotive Parts and Accessories
+	Computer and Electronics
+	Consumer Goods
+	Food and Beverage
+	Industrial Machinery and Equipment
+	
+You can get this for a price starting at 200$ a month, it work on windows and on the web.
