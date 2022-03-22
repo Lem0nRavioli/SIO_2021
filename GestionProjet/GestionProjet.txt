@@ -530,4 +530,55 @@ Le parc informatique est un investissement à long terme. Il fait parti du patri
 			Il augmente le taux d'endettement mais souvent il est plus économique de s'endetter que de s'autofinancer : effet de levier financier.
 			
 		
-		
+			1- Les emprunts indivis.
+			
+				(indivis = 1 seul preteur = la banque). Il existe 3 type d'emprunts;
+				
+				# L'emprunt à remboursement constant:
+				
+					Le remboursement reste le même + les intérêts de la banque.
+					
+					Exemple:
+					
+					- Nordine veut financer un serveur d'un montant de 300'000€.
+					- Durée du crédit est de 5 ans.
+					- Le taux d'intérêt est de 4.25% par an.
+					- Remboursement par année.
+					
+					Années		Capital restant dû(début période)	Intérêt			Remboursement(amortissement)		Annuités		Capital restant dû (fin période)
+					
+					1												300'000 * 
+																	4.25% 
+								300'000								= 12'750€		60k€								72'750			240'000
+					2			240'000								10'200			60k€								70'200			180'000
+					3			180'000								7'650			60k€								67'650			120'000
+					4			120'000								5'100			60k€								65'100			60'000
+					5			60'000								2'550			60k€								62'550			0
+					
+					
+					Total intérêts 38'250€, c'est le coût du crédit
+					
+				# L'emprunt in fine:
+					
+					Le remboursement est remboursé en totalité la dernière année mais on pais les intérêts tous les ans
+					
+					Années		Capital restant dû(début période)	Intérêt			Remboursement(amortissement)		Annuités		Capital restant dû (fin période)
+					
+					1			300k€								12'750			0									12'750			300'000
+					2			300k€								12'750			0									12'750			300'000
+					3			300k€								12'750			0									12'750			300'000
+					4			300k€								12'750			0									12'750			300'000
+					5			300k€								12'750			300k€								312'750			0€
+					
+					Total intérêts 12'750*5 = 63'750€ (coût du crédit)
+					
+					
+				# Emprunt à annuité constante
+				
+					Soit:
+						C = montant d'emprunt, 300'000€
+						i = taux d'intérêt 4.25%
+						n = durée de l'emprunt 5 ans
+						a = annuité => C * i / (1-(1+i)^-n)
+						
+					Soit a = 67'862.11
