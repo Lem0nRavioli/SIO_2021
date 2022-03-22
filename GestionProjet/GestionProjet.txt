@@ -582,3 +582,13 @@ Le parc informatique est un investissement à long terme. Il fait parti du patri
 						a = annuité => C * i / (1-(1+i)^-n)
 						
 					Soit a = 67'862.11
+					
+					Années		Capital restant dû(début période)	Intérêt			Remboursement(amortissement)		Annuités		Capital restant dû (fin période)
+					
+					1			300'000								12'750			67862.11 - 12'750 = 55112.11		67862.11		300'000 - 55'112.11 = 244'887.89
+					2			244'887.89							10'407.74		57454.37							67862.11		187'433.52
+					3			187'433.52							7'965.92		59'896.19							67862.11		127'537.33
+					4			127'537.33							5'420.34		62'441.77							67862.11		65'095.56
+					5			65'095.56							2'766.56		65'095.55							67862.11		0.01€
+					
+					Total intérêts 39'310.55 (coût du crédit)
