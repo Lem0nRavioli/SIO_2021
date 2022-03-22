@@ -592,3 +592,126 @@ Le parc informatique est un investissement à long terme. Il fait parti du patri
 					5			65'095.56							2'766.56		65'095.55							67862.11		0.01€
 					
 					Total intérêts 39'310.55 (coût du crédit)
+					
+					
+					Si Nordine décide de rembourser par mensualité, il faut convertir le taux annuel en taux mensuel.
+					La banque utilise le taux proportionnel: i/12 = 4.25% / 12 = 0.3541%
+					
+					On converti la durée = 5 ans * 12 = 60 mois
+					
+					Ex mensualité: 300'000 * 0.003541 / (1-(1 + 0.003541)^-60) = 5353.11
+					Coût du crédit : 5353.11 * 60 - 300'000 = 21'186.6
+					
+					
+					Verdict Crédit:
+					
+					Avantages
+					
+						Conserve son autofinancement pour un autre projet à condition que l'on ai pas atteint un taux d'endettement importement
+						
+						parfois s'endetter est économique (moins couteux de s'endetter que de s'autofinancer): effet de levier, les intérêts des emprunts sont des charges
+						déductibles donc permettent de faire des économies d'impots.
+					
+					
+					Inconvenients
+					
+						Soumis à l'acceptation du banquier en fonction de la nature du client (particulier / pro), du taux d'endettement et de la note donnée par la banque.
+						
+						Coût du crédit
+						
+						Délai long de réponse
+						
+						
+		
+		B- Location longue durée (LLD)
+		
+		
+			On distingue: la location longue durée (LDD) et la location avec option d'achat(LOA)
+			
+			Ce sont des contrats de location avec 3 optiosn:
+				# Achat à la fin du contrat
+				# Reconduire le contrat (avec le modèle plus récent)
+				# Restituer le bien à la fin du contrat.
+				
+			Avantages
+			
+				Possibilité de financer le projet à 100%
+				
+				Les loyers sont des charges déductibles donc économie d'impots
+				
+			Inconvénients 
+			
+				Location: On est pas propriétéaire donc le bien ne vient pas augmenter le patrimoine de l'entreprise
+				
+				Souvent le cout est plus élevé que l'emprunt
+				
+				Dépôt de garantie au début de la location
+				
+				
+				
+Chapitre 6 - Le seuil de rentabilité (break even point)
+
+	C'est une methode de prévision qui permet de savoir quel doit être le chiffre d'affaires à réaliser pour être rentable. Elle est utilisée dans le cadre 
+	d'un projet ou d'un évenement.
+	
+	Younes désire participer au salon "Agriculture", pour cela il doit réaliser des investissements informatique pour la réalisation d'un programme informatique.
+	
+	- Achat pc 
+	- Achat serveur
+	- Achat écran
+	- licences
+		total: 150'000€
+		
+	Participation au salon: 6'000€
+	Achat des fournitures pour le salon: 90'058€
+	
+	Younes espère vendre sur le stand 2434 programmes informatiques à 50€
+	Le parc informatique a une durée de vie de de 6 ans donc amortissement = 150'000 / 6 = 25'000€
+	
+	
+	I- La distinction des charges 
+	
+	
+		A- Les charges variables (direct costing)
+		
+		
+			Elles sont proportionnelles à l'activité, c'est à dire au chiffre d'affaire. (Plus le chiffre d'affaires varie et plus les charges variables vont 
+			dans le même sens).
+			
+			
+		B- Les charges fixes (overhead costing)
+		
+			Ils sont indépendantes de l'activité, c'est à dire qu'elle restent stables. Elles n'ont pas de liens avec le chiffre d'affaire.
+			
+	II- Le compte de resultat différentiel
+	
+	
+		Elements							Montants				Commentaires
+		
+		Chiffre d'affaires					  121'700				100%
+		- Charges variables					- 90'058
+		= marge sur coût variables			= 31'642				Taux marge sur cout variable = 31'642/121'700 = 26%
+		
+		- charges fixes						25'000 + 6'000 
+											= 31'000
+		= marge nette (resultat net)		642 €
+		
+		
+			Charges fixes : amortissement matériel + participation du salon 
+			
+			Si Younes réalise un chiffre d'affaire de 121'700€, il fait un bénéfice de 642€.
+			
+			
+		A- Le seuil de rentabilité 
+		
+		
+			On l'appelle aussi le chiffre d'affaires critique, c'est à dire le chiffre d'affaires à réaliser pour lequel on obtient un résultat égal à 0.
+			
+			2 formules: 
+				
+				- Charges fixes / taux de marge sur cout variable : 119'230.77
+					Chiffre d'affaire * charge fixes / marge sur cout variable: 119'230.77
+			
+			
+				Younes doit réaliser un chiffre d'affaire minimum de 119230.77€ pour rentabiliser sa participation. S'il réalise un CA inférieur, il est 
+				en perte, au dela, il est en bénéfice.
