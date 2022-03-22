@@ -1,0 +1,31 @@
+DevOps what i understood:
+
+CI/CD => Continuous integration / Continuous Delivery => pipeline allant du dev au ops par sprint
+
+- 3 block de test (de plus en plus poussés & lents) => Pour isoler les bugs le plus tôt possible: 
+	# test unitaire / Small (rapide) (70%)
+	# test intégration / Medium (moins rapide) (20%)
+	# test Systeme (déploiement) / Large (lent => Test de tout les composants connectés) (10%) 
+		
+		(% from google)
+	
+	ex: Ajout d'une fonction x
+			=> Test unitaire input a assert = b 
+			=> Test intégration x intéragis avec a,b,c => test a, b, c
+			=> Test Systeme a, b, c intérargissent avec chacun 3 composants, 3*3 = 9 tests ...
+	
+- Fonctionnement en agile
+- Plus de communication
+- Test automatisés (unitaire à faire par les devs et non plus l'équipe de tests)
+- Déploiements en prod mais innaccessible pour l'average user pour réduire la friction
+	(feature flag)
+
+TESTS :
+	- On peux pas tout tester
+	- Investir dans les test qui apportent la meilleure plusvalue
+	- Evaluer le temps dev. test vs temps résolution bug * nb de fois que ça arrive
+		=> Inclure une notion d'économiste dans le développement d'une pipeline de test (rentabilité)
+		
+		
+Bonus:
+	- Google Firebase => BAAS (Backend As A Service)
