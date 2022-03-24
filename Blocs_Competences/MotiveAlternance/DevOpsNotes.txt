@@ -4,7 +4,7 @@ CI/CD => Continuous integration / Continuous Delivery => pipeline allant du dev 
 
 - 3 block de test (de plus en plus poussés & lents) => Pour isoler les bugs le plus tôt possible: 
 	# test unitaire / Small (rapide) (70%)
-	# test intégration / Medium (moins rapide) (20%)
+	# test intégration / Medium (moins rapide) (20%) (moins clair)
 	# test Systeme (déploiement) / Large (lent => Test de tout les composants connectés) (10%) 
 		
 		(% from google)
@@ -25,7 +25,21 @@ TESTS :
 	- Investir dans les test qui apportent la meilleure plusvalue
 	- Evaluer le temps dev. test vs temps résolution bug * nb de fois que ça arrive
 		=> Inclure une notion d'économiste dans le développement d'une pipeline de test (rentabilité)
-		
+	- Given-When-Then patern => situation, input, result (en gros scénario)
+	
+OPS : (administrateur réseau?)
+	- SRE Site Reliability Engineering (?)
+	- in opposition of devs: SWE Software Engineering
+	- Meantime between failure (MTBF) vs Meantime to Repaire (MTTR)
+	
+Dockers Engines (like Kubernetes):
+	- Hyperviseur create VM with new OS
+	- Dockers engine keep the same OS but separate logically
 		
 Bonus:
 	- Google Firebase => BAAS (Backend As A Service)
+	- Selenium IDE => Test frontend
+	
+	
+?:
+- Artifact repository ?
