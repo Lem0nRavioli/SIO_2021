@@ -1,0 +1,213 @@
+	ARITHMETIQUE MODULAIRE
+	
+Ex 1:
+
+1) 	0: aucun
+	1: tous lN
+	
+2)	0: tous lN
+	1: 1
+
+
+Ex 5:
+D = Dividende, d = diviseur, q = quotient, r = reste
+
+	114D = 13d * 8q + 10r
+	283D = 23d/q * 12d/q + 7r
+	465  = 19 * 23 + 28 NON EUCLIDIENS
+	
+Ex 6:
+	1) division euclidienne par 8, reste possible de 0 à 7
+	2) division euclidienne d'un entier n par 8 au quotient de 63, quel sont les nombres possibles?
+		63 * 8 + (0 à 7) = 504 à 511
+		
+Ex 7:
+
+	a)
+		882 = 1 x 540 + 342
+		540 = 1 x 342 + 198
+		342 = 1 x 198 + 144
+		198 = 1 x 144 + 54
+		144 = 2 x 54 + 36
+		54 = 1 x 36 + 18
+		36 = 2 x 18 + 0
+		PGCD entre 882 et 540: 18
+		
+	b)
+	
+		1725 = 1 x 1309 + 416
+		1309 = 3 x 416 + 61
+		416 = 6 x 61 + 50
+		61 = 1 x 50 + 11
+		50 = 4 x 11 + 6
+		11 = 1 x 6 + 5
+		6 = 1 x 5 + 1
+		5 = 5 x 1 + 0
+		PGCD entre 1725 et 1309: 1
+	
+		
+Ex 8:
+
+	490 = 1 x 280 + 210
+	280 = 1 x 210 + 70
+	210 = 3 x 70 + 0
+	PGCD entre 490 et 280: 70
+	
+Ex 9:
+	297 = 1 x 210 + 87
+	210 = 2 x 87 + 36
+	87 = 2 x 36 + 15
+	36 = 2 x 15 + 6
+	15 = 2 x 6 + 3
+	6 = 2 x 3 + 0
+	PGCD entre 210 et 297: 3
+	
+	carrés de 7cm x 9.9 cm 
+		
+Ex 10:
+
+	a) 	1120 = 3 x 294 + 238
+		294 = 1 x 238 + 56
+		238 = 4 x 56 + 14
+		56 = 4 x 14 + 0
+		PGCD entre 1120 et 294: 14
+		
+	b) 
+		3300 = 4 x 792 + 132
+		792 = 6 x 132 + 0
+		PGCD entre 3300 et 792: 132
+		
+Ex 11:
+
+	a)
+		1234 = 58 x 21 + 16
+		21 = 1 x 16 + 5
+		16 = 3 x 5 + 1
+		5 = 5 x 1 + 0
+		PGCD entre 1234 et 21: 1
+		
+	b) 
+		516 = 3 x 156 + 48
+		156 = 3 x 48 + 12
+		48 = 4 x 12 + 0
+		PGCD entre 516 et 156: 12
+		
+	c)
+		1365 = 1 x 858 + 507
+		858 = 1 x 507 + 351
+		507 = 1 x 351 + 156
+		351 = 2 x 156 + 39
+		156 = 4 x 39 + 0
+		PGCD entre 1365 et 858: 39
+		
+	d)
+		4095 = 41 x 98 + 77
+		98 = 1 x 77 + 21
+		77 = 3 x 21 + 14
+		21 = 1 x 14 + 7
+		14 = 2 x 7 + 0
+		PGCD entre 4095 et 98: 7
+		
+Ex 12:
+
+	a)
+		1448 = 1 x 1086 + 362
+		1086 = 3 x 362 + 0
+		PGCD entre 1448 et 1086: 362
+		
+	b)
+		2235 = 1 x 1788 + 447
+		1788 = 4 x 447 + 0
+		PGCD entre 1788 et 2235: 447
+		
+Ex 13:
+	
+	a)
+		580 = 1 x 348 + 232
+		348 = 1 x 232 + 116
+		232 = 2 x 116 + 0
+		PGCD entre 580 et 348: 116
+	
+	b)
+	
+		2996 = 1 x 1926 + 1070
+		1926 = 1 x 1070 + 856
+		1070 = 1 x 856 + 214
+		856 = 4 x 214 + 0
+		PGCD entre 1926 et 2996: 214
+		
+Ex 14:
+
+	a)
+		703 = 2 x 296 + 111
+		296 = 2 x 111 + 74
+		111 = 1 x 74 + 37
+		74 = 2 x 37 + 0
+		PGCD entre 296 et 703: 37
+		
+	b) 
+	
+		1065 = 1 x 852 + 213
+		852 = 4 x 213 + 0
+		PGCD entre 1065 et 852: 213
+		
+Ex 15:
+
+	1045 = 1 x 760 + 285
+	760 = 2 x 285 + 190
+	285 = 1 x 190 + 95
+	190 = 2 x 95 + 0
+	PGCD entre 760 et 1045: 95
+	
+	1) On peux faire 76 sachets, puisqu'on peux en faire 95, cela dit, on ne peux pas répartir les dragées de manières équivalentes sur seulement 
+		76 sachets
+	
+	2)
+		a) 95 sachets équivalents max
+		b) sachets de 8 chocolats + 11 amandes
+	
+
+Ex bonus:
+	div = 	 q 		*	d 	+ 	r
+	
+	175 = 	19 		* 	9 	+ 	4
+	1831 = 	140 	* 	13 	+	11
+	
+	
+	
+	
+	===============================
+	
+	
+	Algo pour calculer le PGCD en .dart
+
+Vous pouvez l'essayer en copiant le code sur https://dartpad.dev/?
+
+
+void main() {
+  
+  void findPgcd(a,b) {
+    int x, y;
+    int r = 1;
+    
+    if (a > b) {
+      x = a;
+      y = b;
+    } else {
+      x = b;
+      y = a;
+    }
+       
+    while (r != 0) {
+      r = x - (x ~/ y) * y;
+      print('$x = ${(x ~/ y)} x $y + $r');
+      x = y;
+      y = r;      
+    }
+    
+    print('PGCD entre $a et $b: $x');    
+  }
+  
+  findPgcd(882, 540);
+  
+}
