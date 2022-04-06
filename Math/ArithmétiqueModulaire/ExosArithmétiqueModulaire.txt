@@ -165,6 +165,13 @@ Ex 15:
 	2)
 		a) 95 sachets équivalents max
 		b) sachets de 8 chocolats + 11 amandes
+		
+Ex 16:
+
+
+Ex 17:
+
+Ex 19:
 	
 
 Ex bonus:
@@ -209,5 +216,36 @@ void main() {
   }
   
   findPgcd(882, 540);
+  
+}
+
+
+
+	===============================
+	
+	
+	
+	Algo basique pour calculer si un nombre est premier ou pas en .dart
+(optimisation 0)
+
+Vous pouvez l'essayer en copiant le code sur https://dartpad.dev/?
+
+void main() {
+  
+    bool isPremier(a){
+    num x = (a / 2).ceil();
+    
+    for (num i=x ;i>1;i--) {
+      if (a - (a ~/ i) * i == 0) { 
+        print('Plus grand diviseur: $i.');
+        return false; 
+      }
+    }
+    
+    print('$a est un nombre premier.');
+    return true;   
+  }
+
+  isPremier(793);
   
 }
