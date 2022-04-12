@@ -715,3 +715,128 @@ Chapitre 6 - Le seuil de rentabilité (break even point)
 			
 				Younes doit réaliser un chiffre d'affaire minimum de 119230.77€ pour rentabiliser sa participation. S'il réalise un CA inférieur, il est 
 				en perte, au dela, il est en bénéfice.
+				
+				
+			Elements							Montants				Commentaires
+		
+			Chiffre d'affaires					  119'230.77			100%
+			- Charges variables					
+			= marge sur coût variables			119'230.77 * 26%
+												= 31'000				Taux marge sur cout variable = 31'642/121'700 = 26%
+			
+			- charges fixes						25'000 + 6'000 
+												= 31'000
+			= marge nette (resultat net)		0 €
+				
+				
+		B- Le seuil de rentabilité en quantité
+		
+		
+			Seuil de rentabilité en valeur / prix de vente unitaire.
+			119'230.77 / 50 = 2'384.615 soit 2385 programmes informatique.
+			
+			Younes doit vendre au minimum 2385 programme pour être bénéficiaire.
+			
+			
+		C- Le seuil de rentabilité en durée
+		
+			Si la durée du projet est sur 1 an: on prend 12 mois.
+			
+			Si la durée du projet est sur 1 mois: on prend 30 jours.
+			
+			La participation au salon est en mars 2022
+			
+			Seuil de rentabilité en durée = seuil de rentabilité en € / chiffre d'affaire * 30 jours 
+			
+				119'230.77 / 121'700 * 30 = 29.39
+			
+			Pour être rentable Younes doit au minimum réaliser un chiffre d'affaire de 119'230.77 € soit vendre 2385 programmes et ne sera rentable que le 30ième jour.
+			
+			
+			
+			Exemple 2:
+			
+				Un développeur crée des applications pour smartphone. Il obtient 900 commandes s'il envoie 10 fois plus de catalogues.
+				(soit 900*10 = 9'000 catalogues)
+				
+				Son directeur financier, nordine, a élaboré les coûts:
+				
+					- Réalisation d'un catalogue: 1€ (charge fixe)
+					- Envoi d'un catalogue: .7€ (charge fixe)
+					- Frais de support technique: 50€ / commande (charge variable)
+					- Charges fixes supplémentaires: 110'000€/an 
+					- Prix de vente d'une commande: 500€
+					- Charges variables totales: 270'000€
+					- Seuil de rentabilité en €, en quantité, en durée ?
+					
+					
+					
+				Elements							Montants				Commentaires
+				
+				Chiffre d'affaires					450'000
+				- Charges variables 				315'000
+				= marge sur coût variables			135'000
+				
+				- charges fixes						125'300
+				
+				= marge nette						9'700
+				
+				
+				
+				Seuil de rentabilité en € : 417'666.666
+				Seuil de rentabilité en quantité: 417'666.666 / 500 = 835.333...
+				Seuil de rentabilité en durée: (pour 1 an) 11.1377 mois donc il sera rentable au 12ième mois (4ième jour du 12ième mois) (ou alors du 3 décembre à 9h36)
+				
+				
+	III- Seuil de rentabilité et risque
+	
+		
+		Seuil de rentabilité de Younes: 	119'230.77 €
+		Chiffre d'affaire: 					121'700 €
+		Charges fixes						31'000 €
+		Résultat							642 €
+		Margue sur coût variable			31'642 €
+		
+		
+		Le risque d'exploitation est le risque que le seuil de rentabilité ne soit pas atteint. Il existe plusieurs outils:
+		
+		A- Marge de sécurité 
+		
+			Marge de sécurité	= chiffre d'affaire - seuil de rentabilité 
+								= 121'700 - 119'230.77 = 2469.23 €
+								
+			C'est le montant du CA que l'on permettre de perdre en cas de conjoncture défavorable sans entraîner de perte.
+			
+			
+		B- Indice de sécurité
+		
+			C'est la marge de sécurité en % du CA 
+			
+			Indice de sécurité = Marge de sécurité / CA 
+				2'469.23 / 121'700 = 0.02 soit 2%
+				
+			Pour 100€ de CA il est possibvle de perdre 2€ en cas de conjoncture défavorable tout en restant bénéficiaire.
+			
+			
+		C- Indice de prélèvement
+		
+			C'est le % de prélèvement du CA qui sert à couvrir les charges fixes.
+			
+			Indice de prélèvement = charges fixes / CA 
+				31'000/121'700 = 0.2547, soit 25.47%
+				
+			Pour 100€ de CA on couvre 25.47€ de charges fixes.
+			
+			Plus l'indice est faible, plus on est rentable.
+			
+		D- Levier opérationnel ou coefficient de volatilité
+		
+			2 formules:
+				- 1/ indice de sécurité : 1/0.02 = 50
+				- marge sur cout variable / résultat (total net) : ~ 49.3
+				
+				
+			Si le CA varie de 10%, alors le résultat(total net) variera de 50%
+			(up and down)
+			
+			Plus le levier opérationnel est élevé, plus le risque est important.
