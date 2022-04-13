@@ -343,3 +343,46 @@ void main() {
   isPremier(793);
   
 }
+
+	===============================
+	
+	
+void main() {    bool isPremier(a, {speaktrue=false, speakfalse=false}){
+    num x = (a / 2).ceil();
+    
+    for (num i=x ;i>1;i--) {
+      if (a%(i) == 0) { 
+        if (speakfalse) print('Plus grand diviseur: $i.');
+        return false; 
+      }
+    }
+    
+    if (speaktrue) print('$a est un nombre premier.');
+    return true;   
+  }
+  
+  void decomposePrime(a) {
+    var x = a;
+    int i;
+    var allMultipliers = {};
+    
+    for (i=2; i<=x; i++) {
+      while (!isPremier(i)) {
+        i++;
+      }
+      while (x%(i) == 0) {
+        if (allMultipliers[i] == null) allMultipliers[i] = 1;
+        else allMultipliers[i] += 1;
+        x = x/i;
+      }
+    }
+    print('Décomposition de $a');
+    for (int j=2; j<=i; j++){
+        if (allMultipliers[j] != null) {
+          print('$j^${allMultipliers[j]}');
+        }
+      }
+  }
+
+  decomposePrime(4123);
+}
