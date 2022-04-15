@@ -1,0 +1,177 @@
+A1
+	
+	Table Equipe
+		id
+		nom_equipe
+		id_projet foreign reference projet
+		
+	Table Membre(ajout)
+		ddn
+		portfolio_link
+		password
+		id_equipe foreign reference equipe
+		
+	Table Organisateur(ajout)
+		password		
+	
+	Table Inscription
+		id
+		skill_tool_used(TEXT)
+		date_inscription
+		numero_inscription: id, id_hackathon
+		id_hackathon foreign reference hackathon		
+		id_membre foreign reference membre
+		id_equipe foreign reference equipe
+
+
+A2.1
+
+	Données personnelles: 
+		- nom (membre & orga)
+		- prenom
+		- mail (membre & orga)
+		- téléphone
+		- ddn
+		- lien portfolio / siteWeb (membre & orga)
+		(-) nom équipe
+		(-) nom projet
+		
+	Données sensibles
+		- Lien portfolio (contenu éventuellement sensible)
+		
+		
+A2.2
+
+	a) 
+		nom / prenom / mail / tel : But de contact de la personne dans un objectif informationnel & organisationnel
+		ddn : éventuellement s'assurer que le candidat est majeur (non définis si utile dans le contexte)
+		lien portfolio / nom équipe / nom projet: but organisationnel
+		
+	b) 
+		Dépendant du besoin en ressources identitaire, dans le cas ou des certifications, récompenses ou autres seraient délivrées, les données identitaires
+		peuvent être fortement réduites ou non. 
+		Ex:	Si l'identité de la personne n'est pas pertinente, le nom, prénom deviennent obsolètes.
+			Si l'état de personne majeure n'est pas pertinente la ddn devient obsolète. De plus, il est possible de réduire l'impactde cette donnée en la changeant
+				en booléen (est_majeur) par exemple.
+		
+A2.3
+	
+	Bonjour Mme Mabille,
+	
+	Dans le contexte du RGPD vis à vis du traitement de nos données, il est nécessaire de chiffrer chacune des données personnelles suivantes:
+	
+		- nom (membre & orga)
+		- prenom
+		- mail (membre & orga)
+		- téléphone
+		- ddn
+		- lien portfolio / siteWeb (membre & orga)
+		- nom équipe
+		- nom projet
+		- Lien siteWeb / portfolio
+		
+	De plus il sera nécessaire de Hacher les mots de passes. 
+	
+	Cordiallement,
+	
+	Gus.
+	
+A2.4
+	a)
+		Table membre
+			password(haché)
+			pswd_expiration_date (date)
+			
+		Table organisateur
+			password(haché)
+			psw_expiration_date (date)
+			
+	b)
+		ALTER TABLE membre
+		ADD password TEXT NOT NULL 
+		DEFAULT '';
+		
+		ALTER TABLE membre
+		ADD pswd_expiration_date DATE
+		DEFAULT GETDATE();
+		
+		(faire la même pour organisateur)
+	
+A2.5
+
+	Liste les projets retenus (id et description) du hackathon débutant le 03 décembre à "La
+	Défense" à Paris ;
+
+
+		SELECT id, descriptions 
+		FROM PROJET p
+		INNER JOIN HACKATHON h
+		ON p.idHackathon = h.id
+		WHERE 
+			p.retenu = 1 AND
+			h.dateHeureDebut = '2021-12-03' AND
+			lieu = 'La Défense'
+		
+		
+		
+	La liste des membres (id, nom et prénom) qui n’ont jamais été appelé comme membre jury
+	pour un hackathon ;
+
+		
+		SELECT id, nom, prenom 
+		FROM MEMBRE 
+		WHERE id NOT IN (SELECT idMembreJury FROM COMPOSER);
+		
+
+B1
+
+	Erreur: la note submited était suppérieure à 5.
+
+	Solution pour éviter le plantage back-end: 
+		Traitement de l'erreur sql dans le backend (via un try catch par exemple)
+	Solution pour éviter l'erreur lors de la saisie des votes:
+		Contraindre les valeurs disponibles au votes via un système de radioButton/menu déroulant par exemple
+		Sur le front, ne pas envoyer le formulaire si la valeur n'est pas compris entre 0 & 5
+		
+		
+B2
+
+	Il n'y a pas à l'heure dite de contrainte d'unicité vis à vis de la clé primaire de voter.
+	Mettre en place une contrainte d'unicité (résultante de la combinaison d'idMembreJury & Prototype)
+	
+B3
+
+	Le password a bien été haché.
+	Idéalement, le contenu complet de la requête devrais être haché.
+	
+C1
+
+	la requête actuelle permet l'injection SQL. Il faudras utiliser des filtres ou des requêtes préparées
+	requête préparée.
+	
+	punblic function sanitize(data) {
+		/*
+			nettoie les données,
+			échappe les caractères spéciaux
+			appliques de filtres anti injection sql
+		*/
+		
+		return filtered_data
+	}
+	
+	enrober les $_POST['id'] et $_POST['password'] dans sanitize(data)
+	
+	
+C2
+	Failles de sécurité:
+		- Utilisateur root => crée un utilisateur non root sans les accès totaux
+		- Injection SQL => même réponse que C1
+		
+C3
+
+	double for loop itérant à travers les liste pour afficher row + column
+	
+
+D1
+
+	
