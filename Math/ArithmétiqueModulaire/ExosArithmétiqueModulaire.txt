@@ -274,6 +274,29 @@ Ex bonus:
 	175 = 	19 		* 	9 	+ 	4
 	1831 = 	140 	* 	13 	+	11
 	
+Ex Bonus 3 partie A sujet annales:
+	1) 
+		a)
+			28 = 2 x 2 x 7
+		b) 
+			12 = 2 x 2 x 6
+			
+			PGCD 12 & 28 = 4
+	
+		c)
+			15 = 3 x 5
+			
+			Pas de diviseur commun entre 15 & 28, premier entre eux
+			
+	2)
+		0 - 12 - 24 - 8 - 20 - 4 - 16 - 0 - 12 - 24 - 8 - 20 - 4 - 16
+		
+	3) 
+		Tout les produites ne passent pas car reset après 7 produits présente (12 & 28 pas premier entre eux)
+		
+	4) 
+		1, 17, 25
+	
 	
 	
 	
