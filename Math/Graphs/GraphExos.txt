@@ -94,5 +94,56 @@ Ex 6:
 				0	0	0	0
 				0	0	0	0
 				
-	c) 1 chemin de longueur 2 (B->D)
+	c) 	5 chemin de longueur 2
+		ABA, ABC, BAB, BAD, BCD
+	
+Ex 7:
+
+	a)	M
+	
+		0	1	0	1
+		1	0	0	1
+		1	0	0	0
+		0	0	1	0
+		
+	b) 	M^3
+	
+		1	1	1	1
+		2	0	1	1
+		1	0	1	1
+		0	1	0	1 
+		
+		M^3[1][0] = 2, donc 2 chemin de longueur 3 reliant B à A
+		
+	c) Circuit de longueur 3: ADCA, DCAD, CADC
+	
+	d) 	M^4
+	
+		2	1	1	2
+		1	2	1	2
+		1	1	1	1
+		1	0	1	1
+		
+		Il n'existe pas de chemin de longueur 4 entre D et B.
+		
+Ex 11:
+	
+	M^ 
+		0	0	0	0	1
+		1	0	1	0	1
+		0	0	0	0	0
+		1	0	1	0	1
+		0	0	0	0	0
+		
+	M
+		0	0	0	0	1
+		1	0	1	0	1
+		0	0	0	0	0
+		1	0	1	0	0
+		0	0	0	0	0
+		
+	=> ajouter un chemin entre D et E
+	
+Ex 21:
+
 	
